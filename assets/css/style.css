@@ -31,6 +31,17 @@ body{
 /* 'fall' transition for all main-headings */
 
 
+/* welcome paragraph */
+#welcome-para{
+    text-align:center;
+    color: white;
+    background-color: #484848;
+    border:2px solid white;
+    border-radius: 4px;
+    margin: 1px;
+}
+
+
 /* main navigation buttons */
 #main-nav{
     width: 100%;
