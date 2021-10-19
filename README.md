@@ -38,7 +38,10 @@ The colours and layouts for each page just to distinguish the different sections
 
 ## UXD [**to complete**]
 ---
+Done:
+* Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts.
 
+To Do:
 * how you considered it in your design
 * justify deviations (if any)
 
