@@ -32,6 +32,7 @@ The colours and layouts for each page just to distinguish the different sections
 ## Responsiveness [**to complete**]
 ---
 
+(note: using % heights/widths in CSS contribute to responsiveness)
 * media queries 
 * different screen sizes
 * incl. screeenshots
