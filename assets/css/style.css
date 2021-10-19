@@ -70,3 +70,24 @@ body{
 }
 
 /* footer */
+
+#homepage-footer{
+    border: 4px solid #484848;
+    border-radius: 4px;
+}
+
+#homepage-footer ul{
+    list-style-type: none;
+}
+
+#homepage-footer li{
+    display: inline;
+    
+}
+
+.footer-buttons{
+    color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
