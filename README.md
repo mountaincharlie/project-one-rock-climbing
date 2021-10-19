@@ -82,7 +82,10 @@ To do:
 
 ## Credits [**to complete**]
 ---
+Done:
+* Google Fonts [add-link] for fonts used 
 
+To Do:
 * mention the Site Credits page which is on the site 
 * links to things you borrowed from/were inspired by
     * content (text/icons)
