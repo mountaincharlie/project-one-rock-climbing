@@ -106,12 +106,18 @@ body{
 
 #homepage-footer ul{
     list-style-type: none;
+    /* width: 33%; */
     
 }
 
 #homepage-footer li{
     display: inline;
     
+}
+
+#homepage-footer a{
+    color:red;
+    text-decoration: none;
 }
 
 .footer-buttons{
