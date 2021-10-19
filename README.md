@@ -45,6 +45,10 @@ The colours and layouts for each page just to distinguish the different sections
 ## Accessability [**to complete**]
 ---
 
+Done:
+* Made the main navigation links 'button' elements instead of 'divs' [semantic html] 
+
+To do:
 * how you considered it in your design 
     * aria-labels
     * semantics html [buttons instead of divs]
