@@ -8,8 +8,12 @@ body{
     /* reset defaults */
     padding: 0;
     margin: 0;
+    /* incl. padding and border within total height/width */
+    box-sizing: border-box;
+
     font-family: Montserrat, sans-serif;
     color: #484848;
+
 }
 
 
@@ -20,6 +24,15 @@ body{
     border:4px solid #484848;
     border-radius: 4px;
     margin: 1px;
+
+    width: 100%;
+    height: 100px;
+
+    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #header h1{
@@ -39,6 +52,15 @@ body{
     border:2px solid white;
     border-radius: 4px;
     margin: 1px;
+
+    width: 100%;
+    height: 100px;
+
+    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
@@ -51,12 +73,10 @@ body{
 
 .main-nav-buttons{
     /* margin shorthand - top/bottom left/right */
-    margin: 20px 400px;
+    margin: 20px 33%;
     
     text-transform: uppercase;
 
-    /* incl. padding and border within total height/width */
-    box-sizing: border-box;
     width: auto;
     height: auto;
 
@@ -74,10 +94,19 @@ body{
 #homepage-footer{
     border: 4px solid #484848;
     border-radius: 4px;
+
+    width: 100%;
+    height: 50px;
+
+    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #homepage-footer ul{
     list-style-type: none;
+    
 }
 
 #homepage-footer li{
@@ -89,5 +118,6 @@ body{
     color: red;
     border: 2px solid red;
     border-radius: 4px;
+
 }
 
