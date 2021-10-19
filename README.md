@@ -51,6 +51,7 @@ To Do:
 
 Done:
 * Made the main navigation links 'button' elements instead of 'divs' [semantic html] 
+* Added aria-labels to the footer social media links (read about on: https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html)
 
 To do:
 * how you considered it in your design 
