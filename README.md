@@ -71,8 +71,11 @@ To do:
 
 ## Testing [**to complete**]
 ---
-
+Done:
 * html & css validators (regularly, comment on any frequent/difficult issues)
+    * Passing index.html through the WC3 markup validator indicated that I had section elements without headings. This led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element. 
+
+To Do:
 * Lighthouse accessability score
 * bugs and fixes (document throughout)
 * any unfixed bugs (and what you tried or changed to instead)
