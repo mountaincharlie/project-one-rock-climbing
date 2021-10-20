@@ -72,29 +72,30 @@ body{
 }
 
 
-/* main navigation buttons */
+/* main navigation menu */
 #main-nav{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
+    height:auto;
+    margin:50px auto;
     display: grid;
 }
 
-.main-nav-buttons{
+.main-nav-link{
     /* margin shorthand - top/bottom left/right */
-    margin: 20px 33%;
+    margin: 25px 33%;
     
     text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+    text-align:center;
 
     width: auto;
     height: auto;
+    padding: 10px;
 
     border: 2px solid red;
     border-radius: 4px;
-}
-
-.main-nav-buttons a{
-    color: red;
-    text-decoration: none;
 }
 
 
