@@ -149,9 +149,16 @@ body{
 
 }
 
+.pages-header ul{
+    float:right;
+    margin: 10px;
+    padding:0;
+}
+
 .pages-header li{
     list-style-type: none;
-    float:right;
+    float:left;
+    margin: 0 5px;
 }
 
 .pages-nav a{
@@ -162,4 +169,14 @@ body{
 /* highlighting whichever page is currently open (calling parent element for priority over .pages-nav a{}) */
 .pages-nav .open-page {
     color:red;
+}
+
+/* ---Brief-history page--- */
+
+.b-h-section{
+    border: 2px solid #484848;
+    /* for responsivity */
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
