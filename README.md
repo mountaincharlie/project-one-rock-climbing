@@ -99,6 +99,10 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/84884/instagram">Instagram icon by Icons8</a>
     * <a href="https://icons8.com/icon/84872/facebook">Facebook icon by Icons8</a>
     * <a href="https://icons8.com/icon/84938/twitter">Twitter icon by Icons8</a>
+* Using icons for my homepage main navigation menu from Icons8:
+    * <a href="https://icons8.com/icon/61752/order-history">Order History icon by Icons8</a>
+    * <a href="https://icons8.com/icon/-oxziy4sBdXf/climbing-wall">Climbing Wall icon by Icons8</a>
+    * <a href="https://icons8.com/icon/5111/olympic-rings">Olympic Rings icon by Icons8</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
