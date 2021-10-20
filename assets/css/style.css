@@ -88,7 +88,7 @@ body{
     margin: 25px 33%;
     
     text-transform: uppercase;
-    color: red;
+    color:#484848;
     text-decoration: none;
     text-align:center;
 
@@ -98,6 +98,11 @@ body{
 
     border: 2px solid red;
     border-radius: 4px;
+}
+
+.main-nav-link img{
+    position:relative;
+    top:4px;
 }
 
 
