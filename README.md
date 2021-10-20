@@ -72,8 +72,11 @@ To do:
 ## Testing [**to complete**]
 ---
 Done:
-* html & css validators (regularly, comment on any frequent/difficult issues)
-    * Passing index.html through the WC3 markup validator indicated that I had section elements without headings. This led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element. 
+
+[html & css validators (regularly, comment on any frequent/difficult issues)]
+* [19-10-21] 1st testing index.html in WC3 markup validator indicated:
+    * that I had section elements without headings, which led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element.
+    * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
 
 To Do:
 * Lighthouse accessability score
