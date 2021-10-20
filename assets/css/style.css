@@ -108,25 +108,24 @@ body{
     border-radius: 4px;
 
     width: 100%;
-    height: 50px;
+    height: auto;
     box-sizing: border-box;
 
-    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
     display:flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 
 #homepage-footer ul{
     list-style-type: none;
     padding:0;
-    margin: 10px;
+    margin:10px;
 }
 
 #homepage-footer li{
     display: inline;
-    margin:10px;
 }
+
 
 .footer-links{
     color: red;
