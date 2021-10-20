@@ -116,20 +116,20 @@ body{
 
 #homepage-footer ul{
     list-style-type: none;
-    /* width: 33%; */
+    padding:0;
+    margin: 10px;
 }
 
 #homepage-footer li{
     display: inline;
+    margin:10px;
 }
 
-#homepage-footer a{
-    color:red;
-    text-decoration: none;
-}
-
-.footer-buttons{
+.footer-links{
     color: red;
+    text-decoration: none;
+
+    padding: 5px;
     border: 2px solid red;
     border-radius: 4px;
 }
