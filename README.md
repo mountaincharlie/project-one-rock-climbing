@@ -85,9 +85,13 @@ To do:
 
 ## Credits [**to complete**]
 ---
-Done:
+Done: [add to Site Credits page]
 * Google Fonts [add-link] for fonts used 
 * Using the Flexbox method to centralize content horizontally **and** vertically [Link: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (scroll to: Approach 2 - Flexbox method)] 
+* Using social media icons from Icons8:
+    * <a href="https://icons8.com/icon/84884/instagram">Instagram icon by Icons8</a>
+    * <a href="https://icons8.com/icon/84872/facebook">Facebook icon by Icons8</a>
+    * <a href="https://icons8.com/icon/84938/twitter">Twitter icon by Icons8</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
