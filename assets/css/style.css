@@ -20,7 +20,7 @@ body{
 /* ---Homepage--- */
 
 /* header styles */
-#header {
+.main-headings {
     border:4px solid #484848;
     border-radius: 4px;
     margin: 1px;
@@ -35,7 +35,7 @@ body{
 
 }
 
-#header h1{
+.main-headings h1, .main-headings h2{
     color:#484848;
     text-align: center;
     font-weight: 600;    
@@ -127,3 +127,29 @@ body{
 
 }
 
+/* --- brief history page --- */
+
+.pages-header{
+    color:white;
+    background-color:#484848;
+    border: 4px solid white;
+
+    padding-left: 8px;
+    overflow: auto;
+
+}
+
+.pages-header li{
+    list-style-type: none;
+    float:right;
+}
+
+.pages-nav a{
+    color:white;
+    text-decoration: none;
+}
+
+/* highlighting whichever page is currently open (calling parent element for priority over .pages-nav a{}) */
+.pages-nav .open-page {
+    color:red;
+}
