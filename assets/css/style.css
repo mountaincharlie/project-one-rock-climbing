@@ -139,7 +139,7 @@ body{
 }
 
 
-/* ---The 3 info pages--- */
+/* ---The 3 info pages headers--- */
 
 .pages-header{
     color:white;
@@ -161,7 +161,7 @@ body{
 
 .pages-header ul{
     float:right;
-    margin: 10px;
+    margin: 5px;
     padding:0;
 }
 
@@ -172,18 +172,12 @@ body{
 }
 
 .pages-header a{
-    text-decoration: none;
     color:white;
 }
 
-.pages-nav a{
-    color:white;
-    text-decoration: none;
+.pages-nav li{
+    padding: 0 10px;
 }
 
-/* highlighting whichever page is currently open (calling parent element for priority over .pages-nav a{}) */
-.pages-nav .open-page {
-    color:red;
-}
 
 /* ---Brief-history page--- */
