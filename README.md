@@ -53,6 +53,7 @@ Done:
 * Made the main navigation links 'button' elements instead of 'divs' [semantic html] 
 * Added aria-labels to the footer social media links (read about on: https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html)
 * Added the alt attribute to the img element for social media icons
+* Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The Youtube video: https://www.youtube.com/watch?v=OmoCfODeBTA by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
 
 To do:
 * how you considered it in your design 
