@@ -159,30 +159,29 @@ body{
     border-radius:4px;
     float:left;
     padding: 2px;
-    margin:5px;
+    margin:8px 5px 5px 5px;
     text-transform:uppercase;
     word-spacing: 2px;
-}
-
-.pages-header ul{
-    float:right;
-    margin: 5px;
-    padding:0;
-}
-
-.pages-header li{
-    list-style-type: none;
-    float:left;
-    margin: 0 5px;
 }
 
 .pages-header a{
     color:white;
 }
 
+.pages-nav ul{
+    float:right;
+    margin: 5px;
+    padding:0;
+}
+
 .pages-nav li{
+    list-style-type: none;
+    float:left;
+    /* margin: 0 5px; */
+    margin: 3px 20px 0 20px;
     padding: 0 10px;
 }
+
 
 
 /* ---Brief-history page--- */
