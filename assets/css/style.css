@@ -103,9 +103,7 @@ body{
 
 /* ---Footer--- */
 
-#homepage-footer{
-    /* border: 4px solid #484848; */
-    /* border-radius: 4px; */
+.footer{
     color: white;
     background-color: #484848;
     border:2px solid white;
@@ -115,7 +113,7 @@ body{
     box-sizing: border-box;
 }
 
-#homepage-footer ul{
+.footer ul{
     list-style-type: none;
     
     display:flex;
@@ -126,7 +124,7 @@ body{
     margin:10px;
 }
 
-#homepage-footer li{
+.footer li{
     display: inline;
 }
 
