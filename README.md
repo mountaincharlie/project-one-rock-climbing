@@ -16,7 +16,12 @@ The colours and layouts for each page just to distinguish the different sections
 
 ## Features [**to complete**]
 ---
+Done:
+* The header in each of the 3 information pages is fixed so that the logo and nav menu stay at the top of the page as the user scrolls
+* The heading in the top left corner of each information page is also a clickable link back to the homepage
+* The information pages each have a fixed set of links in the bottom right hand corner which stays in this position as the user scrolls. The initial styling is set so that it is visible enough but doesnt distract from the page content. Once hovered over, the links are styled so that their text and background colours invert making them more visually obvious (also contributes to user interactivity/UXD)
 
+To Do:
 * homepage
 * header
 * footer
