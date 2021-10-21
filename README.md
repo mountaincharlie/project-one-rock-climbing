@@ -45,7 +45,8 @@ To Do:
 ## UXD [**to complete**]
 ---
 Done:
-* Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts. I later removed the pre-set weighting from the import link so that I would have more flexibilty with styling the font. 
+* Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts. I later removed the pre-set weighting from the import link so that I would have more flexibilty with styling the font.
+* Used Google Fonts [add-link] to choose Fira Sans to pair with Montserrat and imported all the none-italicised weights so that I had the flexibility to see which are most readable in different page sections.  
 
 To Do:
 * how you considered it in your design
@@ -84,6 +85,9 @@ Done:
     * that I had section elements without headings, which led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element.
     * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
 
+[bugs and fixes]
+* [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
+
 To Do:
 * Lighthouse accessability score
 * bugs and fixes (document throughout)
@@ -98,7 +102,7 @@ To Do:
 ## Credits [**to complete**]
 ---
 Done: [add to Site Credits page]
-* Google Fonts [add-link] for fonts used 
+* Google Fonts [add-link] for Montserrat and Roboto (or the Fira Sans?) fonts used 
 * Using the Flexbox method to centralize content horizontally **and** vertically [Link: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (scroll to: Approach 2 - Flexbox method)] 
 * Using social media icons from Icons8:
     * <a href="https://icons8.com/icon/84884/instagram">Instagram icon by Icons8</a>
@@ -108,6 +112,8 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/61752/order-history">Order History icon by Icons8</a>
     * <a href="https://icons8.com/icon/-oxziy4sBdXf/climbing-wall">Climbing Wall icon by Icons8</a>
     * <a href="https://icons8.com/icon/5111/olympic-rings">Olympic Rings icon by Icons8</a>
+* Finding that the Google Font Fira Sans paired better with Montserrat for me:
+    * https://www.figma.com/google-fonts/montserrat-font-pairings/
 
 To Do:
 * mention the Site Credits page which is on the site 
