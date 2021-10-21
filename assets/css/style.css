@@ -37,6 +37,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .main-headings h1{
@@ -150,7 +151,14 @@ body{
     color:white;
     background-color:#484848;
     border: 2px solid white;
+    box-sizing: border-box;
+
     overflow: auto;
+    position:fixed;
+    width:100%;
+    /* high enough to stay on top */
+    z-index:1;
+    
 }
 
 .pages-header h1{
@@ -182,6 +190,9 @@ body{
     padding: 0 10px;
 }
 
-
+.below-fixed-header{
+    position:relative;
+    top:50px;
+}
 
 /* ---Brief-history page--- */
