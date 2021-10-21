@@ -1,8 +1,7 @@
 /* ---Imports--- */
 
-/* Google Fonts: (headings) Montserrat extr-light 200, (text content) Roboto light 300 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
-
+/* Google Fonts: Montserrat (all normal font-weights), Fira Sans (all normal font-weights)  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* ---Body--- (fonts, ) */
 body{
@@ -66,6 +65,9 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+
+    font-family: Fira Sans, sans-serif;
+    font-weight:300;
     margin:10px;
 }
 
@@ -268,8 +270,8 @@ body{
 }
 
 .b-h-section p{
-    font-family: Roboto, sans-serif;
-    font-weight:400;
+    font-family: Fira Sans, sans-serif;
+    font-weight:300;
 }
 
 .term-tiles{
