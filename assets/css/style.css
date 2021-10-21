@@ -229,10 +229,14 @@ body{
 /* ---The 3 info pages fixed links--- */
 
 /* stops fixed-header covering section headings when user clicks fixed-links to navigate*/
+/* needs to adapt for smaller screens if the fixed-header increases in height */
 .buffer-div{
-    visibility: hidden;
     height:32px;
     width:100%;
+}
+
+.buffer-div hr{
+    margin:0;
 }
 
 .fixed-links{
