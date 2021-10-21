@@ -228,6 +228,13 @@ body{
 
 /* ---The 3 info pages fixed links--- */
 
+/* stops fixed-header covering section headings when user clicks fixed-links to navigate*/
+.buffer-div{
+    visibility: hidden;
+    height:32px;
+    width:100%;
+}
+
 .fixed-links{
     list-style-type: none;
     position: fixed;
@@ -252,11 +259,22 @@ body{
     padding:5px;
 }
 
-  .fixed-links a:hover {
+.fixed-links-icon{
+    padding: 5px;
+}
+
+  .fixed-links-words:hover {
     color: white;
     background-color: #484848;
     border-radius: 8px;
     opacity: 0.75;
+  }
+
+  .fixed-links-icon:hover{
+    background-color:#f0f0f0;
+    border-radius: 8px;
+    opacity: 0.75;
+    border:1px ridge #484848;
   }
 
 
