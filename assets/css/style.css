@@ -8,7 +8,7 @@
 body{
     /* reset defaults */
     padding: 0;
-    margin: 0;
+    margin: 2px;
     border:0;
     /* incl. padding and border within total height/width */
     box-sizing: border-box;
@@ -259,3 +259,47 @@ body{
 
 
 /* ---Brief-history page--- */
+
+.term-tiles{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.term-tiles h4{
+    width:100%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+.term-tiles div{
+    border: 2px solid #484848;
+    border-radius:4px;
+
+    width:150px;
+    height:150px;
+    /* width: 20%; */
+    /* height:auto; */
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.term-tiles h5{
+    padding:5px;
+    margin:0;
+
+    font-size:90%;
+    font-weight:700;
+    text-transform: uppercase;
+
+    border-left: 5px groove #484848;
+    border-top: 5px ridge #484848;
+}
+
+.term-tiles p{
+    font-family: Roboto, sans-serif;
+
+    border-right: 5px groove #484848;
+    border-bottom: 5px ridge #484848;
+}
