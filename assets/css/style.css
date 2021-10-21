@@ -196,4 +196,37 @@ body{
     top:50px;
 }
 
+.fixed-links{
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align:center;
+    padding:0;
+    margin:10px;
+    opacity: 0.75;
+}
+
+.fixed-links li{
+    margin:2px;
+    padding:5px;
+}
+
+.fixed-links a{
+    color:#484848;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fixed-links li:hover {
+    color: white;
+    background-color: #484848;
+    border-radius: 8px;
+    opacity: 0.75;
+  }
+
+  .fixed-links a:hover {
+    color: white;
+  }
+
 /* ---Brief-history page--- */
