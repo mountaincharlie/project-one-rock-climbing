@@ -248,17 +248,15 @@ body{
     color:#484848;
     text-decoration: none;
     text-transform: uppercase;
+
+    padding:5px;
 }
 
-.fixed-links li:hover {
+  .fixed-links a:hover {
     color: white;
     background-color: #484848;
     border-radius: 8px;
     opacity: 0.75;
-  }
-
-  .fixed-links a:hover {
-    color: white;
   }
 
 
