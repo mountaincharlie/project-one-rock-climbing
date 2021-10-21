@@ -114,6 +114,10 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/5111/olympic-rings">Olympic Rings icon by Icons8</a>
 * Finding that the Google Font Fira Sans paired better with Montserrat for me:
     * https://www.figma.com/google-fonts/montserrat-font-pairings/
+* Using icons for my The 3 Main Climbing Disciplines page from Icons8:
+    * <a href="https://icons8.com/icon/9800/drawstring-bag">Drawstring Bag icon by Icons8</a>
+    * <a href="https://icons8.com/icon/9809/harness">Harness icon by Icons8</a>
+    * <a href="https://icons8.com/icon/19099/time">Time icon by Icons8</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
