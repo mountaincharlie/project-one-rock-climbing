@@ -147,7 +147,7 @@ body{
 .social-media img:hover{
     background-color:#808080;
     border-radius: 50%;
-    
+
     /* test if its too distracting */
     margin-bottom:10px;
 }
@@ -205,6 +205,15 @@ body{
     /* margin: 0 5px; */
     margin: 3px 20px 0 20px;
     padding: 0 10px;
+}
+
+.pages-nav img:hover{
+    background-color:#808080;
+    border-radius: 50%;
+}
+
+.pages-nav .current-page:hover{
+    background-color:#f0f0f0;
 }
 
 .below-fixed-header{
