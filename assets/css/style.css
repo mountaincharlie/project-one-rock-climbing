@@ -173,6 +173,14 @@ body{
     word-spacing: 2px;
 }
 
+.pages-header a:hover{
+    color:#808080;
+}
+
+.pages-header h1:hover{
+    border-color:#808080;
+}
+
 .pages-header a{
     color:white;
 }
