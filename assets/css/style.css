@@ -19,17 +19,24 @@ body{
 
 /* ---Homepage--- */
 
+#homepage-header h1{
+    padding:2px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
 /* header styles */
 .main-headings {
     color: white;
-    background-color: #484848;
-    border:2px solid white;
+    font-weight:lighter;
     text-transform: uppercase;
     word-spacing:5px;
+    background-color: #484848;
 
     /* for responsivity */
     width: 100%;
     height: auto;
+    border:2px solid white;
     box-sizing: border-box;
 
     /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
@@ -60,6 +67,11 @@ body{
 
 }
 
+#welcome-para h2{
+    text-transform: uppercase;
+    margin:10px;
+}
+
 #welcome-para p{
     /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
     display:flex;
@@ -68,10 +80,7 @@ body{
 
     font-family: Fira Sans, sans-serif;
     font-weight:300;
-    margin:10px;
-}
-
-#welcome-para h2{
+    line-height:125%;
     margin:10px;
 }
 
@@ -117,7 +126,8 @@ body{
     border:2px solid white;
 
     width: 100%;
-    height: 70px;
+    height:auto;
+    /* height: 70px; */
     box-sizing: border-box;
 }
 
@@ -150,10 +160,6 @@ body{
 .social-media img:hover{
     background-color:#808080;
     border-radius: 8px;
-
-    /* test if its too distracting */
-    margin-bottom:5px;
-    /* border-radius: 50%; */
 }
 
 
@@ -284,23 +290,30 @@ body{
   }
 
 
-/* ---Brief-history page--- */
+/* ---3 info pages' headings and <p> styling--- */
 
-.b-h-section > h3{
+.page-section > h3{
+    color:red;
     text-transform: uppercase;
     text-align:center;
-
     margin-bottom:0;
 }
 
 /* make it > if you dont want it to affect the tiles <p> */
-.b-h-section p{
+.page-section p{
     font-family: Fira Sans, sans-serif;
     font-weight:300;
     line-height:125%;
-
     margin:10px 5px;
 }
+
+.page-section h4{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+/* ---Brief-history page--- */
 
 .term-tiles > p{
     width:100%;
@@ -313,8 +326,6 @@ body{
 
 .term-tiles h4{
     width:100%;
-    font-weight: bolder;
-    text-transform: uppercase;
     margin:10px 0 10px 2px;
 }
 
