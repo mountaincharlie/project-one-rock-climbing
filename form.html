@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+    <meta name = "author" content = "Charlie Harland"> 
+
+    <title>Indoor Rock Climbing</title>
+    <link href = "./assets/css/style.css" rel = "stylesheet">
+
+</head>
+<body>
+    <header class = "pages-header">
+        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
+
+        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
+        <nav class = "pages-nav">
+            <ul>
+                <li>
+                    <a href = "./brief-history.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/order-history.png" alt = "History scroll icon"></a>
+                </li>
+                <li>
+                    <a href = "./the-3-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/climbing-wall.png" alt = "Climbing wall icon"></a>
+                </li>
+                <li>
+                    <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/ffffff/olympic-rings.png" alt = "Olympic rings icon"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- buffer for the fixed header, so that the rest of the page isnt shifted up to take its place -->
+    <div id = "form-top" class = "fixed-header-buffer"> </div>
+
+    <section class = "main-headings">
+        <h2>Chat with us!</h2>
+    </section>
+
+    <!-- user details -->
+    <fieldset>
+        <legend>About you:</legend>
+        <!-- VALIDATION (validate attribute) -->
+        <!-- name -->
+        <!-- email -->
+        <!-- age range dropbox (optional?) [CREDIT TO CI?] -->
+    </fieldset>
+    <hr>
+
+    <!-- radio buttons for if the textarea input is a question or suggestion -->
+    <fieldset>
+        <legend>Choose how to chat with us [optional]:</legend>
+        <!-- ONE PRE-CHECKED? -->
+        <!-- radio buttons -->
+        <!-- textarea -->
+    </fieldset>
+    <hr>
+
+    <!-- tickbox buttons for which kind of newsletters the user would like to -->
+    <fieldset>
+        <legend>Choose how to hear from us [optional]:</legend>
+        <!-- NONE PRE-CHECKED -->
+        <!-- tick boxes -->
+        <!-- textarea -->
+    </fieldset>
+    <hr>
+
+    <!-- submit type button -->
+    <input type = "submit" value = "Let's go!">
+    <!-- reset -->
+    <input type = "reset" value = "Start again">
+
+
+
+    <section class = "page-section">
+        <h3>page-section structure on the other pages (h3)</h3>
+        <hr>
+        <section>
+            <h4>h4</h4>
+            <p>
+                paragraph
+            </p>
+        </section>
+        <section>
+            <h4>h4</h4>
+            <p>
+                paragraph
+            </p>
+        </section>
+        <!-- include relevant images -->
+    </section>
+
+    <!-- Viewport fixed nav links -->
+    <ul class = "fixed-links">
+        <li>
+            <a class = "fixed-links-words" href = "#form-top">Top</a>
+        </li>
+        <li>
+            <a class = "fixed-links-words" href = "./index.html">Home</a>
+        </li>
+    </ul>
+
+    <footer class = "footer">
+        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
+        <!-- Contact/Newsletter and Site Credits buttons -->
+
+        <!-- add about the author aside -->
+
+        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
+        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
+        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
+        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
+        <ul>
+            <li>
+                <a href = "./form.html" class = "footer-links">Chat with us!</a>
+            </li>
+            <li> 
+                <a href = "#" class = "footer-links">Site Credits</a>
+            </li>
+            <li class = "social-media">
+                <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)"><img src = "https://img.icons8.com/material/38/ffffff/instagram-new--v1.png" alt = "Instagram icon"></a>
+            </li>
+            <li class = "social-media">
+                <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)"><img src="https://img.icons8.com/material/38/ffffff/facebook--v1.png" alt = "Facebook icon"></a>
+            </li>
+            <li class = "social-media">
+                <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)"><img src="https://img.icons8.com/material/38/ffffff/twitter--v1.png" alt = "Twitter icon"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
