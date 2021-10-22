@@ -148,10 +148,11 @@ body{
 
 .social-media img:hover{
     background-color:#808080;
-    border-radius: 50%;
+    border-radius: 8px;
 
     /* test if its too distracting */
-    margin-bottom:10px;
+    margin-bottom:5px;
+    /* border-radius: 50%; */
 }
 
 
@@ -211,7 +212,8 @@ body{
 
 .pages-nav img:hover{
     background-color:#808080;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 8px;
 }
 
 .pages-nav .current-page:hover{
@@ -221,7 +223,6 @@ body{
 .fixed-header-buffer{
     height:50px;
     width:100%;
-    display:fixed;
     z-index: 0;
 }
 
