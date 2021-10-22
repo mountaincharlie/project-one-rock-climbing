@@ -291,9 +291,17 @@ body{
     margin-bottom:0;
 }
 
+/* make it > if you dont want it to affect the tiles <p> */
 .b-h-section p{
     font-family: Fira Sans, sans-serif;
     font-weight:300;
+    line-height:125%;
+
+    margin:10px 5px;
+}
+
+.term-tiles > p{
+    width:100%;
 }
 
 .term-tiles{
@@ -305,19 +313,21 @@ body{
     width:100%;
     font-weight: bolder;
     text-transform: uppercase;
-    
+    margin:10px 0 10px 2px;
 }
 
 .term-tiles div{
     border: 2px solid #484848;
     border-radius:4px;
 
-    width:150px;
+    /* before hover, just the term name is visible */
+    width:200px;
     height:30px;
     overflow:hidden;
 
-    /* width:200px; */
-    /* height:200px; */
+    /* while checking the div content */
+    /* width:190px; */
+    /* height:190px; */
 
     padding: 5px;
     margin: 5px;
@@ -325,8 +335,8 @@ body{
 
 /* make on click instead? */
 .term-tiles div:hover{
-    width:210px;
-    height:210px;
+    width:200px;
+    height:200px;
     border: 2px groove red;
     color:red;
 }
@@ -343,7 +353,7 @@ body{
     border-top: 5px ridge #484848;
 }
 
-.term-tiles p{
+.term-tiles div p{
     border-right: 5px groove #484848;
     border-bottom: 5px ridge #484848;
 }
