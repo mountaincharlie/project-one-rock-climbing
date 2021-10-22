@@ -148,12 +148,12 @@ body{
 
 
 .footer-links{
-    color: red;
+    color: white;
     text-decoration: none;
 
     height: 30px;
     padding: 5px;
-    border: 2px solid red;
+    border: 1px solid white;
     border-radius: 4px;
 }
 
