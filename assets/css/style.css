@@ -150,6 +150,8 @@ body{
 .footer-links{
     color: white;
     text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 400;
 
     height: 30px;
     padding: 5px;
@@ -157,7 +159,7 @@ body{
     border-radius: 4px;
 }
 
-.social-media img:hover{
+.social-media img:hover, .footer-links:hover{
     background-color:#808080;
     border-radius: 8px;
 }
@@ -191,12 +193,9 @@ body{
     word-spacing: 2px;
 }
 
-.pages-header a:hover{
-    color:#808080;
-}
-
 .pages-header h1:hover{
-    border-color:#808080;
+    background-color: #808080;
+    border-radius: 8px;
 }
 
 .pages-header a{
