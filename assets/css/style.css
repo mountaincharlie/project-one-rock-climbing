@@ -327,7 +327,7 @@ body{
 
     /* while checking the div content */
     /* width:190px; */
-    /* height:190px; */
+    /* height:290px; */
 
     padding: 5px;
     margin: 5px;
@@ -336,7 +336,9 @@ body{
 /* make on click instead? */
 .term-tiles div:hover{
     width:200px;
-    height:200px;
+    /* height:200px; */
+    height:auto;
+    overflow:auto;
     border: 2px groove red;
     color:red;
 }
