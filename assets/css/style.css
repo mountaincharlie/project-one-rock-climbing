@@ -455,3 +455,7 @@ form > input:hover{
 /* ---form and site credits--- */
 
 /* highlight link when on the page */
+.current-footer-link{
+    background-color:#808080;
+    border-radius: 8px;
+}
