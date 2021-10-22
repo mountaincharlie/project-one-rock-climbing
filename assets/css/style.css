@@ -312,13 +312,23 @@ body{
     border: 2px solid #484848;
     border-radius:4px;
 
-    width:200px;
-    height:200px;
-    /* width: 20%; */
-    /* height:auto; */
+    width:150px;
+    height:30px;
+    overflow:hidden;
+
+    /* width:200px; */
+    /* height:200px; */
 
     padding: 5px;
     margin: 5px;
+}
+
+/* make on click instead? */
+.term-tiles div:hover{
+    width:210px;
+    height:210px;
+    border: 2px groove red;
+    color:red;
 }
 
 .term-tiles h5{
