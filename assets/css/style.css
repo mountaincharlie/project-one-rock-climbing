@@ -141,6 +141,7 @@ body{
     color: red;
     text-decoration: none;
 
+    height: 30px;
     padding: 5px;
     border: 2px solid red;
     border-radius: 4px;
