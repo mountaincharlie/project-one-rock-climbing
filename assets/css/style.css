@@ -97,7 +97,8 @@ body{
     /* background-color:rgba(217, 233, 66, 0.25); */
     
     background-color:rgba(47, 72, 88, 0.75);
-    padding: 1%;
+    padding: 1% 0;
+    width:100%;
     
     /* to extend space on bottom */
     /* height:5em; */
@@ -195,7 +196,8 @@ body{
 .footer{
     color: white;
     background-color:rgba(47, 72, 88, 0.75);
-    padding: 1%;
+    padding: 1% 0;
+    width:100%;
 
     /* to extend space on bottom */
     /* height:5em; */
