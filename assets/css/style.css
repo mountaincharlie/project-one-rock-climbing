@@ -20,9 +20,14 @@ body{
 /* ---Homepage--- */
 
 #homepage-header h1{
-    padding:2px 5px;
-    border: 1px solid white;
+    padding:2px 20px;
+    margin:20px;
+    border: 2px solid white;
     border-radius: 4px;
+
+    /* background-color:rgba(47, 72, 88, 0.6); */
+    /* background-color:rgba(128, 128, 128, 0.6); */
+    background-color:rgba(217, 233, 66, 0.25);
 }
 
 /* header styles */
@@ -31,12 +36,17 @@ body{
     font-weight:lighter;
     text-transform: uppercase;
     word-spacing:5px;
-    background-color: #484848;
+
+    /* background-color: #484848; */
+    /* background-color:rgba(128, 128, 128, 0.6); */
+    /* background-color:rgba(217, 233, 66, 0.25); */
+    /* background-color:rgba(47, 72, 88, 0.75); */
+    border-radius: 4px;
 
     /* for responsivity */
     width: 100%;
     height: auto;
-    border:2px solid white;
+    /* border:1px solid white; */
     box-sizing: border-box;
 
     /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
@@ -46,10 +56,6 @@ body{
 
 }
 
-.main-headings h1{
-    margin:10px;
-}
-
 /* 'fall' transition for all main-headings */
 
 
@@ -57,8 +63,14 @@ body{
 #welcome-para{
     text-align:center;
     color: white;
-    background-color: #484848;
-    border:2px solid white;
+
+    /* background-color: #484848; */
+    /* background-color:rgba(128, 128, 128, 0.6); */
+    /* background-color:rgba(217, 233, 66, 0.25); */
+    background-color:rgba(47, 72, 88, 0.75);
+    border-radius: 4px;
+
+    border:1px solid white;
 
     /* for responsivity */
     width: 100%;
@@ -88,33 +100,64 @@ body{
 /* main navigation menu */
 #main-nav{
     width: 100%;
-    height:auto;
+    /* height:auto; */
+    height:500px;
     box-sizing: border-box;
 
-    margin:50px auto;
-    display: grid;
+    /* stacking the main-nav-links in a column and evenly spaced  */
+    display:flex;
+    flex-direction:column;
+
+    
+
+}
+
+#homepage-body{
+    /* homepage background image */
+    background-image: url("../images/man-climbing-top-rope.jpg");
+    /* background-image: url("../images/man-bouldering.jpg"); */
+    background-repeat:no-repeat;
+    background-size: 1280px 853px;
+    background-position: center;
 }
 
 .main-nav-link{
-    /* margin shorthand - top/bottom left/right */
+    /* aligning the column in the center*/
     margin: 25px 33%;
     
     text-transform: uppercase;
-    color:#484848;
+    font-size: larger;
+    font-weight: 600;
+    color:white;
     text-decoration: none;
     text-align:center;
 
-    width: auto;
-    height: auto;
+    /* background-color:rgba(128, 128, 128, 0.6); */
+    background-color:rgba(217, 233, 66, 0.25);
+
+    width: 33%;
+    height: 25%;
     padding: 10px;
 
-    border: 2px solid red;
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
+
+    /* positioning the text centrally */
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .main-nav-link img{
-    position:relative;
-    top:4px;
+    margin-right:10px;
+}
+
+.main-nav-link:hover{
+    /* background-color:rgba(217, 233, 66, 0.5); */
+    background-color:rgba(47, 72, 88, 0.75);
+    border-radius:8px;
+    letter-spacing: 0.2em;
 }
 
 
@@ -122,8 +165,10 @@ body{
 
 .footer{
     color: white;
-    background-color: #484848;
-    border:2px solid white;
+    /* background-color: #484848; */
+    background-color:rgba(47, 72, 88, 0.75);
+    border:1px solid white;
+    border-radius:4px;
 
     width: 100%;
     height:auto;
@@ -160,7 +205,9 @@ body{
 }
 
 .social-media img:hover, .footer-links:hover{
-    background-color:#808080;
+    /* background-color:#808080; */
+    /* background-color:rgba(47, 72, 88, 0.5); */
+    background-color:rgba(217, 233, 66, 0.30);
     border-radius: 8px;
 }
 
@@ -169,7 +216,8 @@ body{
 
 .pages-header{
     color:white;
-    background-color:#484848;
+    /* background-color:#484848; */
+    background-color:rgba(47, 72, 88, 0.30);
     border: 2px solid white;
     box-sizing: border-box;
 
@@ -194,7 +242,8 @@ body{
 }
 
 .pages-header h1:hover{
-    background-color: #808080;
+    /* background-color: #808080; */
+    background-color:rgba(47, 72, 88, 0.75);
     border-radius: 8px;
 }
 
@@ -217,13 +266,15 @@ body{
 }
 
 .pages-nav img:hover{
-    background-color:#808080;
+    /* background-color:#808080; */
+    background-color:rgba(47, 72, 88, 0.75);
     /* border-radius: 50%; */
     border-radius: 8px;
 }
 
 .pages-nav .current-page:hover{
-    background-color:#f0f0f0;
+    /* background-color:#f0f0f0; */
+    background-color:rgba(217, 233, 66, 0.5);
 }
 
 .fixed-header-buffer{
@@ -276,13 +327,15 @@ body{
   .fixed-links-words:hover {
     color: white;
     /* background-color: #484848; */
-    background-color:rgba(128,128,128,0.5);
+    /* background-color:rgba(128,128,128,0.5); */
+    background-color:rgba(47, 72, 88, 0.75);
     border-radius: 8px;
     /* opacity: 0.75; */
   }
 
   .fixed-links-icon:hover{
-    background-color:rgba(128,128,128,0.5);
+    /* background-color:rgba(128,128,128,0.5); */
+    background-color:rgba(217, 233, 66, 0.5);
     border-radius: 8px;
     box-sizing: border-box;
     /* border:1px solid #484848; */
