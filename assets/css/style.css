@@ -53,6 +53,7 @@ body{
 
 /* hover effect on homepage main heading */
 #homepage-header h1:hover{
+    border-radius: 8px;
     letter-spacing: 0.2em;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
@@ -125,12 +126,14 @@ body{
 #main-nav{
     width: 100%;
     /* height:auto; */
-    height:500px;
+    /* height:500px; */
     box-sizing: border-box;
 
-    /* stacking the main-nav-links in a column and evenly spaced  */
+    /* stacking the main-nav-links in a column, spaced evenly in center of the nav  */
     display:flex;
     flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* background-image for the homepage */
@@ -145,30 +148,26 @@ body{
 }
 
 .main-nav-link{
-    /* aligning the column in the center*/
-    margin: 25px 33%;
-    
-    text-transform: uppercase;
-    font-size: larger;
-    font-weight: 600;
     color:white;
-    /* color:#484848; */
+    text-transform: uppercase;
     text-decoration: none;
     text-align:center;
-
+    font-size: x-large;
+    font-weight: 600;
+    
     /* background-color:rgba(128, 128, 128, 0.6); */
     /* background-color:rgba(217, 233, 66, 0.5); */
     background-color:rgba(0, 160, 243, 0.5);
-
-    width: 33%;
-    height: 25%;
-    padding: 10px;
-
-    /* border: 2px solid rgba(255, 255, 255, 0.5); */
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
 
+    /* width: 50%; */
+    width: 40%;
+    /* height: auto; */
+    padding: 3% 2%;
+    
     /* positioning the text centrally */
+    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
     display:flex;
     align-items: center;
     justify-content:center;
@@ -558,4 +557,12 @@ form > input:hover{
     /* background-color:#808080; */
     background-color:rgba(217, 233, 66, 0.30);
     border-radius: 8px;
+}
+
+
+/* --------- Across all pages --------- */
+
+/* setting min-height for page sections to fill the viewport and avoid white space above/below body */
+.page-min-height{
+    height: 100vh;
 }

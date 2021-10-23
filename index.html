@@ -12,28 +12,38 @@
     <link href = "./assets/css/style.css" rel = "stylesheet">
 
 </head>
+
 <body id = "homepage-body">
-    <header id = "homepage-header"> <!-- class = "main-headings" -->
+
+    <header id = "homepage-header"> <!-- WANT TO KEEP class = "main-headings" ? -->
         <h1>Indoor Rock Climbing</h1>
     </header> 
 
+    <!-- section for making sure the content between the header and footer fills the viewport - credit for the fix in README -->
+    <!-- <section class = "page-min-height"> -->
+
+    <!-- </section> -->
+
+
     <section id = "welcome-para"> <!-- make into 'main' element instead? -->
+
         <h2>Welcome!</h2>
 
         <p>Whether you have only just discovered indoor rock climbing or you're eagar to get started at it, select from the options below to learn the essentials!</p>
+
     </section>
     
-    <nav id = "main-nav"> <!-- add background image(s)/video -->
+    <nav id = "main-nav" class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
 
         <!-- icon credit: https://icons8.com/icon/61752/order-history - Order History icon by Icons8 -->
         <!-- icon credit: https://icons8.com/icon/-oxziy4sBdXf/climbing-wall - Climbing Wall icon by Icons8 -->
         <!-- icon credit: https://icons8.com/icon/5111/olympic-rings - Olympic Rings icon by Icons8 -->
-
         <a href = "./brief-history.html" class = "main-nav-link"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/order-history.png" alt = "History scroll icon"> Brief History</a>
         <a href = "./the-3-main-climbing-disciplines.html" class = "main-nav-link"><img src="https://img.icons8.com/ios-filled/30/ffffff/climbing-wall.png" alt = "Climbing wall icon"> The 3 Main Disciplines</a>
         <a href = "./as-seen-at-tokyo-2020.html" class = "main-nav-link"><img src="https://img.icons8.com/metro/30/ffffff/olympic-rings.png" alt = "Olympic rings icon"> As Seen At Tokyo 2020</a>
 
     </nav>
+
     
     <footer class = "footer">
         <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
