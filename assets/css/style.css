@@ -20,6 +20,18 @@ body{
 
 /* --------- Homepage styles --------- */
 
+/* header style for homepage*/
+#homepage-header {
+    width:100%;
+
+    /* ONLY NEED flex display if you dont want header to be width 100% */
+    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
 /* homepage main heading */
 #homepage-header h1{
     color: white;
@@ -48,20 +60,6 @@ body{
     transition-timing-function: ease-out;
 }
 
-
-/* header style for homepage*/
-#homepage-header {
-    width:100%;
-
-    /* ONLY NEED flex display if you dont want header to be width 100% */
-    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
-    /* display:flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-
-}
-
-
 /* NEED TO ACTUALLY STYLE THE h2 FOR FONT WEIGHT ETC */
 /* header style for other pages' sections with h2 headings*/
 .main-headings {
@@ -89,46 +87,40 @@ body{
 
 }
 
-/* 'fall' transition for all main-headings */
-
-
-/* welcome paragraph */
+/* welcome paragraph section */
 #welcome-para{
-    text-align:center;
     color: white;
+    text-align:center;
 
     /* background-color: #484848; */
     /* background-color:rgba(128, 128, 128, 0.6); */
     /* background-color:rgba(217, 233, 66, 0.25); */
+    
     background-color:rgba(47, 72, 88, 0.75);
-    border-radius: 4px;
-
-    border:1px solid white;
-
-    /* for responsivity */
+    padding: 1%;
     width: 100%;
-    height: auto;
-    box-sizing: border-box;
+    /* to extend space on bottom */
+    /* height:5em; */
 
+    /* with border? */
+    /* border:1px solid white; */
+    /* border-radius:4px; */
+    /* box-sizing: border-box; */
 }
 
+/* welcome paragraph h2 */
 #welcome-para h2{
     text-transform: uppercase;
     margin:10px;
 }
 
+/* welcome paragraph */
 #welcome-para p{
-    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
     font-family: Fira Sans, sans-serif;
     font-weight:300;
-    line-height:125%;
+    /* line-height:125%; */
     margin:10px;
 }
-
 
 /* main navigation menu */
 #main-nav{
