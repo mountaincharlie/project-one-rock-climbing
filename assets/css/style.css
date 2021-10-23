@@ -525,13 +525,15 @@ form > input:hover{
     border:1px solid white;
     border-radius:8px;
     color:white;
-    background-color: #808080;
+    /* background-color: #808080; */
+    background-color:rgba(47, 72, 88, 0.75);
 }
 
 /* ---form and site credits--- */
 
 /* highlight link when on the page */
 .current-footer-link{
-    background-color:#808080;
+    /* background-color:#808080; */
+    background-color:rgba(217, 233, 66, 0.30);
     border-radius: 8px;
 }
