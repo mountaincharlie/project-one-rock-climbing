@@ -562,7 +562,7 @@ form > input:hover{
 
 /* --------- Across all pages --------- */
 
-/* setting min-height for page sections to fill the viewport and avoid white space above/below body */
+/* setting min-height for main/first large section of each page to fill the viewport and avoid white space below the footer on bigger screen */
 .page-min-height{
-    height: 100vh;
+    min-height: 100vh;
 }

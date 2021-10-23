@@ -39,60 +39,68 @@
         <h2>Chat with us!</h2>
     </section>
 
-    <!-- NEEDS ACTION (DATABASE ADDRESS) -->
-    <form method = "POST" action = "">
-        <!-- user details -->
-        <fieldset>
-            <legend>About you</legend>
-            <!-- VALIDATION (validate attribute) -->
-            <label for = "user-name">Name</label>
-            <input id ="user-name" name = "user_name" type = "text" required>
-            <label for = "user-email">Email</label>
-            <input id ="user-email" name = "user_email" type = "email" required>
-            <!-- age range dropbox (optional?) [CREDIT TO CI?] -->
-        </fieldset>
-        <hr>
-    
-        <!-- radio buttons for if the textarea input is a question or suggestion -->
-        <fieldset>
-            <legend>Choose how to chat with us <span class = "optional">[optional]</span></legend>
-            <!-- question/suggestion radio buttons -->
-            <label for = "question">Question</label>
-            <input id = "question" name = "textarea_type" type = "radio" checked>
-            <label id = "second-radio-label" for = "question">Suggestion</label>
-            <input id = "suggestion" name = "textarea_type" type = "radio">
-            <!-- textarea for question/suggestion (not required) -->
-            <label for = "textarea-chat"></label>
-            <textarea id = "textarea-chat" name = "user_textarea" placeholder = "type your message here..." rows = "10" cols = "50"></textarea>
-        </fieldset>
-        <hr>
-    
-        <!-- tickbox buttons for which kind of newsletters the user would like to -->
-        <fieldset id = "newsletters">
-            <legend>Choose how to hear from us <span class = "optional">[optional]</span></legend>
-            <!-- NONE PRE-CHECKED -->
-            <!-- newsletter tick boxes -->
-            <span>
-                <label for = "boulder-newsletter" >Bouldering Newsletter</label>
-                <input id = "boulder-newsletter" name = "boulder_newsletter" type = "checkbox" value = "yes">
-            </span>
-            <span>
-                <label for = "lead-newsletter" >Lead Climbing Newsletter</label>
-                <input id = "lead-newsletter" name = "lead_newsletter" type = "checkbox" value = "yes">
-            </span>
-            <span>
-                <label for = "speed-newsletter" >Speed Climbing Newsletter</label>
-                <input id = "speed-newsletter" name = "speed_newsletter" type = "checkbox" value = "yes">
-            </span>
 
-        </fieldset>
-        <hr>
+    <!-- main page content -->
+    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
+        
+        <!-- NEEDS ACTION (DATABASE ADDRESS) -->
+        <form method = "POST" action = "">
+            <!-- user details -->
+            <fieldset>
+                <legend>About you</legend>
+                <!-- VALIDATION (validate attribute) -->
+                <label for = "user-name">Name</label>
+                <input id ="user-name" name = "user_name" type = "text" required>
+                <label for = "user-email">Email</label>
+                <input id ="user-email" name = "user_email" type = "email" required>
+                <!-- age range dropbox (optional?) [CREDIT TO CI?] -->
+            </fieldset>
+            <hr>
+        
+            <!-- radio buttons for if the textarea input is a question or suggestion -->
+            <fieldset>
+                <legend>Choose how to chat with us <span class = "optional">[optional]</span></legend>
+                <!-- question/suggestion radio buttons -->
+                <label for = "question">Question</label>
+                <input id = "question" name = "textarea_type" type = "radio" checked>
+                <label id = "second-radio-label" for = "question">Suggestion</label>
+                <input id = "suggestion" name = "textarea_type" type = "radio">
+                <!-- textarea for question/suggestion (not required) -->
+                <label for = "textarea-chat"></label>
+                <textarea id = "textarea-chat" name = "user_textarea" placeholder = "type your message here..." rows = "10" cols = "50"></textarea>
+            </fieldset>
+            <hr>
+        
+            <!-- tickbox buttons for which kind of newsletters the user would like to -->
+            <fieldset id = "newsletters">
+                <legend>Choose how to hear from us <span class = "optional">[optional]</span></legend>
+                <!-- NONE PRE-CHECKED -->
+                <!-- newsletter tick boxes -->
+                <span>
+                    <label for = "boulder-newsletter" >Bouldering Newsletter</label>
+                    <input id = "boulder-newsletter" name = "boulder_newsletter" type = "checkbox" value = "yes">
+                </span>
+                <span>
+                    <label for = "lead-newsletter" >Lead Climbing Newsletter</label>
+                    <input id = "lead-newsletter" name = "lead_newsletter" type = "checkbox" value = "yes">
+                </span>
+                <span>
+                    <label for = "speed-newsletter" >Speed Climbing Newsletter</label>
+                    <input id = "speed-newsletter" name = "speed_newsletter" type = "checkbox" value = "yes">
+                </span>
     
-        <!-- submit type button -->
-        <input type = "submit" value = "Let's go!">
-        <!-- reset -->
-        <input type = "reset" value = "Start again">
-    </form>
+            </fieldset>
+            <hr>
+        
+            <!-- submit type button -->
+            <input type = "submit" value = "Let's go!">
+            <!-- reset -->
+            <input type = "reset" value = "Start again">
+
+        </form>
+
+    </main>
+
 
     <!-- Viewport fixed nav links -->
     <ul class = "fixed-links">
