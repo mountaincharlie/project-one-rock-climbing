@@ -17,12 +17,17 @@ body{
 }
 
 
-/* ---Homepage--- */
+/* --------- Homepage styles --------- */
 
+/* homepage main heading */
 #homepage-header h1{
-    /* padding:2px 20px; */
+    color: white;
+    text-transform: uppercase;
+    word-spacing:5px;
+    text-align:center;
+
     padding: 1% 2%;
-    margin:20px;
+    margin:1% 5%;
     border: 2px solid white;
     border-radius: 4px;
 
@@ -30,30 +35,34 @@ body{
     /* background-color:rgba(128, 128, 128, 0.6); */
     /* background-color:rgba(217, 233, 66, 0.5); */
     background-color:rgba(0, 160, 243, 0.5);
-    
+
 }
 
-/* header style for other pages*/
+/* hover effect on homepage main heading */
+#homepage-header h1:hover{
+    letter-spacing: 0.2em;
+    margin:1% 2%;
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+
+/* header style for homepage*/
 #homepage-header {
-    color: white;
-    font-weight:lighter;
-    text-transform: uppercase;
-    word-spacing:5px;
+    width:100%;
 
-    /* for responsivity */
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    box-sizing: border-box;
-
+    /* ONLY NEED flex display if you dont want header to be width 100% */
     /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 
 }
 
-/* header style for other pages*/
+
+/* NEED TO ACTUALLY STYLE THE h2 FOR FONT WEIGHT ETC */
+/* header style for other pages' sections with h2 headings*/
 .main-headings {
     color: white;
     font-weight:lighter;
@@ -130,9 +139,6 @@ body{
     /* stacking the main-nav-links in a column and evenly spaced  */
     display:flex;
     flex-direction:column;
-
-    
-
 }
 
 /* background-image for the homepage */
