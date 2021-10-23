@@ -252,8 +252,9 @@ body{
 }
 
 .pages-header h1{
+    color:#2f4858;
     font-size: 130%;
-    border: 1px solid white;
+    border: 1px solid #2f4858;
     border-radius:4px;
     float:left;
     padding: 2px;
@@ -265,6 +266,10 @@ body{
 .pages-header h1:hover{
     /* background-color: #808080; */
     background-color:rgba(47, 72, 88, 0.75);
+    /* background-color:rgba(217, 233, 66, 0.3); */
+    border-color:white;
+    /* border:0; */
+    color:white;
     border-radius: 8px;
 }
 
