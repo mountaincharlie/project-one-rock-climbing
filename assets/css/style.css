@@ -20,14 +20,17 @@ body{
 /* ---Homepage--- */
 
 #homepage-header h1{
-    padding:2px 20px;
+    /* padding:2px 20px; */
+    padding: 1% 2%;
     margin:20px;
     border: 2px solid white;
     border-radius: 4px;
 
     /* background-color:rgba(47, 72, 88, 0.6); */
     /* background-color:rgba(128, 128, 128, 0.6); */
-    background-color:rgba(217, 233, 66, 0.25);
+    /* background-color:rgba(217, 233, 66, 0.5); */
+    background-color:rgba(0, 160, 243, 0.5);
+    
 }
 
 /* header style for other pages*/
@@ -132,12 +135,14 @@ body{
 
 }
 
+/* background-image for the homepage */
 #homepage-body{
     /* homepage background image */
-    background-image: url("../images/man-climbing-top-rope.jpg");
-    /* background-image: url("../images/man-bouldering.jpg"); */
+    /* background-image: url("../images/man-climbing-top-rope.jpg"); */
+    background-image: url("../images/man-bouldering.jpg");
     background-repeat:no-repeat;
-    background-size: 1280px 853px;
+    /* background-size: 1280px 853px; */
+    background-size: cover;
     background-position: center;
 }
 
@@ -149,11 +154,13 @@ body{
     font-size: larger;
     font-weight: 600;
     color:white;
+    /* color:#484848; */
     text-decoration: none;
     text-align:center;
 
     /* background-color:rgba(128, 128, 128, 0.6); */
-    background-color:rgba(217, 233, 66, 0.25);
+    /* background-color:rgba(217, 233, 66, 0.5); */
+    background-color:rgba(0, 160, 243, 0.5);
 
     width: 33%;
     height: 25%;
@@ -173,7 +180,10 @@ body{
     margin-right:10px;
 }
 
+/* hover effects for the main-nav links */
 .main-nav-link:hover{
+    color:white;
+    /* color:#484848; */
     /* background-color:rgba(217, 233, 66, 0.5); */
     background-color:rgba(47, 72, 88, 0.75);
     border-radius:8px;
@@ -224,10 +234,12 @@ body{
     border-radius: 4px;
 }
 
+/* hover effect for footer links; pages and social media */
 .social-media img:hover, .footer-links:hover{
     /* background-color:#808080; */
     /* background-color:rgba(47, 72, 88, 0.5); */
-    background-color:rgba(217, 233, 66, 0.30);
+    /* background-color:rgba(217, 233, 66, 0.30); */
+    background-color:rgba(0, 160, 243, 0.5);
     border-radius: 8px;
 }
 
