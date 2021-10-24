@@ -96,6 +96,8 @@ Done:
     * Solution: After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
 * [24-10-21] on larger screens some of my pages which didn't have a lot of content ment that the footer was not at the bottom of the viewport. 
     * Solution: I created a CSS class with min-height = 100vh and applied it to the main element of each page (nav element for the homepage) so that the main content of each page adapts to have a minimum height which allows it to fill the viewport on any screen size.
+* [24-10-21] I had been using some styled div elements as 'buffers' for all the pages which have the fixed header, so that the header wouldn't cover content when it shouldn't. But this was a bit messy and more of a 'hack'.
+    * Solution: I learnt from Abbey Fitzgerald's article on <a href = "https://getflywheel.com/layout/create-sticky-website-header-how-to/">How to create a sticky website header</a> that I could adjust the body of the page with the css property padding-top with a value equal to the height of the fixed header.
 
 To Do:
 * Lighthouse accessability score
