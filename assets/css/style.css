@@ -138,10 +138,10 @@ body{
 
 /* background-image for the homepage */
 #homepage-body{
-    /* homepage background image */
-    /* background-image: url("../images/man-climbing-top-rope.jpg"); */
+    /* homepage background image with a white gradient over it */
     background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../images/man-bouldering.jpg");
-    /* background-image: url("../images/man-bouldering.jpg"); */
+
+    /* background-image: url("../images/man-climbing-top-rope.jpg"); */
     background-repeat:no-repeat;
     /* background-size: 1280px 853px; */
     background-size: cover;
@@ -194,16 +194,20 @@ body{
 }
 
 
-/* ---Footer--- */
+/* --------- Footer --------- */
 
 .footer{
     color: white;
     background-color:rgba(47, 72, 88, 0.9);
-    padding: 1% 0;
+    padding: 0.5% 0;
     width:100%;
 
-    /* to extend space on bottom */
-    /* height:5em; */
+    /* to center the child div elements */
+    display:flex;
+    align-items: center;
+    
+    /* for thick footer */
+    /* height:8em; */
 
     /* with border? */
     /* border:1px solid white; */
@@ -211,19 +215,35 @@ body{
     /* box-sizing: border-box; */
 }
 
+.footer div{
+    /* inherit width from footer */
+    width: inherit;
+
+    margin: 0 5%;
+}
+
+/* ul of links on left side */
+.footer-left{
+    display:flex;
+    justify-content: flex-start;
+    gap:10%;
+}
+
+/* ul of links on right side */
+.footer-right{
+    display:flex;
+    justify-content: flex-end;
+    gap:10%;
+}
+
 .footer ul{
     list-style-type: none;
-    
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-
     padding:0;
-    margin:10px;
+    /* margin:10px; */
 }
 
 .footer li{
-    display: inline;
+    /* display: inline; */
 }
 
 
@@ -233,13 +253,14 @@ body{
     text-transform:uppercase;
     font-weight: 400;
 
-    height: 30px;
+    /* width:inherit; */
+    /* height: 30px; */
     padding: 5px;
     border: 1px solid white;
     border-radius: 4px;
 }
 
-/* hover effect for footer links; pages and social media */
+/* hover effect for footer links (pages and social media) */
 .social-media img:hover, .footer-links:hover{
     /* background-color:#808080; */
     /* background-color:rgba(47, 72, 88, 0.5); */
@@ -249,7 +270,7 @@ body{
 }
 
 
-/* ---The 3 info pages headers--- */
+/* --------- The 3 info pages headers --------- */
 
 .pages-header{
     color:white;
