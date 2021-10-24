@@ -65,6 +65,7 @@ Done:
 * Added aria-labels to the footer social media links (read about on: https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html)
 * Added the alt attribute to the img element for social media icons
 * Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The Youtube video: https://www.youtube.com/watch?v=OmoCfODeBTA by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
+* Added the main element around the main content of each page (except for the homepage whose main content is the nav element which cannot be placed inside the main element) for better screen reader accessability.
 
 To do:
 * how you considered it in your design 
@@ -91,7 +92,10 @@ Done:
     * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
 
 [bugs and fixes]
-* [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
+* [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. 
+    * Solution: After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
+* [24-10-21] on larger screens some of my pages which didn't have a lot of content ment that the footer was not at the bottom of the viewport. 
+    * Solution: I created a CSS class with min-height = 100vh and applied it to the main element of each page (nav element for the homepage) so that the main content of each page adapts to have a minimum height which allows it to fill the viewport on any screen size.
 
 To Do:
 * Lighthouse accessability score
@@ -123,7 +127,7 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/9800/drawstring-bag">Drawstring Bag icon by Icons8</a>
     * <a href="https://icons8.com/icon/9809/harness">Harness icon by Icons8</a>
     * <a href="https://icons8.com/icon/19099/time">Time icon by Icons8</a>
-* Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/" target = "_blank">by cottonbro on Pexels</a>
+* Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
