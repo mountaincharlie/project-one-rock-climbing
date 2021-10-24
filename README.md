@@ -47,6 +47,11 @@ To Do:
 Done:
 * Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts. I later removed the pre-set weighting from the import link so that I would have more flexibilty with styling the font.
 * Used Google Fonts [add-link] to choose Fira Sans to pair with Montserrat and imported all the none-italicised weights so that I had the flexibility to see which are most readable in different page sections.  
+* Homepage background image:
+    * Originally was a more close up image that was a bit dark and only a few many colours.
+    * Changed to the current image which is a lot lighter and even though there are a few more colours, I feel that no part of the image particularly draws the user's attention away from the main text and navigation.
+    * I used the linear-gradient CSS property to create a semi-transparent layer over the image in order to make the text and navigation ontop stand out a bit more.
+    * I tried using tinyPNG [add-link] and tinyJPEG [add-link] to reduce the size of the image, but when testing the reduced images I did feel that the quality of the image suffered a bit on larger screens so I decided to keep the full size image which is less than 500kb anyway.  
 
 To Do:
 * how you considered it in your design
@@ -118,6 +123,7 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/9800/drawstring-bag">Drawstring Bag icon by Icons8</a>
     * <a href="https://icons8.com/icon/9809/harness">Harness icon by Icons8</a>
     * <a href="https://icons8.com/icon/19099/time">Time icon by Icons8</a>
+* Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/" target = "_blank">by cottonbro on Pexels</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
