@@ -422,17 +422,23 @@ body{
     padding-top: 55px;
 }
 
-/* make it > if you dont want it to affect the tiles <p> */
+/* page section paragraph styling */
 .page-section p{
     font-family: Fira Sans, sans-serif;
     font-weight:400;
-    line-height:125%;
-    margin:10px 5px;
+    line-height:150%;
+    margin:2% 10%;
 }
 
 .page-section h4{
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.page-section h5{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin:5px;
 }
 
 /* mini disclaimer */
