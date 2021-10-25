@@ -132,6 +132,8 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/9809/harness">Harness icon by Icons8</a>
     * <a href="https://icons8.com/icon/19099/time">Time icon by Icons8</a>
 * Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
+* Using the Important Event icon from Icons8 for my little disclaimer message about the risks of climbing:
+     * <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event">Important Event icon by Icons8</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
