@@ -423,11 +423,16 @@ body{
 }
 
 /* page section paragraph styling */
-.page-section p{
+.page-section p, .page-section ul, .page-section ol{
     font-family: Fira Sans, sans-serif;
     font-weight:400;
     line-height:150%;
     margin:2% 10%;
+}
+
+ol{
+    text-align: left;
+    padding:0;
 }
 
 .page-section h4{
@@ -449,29 +454,34 @@ body{
     font-size: small ;
     color:#b81616;
 
-    display:flex;
-    align-items: center;
+    /* RUINS icon as screen decreases! sets icon inline with the text and everything centralised within the paragraph */
+    /* display:flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
 }
 
 
 /* --------- Brief-history page --------- */
 
-.term-tiles > p{
+.info-tiles > p{
     width:100%;
 }
 
-.term-tiles{
+.info-tiles{
     display:flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    /* align-content:flex-start; */
+    margin-bottom:2%;
 }
 
-.term-tiles h4{
+.info-tiles h4{
     color:#2f4858;
     width:100%;
     margin:10px 0 10px 2px;
 }
 
-.term-tiles div{
+.info-tiles div{
     border: 1px solid rgba(0, 160, 243, 0.5);
     border-radius:4px;
     background-color:rgba(0, 160, 243, 0.5);
@@ -490,7 +500,7 @@ body{
 }
 
 /* make on click instead? */
-.term-tiles div:hover{
+.info-tiles div:hover{
     width:200px;
     /* height:200px; */
     height:auto;
@@ -506,7 +516,7 @@ body{
     transition-timing-function: ease-out;
 }
 
-.term-tiles h5{
+.info-tiles h5{
     padding:5px;
     margin:0;
 
@@ -522,7 +532,7 @@ body{
     /* border-top: 5px ridge rgba(0, 160, 243, 0.75); */
 }
 
-.term-tiles div p{
+.info-tiles div p{
     /* border-right: 5px groove rgba(47, 72, 88, 0.75); */
     /* border-bottom: 5px ridge rgba(47, 72, 88, 0.75); */
     /* border-right: 5px groove rgba(0, 160, 243, 0.75); */
