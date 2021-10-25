@@ -461,7 +461,7 @@ ol{
 }
 
 
-/* --------- Brief-history page --------- */
+/* --------- Background page --------- */
 
 .info-tiles > p{
     width:100%;
@@ -478,7 +478,7 @@ ol{
 .info-tiles h4{
     color:#2f4858;
     width:100%;
-    margin:10px 0 10px 2px;
+    margin:10px 2px 15px 2px;
 }
 
 .info-tiles div{
@@ -540,6 +540,10 @@ ol{
     border-right: 5px groove rgba(255, 255, 255, 0.75);
     border-bottom: 5px ridge rgba(255, 255, 255, 0.75);
     padding:5px;
+    text-align: left;
+    line-height: 125%;
+    font-weight: 200;
+    margin: 0;
 }
 
 
