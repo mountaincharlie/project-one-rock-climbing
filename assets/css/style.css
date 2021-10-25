@@ -650,3 +650,8 @@ textarea{
 blockquote{
     padding:2px;
 }
+
+/* primarily for hr elements which break up smaller sections within larger sections  */
+.half-width{
+    width:50%;
+}
