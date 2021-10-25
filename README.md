@@ -134,8 +134,15 @@ Done: [add to Site Credits page]
 * Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
 * Using the Important Event icon from Icons8 for my little disclaimer message about the risks of climbing:
      * <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event">Important Event icon by Icons8</a>
-* YouTube video added to First Olympic Appearance section on As Seen At Tokyo 2020 page:
+* YouTube video added to the First Olympic Appearance section on the As Seen At Tokyo 2020 page:
      * <a href = "https://youtu.be/QUqRIUKBFTk">How will the Olympics change sport climbing?</a>
+* IFSC images added to the Sport Climbing Medalists section on the As Seen At Tokyo 2020 page:
+    * <a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+    * <a href = "https://www.flickr.com/photos/ifsclimbing/51357817919">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+    * <a href = "https://www.flickr.com/photos/ifsclimbing/51357381063/">Akiyo Noguchi at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+    * <a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+    * <a href = "https://www.flickr.com/photos/123572206@N08/51359121591">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+    * <a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
