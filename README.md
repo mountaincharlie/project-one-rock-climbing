@@ -134,6 +134,8 @@ Done: [add to Site Credits page]
 * Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
 * Using the Important Event icon from Icons8 for my little disclaimer message about the risks of climbing:
      * <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event">Important Event icon by Icons8</a>
+* YouTube video added to First Olympic Appearance section on As Seen At Tokyo 2020 page:
+     * <a href = "https://youtu.be/QUqRIUKBFTk">How will the Olympics change sport climbing?</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
