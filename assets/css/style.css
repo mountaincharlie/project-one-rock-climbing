@@ -357,7 +357,7 @@ body{
 }
 
 
-/* ---The 3 info pages fixed links--- */
+/* --------- The 3 info pages fixed links --------- */
 
 .fixed-links{
     list-style-type: none;
@@ -407,7 +407,7 @@ body{
   }
 
 
-/* ---3 info pages' headings and <p> styling--- */
+/* --------- 3 info pages' headings and <p> styling --------- */
 
 .page-section > h3{
     text-transform: uppercase;
@@ -421,7 +421,7 @@ body{
 /* make it > if you dont want it to affect the tiles <p> */
 .page-section p{
     font-family: Fira Sans, sans-serif;
-    font-weight:300;
+    font-weight:400;
     line-height:125%;
     margin:10px 5px;
 }
@@ -429,6 +429,18 @@ body{
 .page-section h4{
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+/* mini disclaimer */
+.mini-disclaimer{
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight:100;
+    font-size: small ;
+    color:#b81616;
+
+    display:flex;
+    align-items: center;
 }
 
 
