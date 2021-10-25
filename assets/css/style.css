@@ -409,6 +409,10 @@ body{
 
 /* --------- 3 info pages' headings and <p> styling --------- */
 
+.page-section{
+    text-align: center;
+}
+
 .page-section > h3{
     text-transform: uppercase;
     text-align:center;
@@ -629,8 +633,14 @@ textarea{
 /* --------- As-Seen page --------- */
 
 .videos{
-    display:block;
-    margin:auto;
+    /* reccomended by YouTube as the optimum size for this video */
+    width: 560px; 
+    height: 315px;
+
     border:2px solid #2f4858;
     border-radius:4px;
+}
+
+blockquote{
+    padding:2px;
 }
