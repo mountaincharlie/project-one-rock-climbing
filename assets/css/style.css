@@ -444,7 +444,7 @@ body{
 }
 
 
-/* ---Brief-history page--- */
+/* --------- Brief-history page --------- */
 
 .term-tiles > p{
     width:100%;
@@ -624,4 +624,13 @@ textarea{
 /* setting min-height for main/first large section of each page to fill the viewport and avoid white space below the footer on bigger screen */
 .page-min-height{
     min-height: 100vh;
+}
+
+/* --------- As-Seen page --------- */
+
+.videos{
+    display:block;
+    margin:auto;
+    border:2px solid #2f4858;
+    border-radius:4px;
 }
