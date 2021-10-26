@@ -471,6 +471,13 @@ ul{
     /* justify-content: center; */
 }
 
+/* styling links used within the text content */
+.in-text-link{
+    color:#2f4858;
+    font-weight:bold;
+    text-decoration: none;
+}
+
 
 /* --------- Background page --------- */
 
