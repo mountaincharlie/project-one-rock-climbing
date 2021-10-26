@@ -4,7 +4,9 @@ Indoor Rock Climbing is a website to introduce the three main disciplines of com
 
 This site provides an insight into the rules, equipment and technical language involved in each of these three disciplines, designed to bring indoor rock climbing to anyone with an interest in the sport, as well as a brief look at its origins and some highlights from it's first Olympic appearance.
 
-[*Insert an image of your site on different devices from the Am I Responsive site or similar*]
+![Viewing my website on the Am I Responsive site](./assets/images/am-i-responsive-img.jpg "Indoor Rock Climbing website on the Am I Responsive site")
+
+[Image made using <a href = "http://ami.responsivedesign.is/">Am I Responsive Website</a>]
 
 ## Initial Vision [**to complete**]
 ---
@@ -127,7 +129,7 @@ To Do:
 ---
 Done: [add to Site Credits page]
 * Google Fonts [add-link] for Montserrat and Roboto (or the Fira Sans?) fonts used 
-* Using the Flexbox method to centralize content horizontally **and** vertically [Link: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (scroll to: Approach 2 - Flexbox method)] 
+* Using the Flexbox method to centralize content horizontally **and** vertically <a href = "https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block" >(scroll to: Approach 2 - Flexbox method)</a>
 * Using social media icons from Icons8:
     * <a href="https://icons8.com/icon/84884/instagram">Instagram icon by Icons8</a>
     * <a href="https://icons8.com/icon/84872/facebook">Facebook icon by Icons8</a>
