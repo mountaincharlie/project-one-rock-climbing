@@ -6,15 +6,15 @@
 
 /* --------- Body --------- */
 
-/* applying general styles (fonts, ) */
+/* applying general styles to all pages */
 body{
     /* reset defaults */
     padding: 0;
     margin: 0;
     border:0;
-    /* incl. padding and border within total height/width */
+    /* incl.s padding and border within total height/width */
     box-sizing: border-box;
-
+    /* sets base text content style  */
     color: #2f4858;
     font-family: Montserrat, sans-serif;
     background-color:rgba(241, 251, 255, 0.75);
@@ -32,15 +32,8 @@ body{
 #homepage-header {
     width:100%;
     background-color:rgba(0, 160, 243, 0.4);
-    padding:1%;
+    padding:1% 0;
     height:auto;
-
-    /* ONLY NEED flex display if you dont want header to be width 100% */
-    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
-    /* display:flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-
 }
 
 /* homepage main heading */
@@ -54,110 +47,86 @@ body{
     margin:1% 5%;
     border: 1px solid white;
     border-radius: 4px;
-
     background-color:rgba(30, 70, 95, 0.8);
-    /* background-color:rgba(128, 128, 128, 0.6); */
-    /* background-color:rgba(217, 233, 66, 0.5); */
-    /* background-color:rgba(0, 160, 243, 0.9); */
-
 }
 
 /* hover effect on homepage main heading */
 #homepage-header h1:hover{
+    letter-spacing: 0.2em;
     border-radius: 8px;
     background-color:rgba(0, 160, 243, 0.70);
-    letter-spacing: 0.2em;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 }
 
-/* NEED TO ACTUALLY STYLE THE h2 FOR FONT WEIGHT ETC */
-/* header style for other pages' sections with h2 headings*/
+/* header style also for other pages' sections with h2 headings*/
 .main-headings {
     color: white;
     font-weight:lighter;
     text-transform: uppercase;
     word-spacing:5px;
 
-    /* background-color:rgba(128, 128, 128, 0.6); */
-    /* background-color:rgba(217, 233, 66, 0.25); */
-    background-color:rgba(47, 72, 88, 0.75);
     border-radius: 4px;
-
+    border:1px solid white;
+    box-sizing: border-box;
+    background-color:rgba(47, 72, 88, 0.75);
+    
     /* for responsivity */
     width: 100%;
     height: auto;
-    border:1px solid white;
-    box-sizing: border-box;
-
-    /* (Approach 2 - Flexbox method) */
+    
+    /* Credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (For: Approach 2 - Flexbox method) */
     display:flex;
     align-items: center;
     justify-content: center;
-
 }
+
 
 /* welcome paragraph section */
 #welcome-para{
     color: white;
     text-align:center;
 
-    /* background-color:rgba(128, 128, 128, 0.6); */
-    /* background-color:rgba(217, 233, 66, 0.25); */
-    
-    background-color:rgba(47, 72, 88, 0.9);
     padding: 1% 0;
     width:100%;
-    
-    /* to extend space on bottom */
-    /* height:5em; */
-
-    /* with border? */
-    /* border:1px solid white; */
-    /* border-radius:4px; */
-    /* box-sizing: border-box; */
+    background-color:rgba(47, 72, 88, 0.9);
 }
 
-/* welcome paragraph h2 */
+/* welcome paragraph h2 heading */
 #welcome-para h2{
     text-transform: uppercase;
     margin:10px;
 }
 
-/* welcome paragraph */
+/* welcome paragraph content */
 #welcome-para p{
-    font-family: Fira Sans, sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight:300;
-    /* line-height:125%; */
     margin:10px;
 }
 
-/* main navigation menu */
+/* main navigation menu nav */
 #main-nav{
     width: 100%;
-    /* height:auto; */
-    /* height:500px; */
     box-sizing: border-box;
 
-    /* stacking the main-nav-links in a column, spaced evenly in center of the nav  */
+    /* stacking the main-nav-links in a column, spaced evenly in center of the nav */
     display:flex;
+    align-items: center;
     flex-direction:column;
     justify-content: space-evenly;
-    align-items: center;
 }
 
-/* background-image for the homepage */
+/* background image for the homepage */
 #homepage-body{
-    /* homepage background image with a white gradient over it */
+    /* the homepage background image with a white gradient over it as an overlay to not distract from the page content*/
     background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../images/man-bouldering.jpg");
-
-    /* background-image: url("../images/man-climbing-top-rope.jpg"); */
     background-repeat:no-repeat;
-    /* background-size: 1280px 853px; */
     background-size: cover;
     background-position: center;
 }
 
+/* main navigation menu links */
 .main-nav-link{
     color:white;
     text-transform: uppercase;
@@ -166,24 +135,21 @@ body{
     font-size: x-large;
     font-weight: 600;
     
-    /* background-color:rgba(128, 128, 128, 0.6); */
-    /* background-color:rgba(217, 233, 66, 0.5); */
-    background-color:rgba(0, 160, 243, 0.8);
-    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
-
-    /* width: 50%; */
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color:rgba(0, 160, 243, 0.8);
+    
     width: 40%;
-    /* height: auto; */
     padding: 3% 2%;
     
     /* positioning the text centrally */
-    /* credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (Approach 2 - Flexbox method) */
+    /* credit: (Approach 2 - Flexbox method) */
     display:flex;
     align-items: center;
     justify-content:center;
 }
 
+/* main navigation menu link icons */
 .main-nav-link img{
     margin-right:10px;
 }
@@ -191,20 +157,19 @@ body{
 /* hover effects for the main-nav links */
 .main-nav-link:hover{
     color:white;
+    letter-spacing: 0.2em;
 
-    /* background-color:rgba(217, 233, 66, 0.5); */
     background-color:rgba(47, 72, 88, 0.75);
     border-radius:8px;
 
-    letter-spacing: 0.2em;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
-
 }
 
 
 /* --------- Footer --------- */
 
+/* footer styling across all pages */
 .footer{
     color: white;
     background-color:rgba(47, 72, 88, 0.9);
@@ -214,76 +179,58 @@ body{
     /* to center the child div elements */
     display:flex;
     align-items: center;
-    
-    /* for thick footer */
-    /* height:8em; */
-
-    /* with border? */
-    /* border:1px solid white; */
-    /* border-radius:4px; */
-    /* box-sizing: border-box; */
 }
 
+/* footer-left/-right divs */
 .footer div{
     /* inherit width from footer */
     width: inherit;
-
     margin: 0 5%;
 }
 
-/* ul of links on left side */
+/* ul of links footer-left */
 .footer-left{
     display:flex;
     justify-content: flex-start;
     gap:10%;
 }
 
-/* ul of links on right side */
+/* ul of links footer-right */
 .footer-right{
     display:flex;
     justify-content: flex-end;
     gap:10%;
 }
 
+/* footer-left/-right div uls */
 .footer ul{
     list-style-type: none;
     padding:0;
-    /* margin:10px; */
 }
 
-
+/* links in the footer-left */
 .footer-links{
     color: white;
     text-decoration: none;
     text-transform:uppercase;
     font-weight: 400;
 
-    /* width:inherit; */
-    /* height: 30px; */
     padding: 5px;
     border: 1px solid white;
     border-radius: 4px;
 }
 
-/* hover effect for footer links (pages and social media) */
+/* hover effect for footer links (social media and pages) */
 .social-media img:hover, .footer-links:hover{
-    /* background-color:rgba(47, 72, 88, 0.5); */
-    /* background-color:rgba(217, 233, 66, 0.30); */
     background-color:rgba(0, 160, 243, 0.5);
     border-radius: 8px;
 }
 
 
-/* --------- The 3 info pages headers --------- */
+/* --------- The 3 info pages' headers --------- */
 
+/* page header styles */
 .pages-header{
-    /* background-color:rgba(217, 233, 66, 0.5); */
-    /* background-color:rgba(47, 72, 88, 0.4); */
-    background-color:rgba(0, 160, 243, 0.5);
-
-    /* border: 2px solid white; */
-    /* box-sizing: border-box; */
-
     overflow: auto;
     position:fixed;
     top: 0;
@@ -291,184 +238,187 @@ body{
     width:100%;
     /* high enough to stay on top */
     z-index:1;
-    
+    background-color:rgba(0, 160, 243, 0.5);
 }
 
+/* h1 headings in the pages' header */
 .pages-header h1{
     color:white;
-    /* color:rgba(0, 163, 245, 0.75); */
-    /* background-color: rgba(0, 163, 245, 0.6); */
-    background-color:rgba(47, 72, 88, 0.6);
-    
-
     font-size: 130%;
-    border: 1px solid white;
-    border-radius:4px;
-    float:left;
-    padding: 2px 8px;
-    /* padding:0.5%; */
-    margin:8px 5px 5px 5px;
     text-transform:uppercase;
     word-spacing: 2px;
+
+    border: 1px solid white;
+    border-radius:4px;
+    background-color:rgba(47, 72, 88, 0.6);
+
+    float:left;
+    padding: 2px 8px;
+    margin:8px 5px 5px 5px;
 }
 
+/* hover effect for h1 headings in the pages' header */
 .pages-header h1:hover{
     color:white;
     letter-spacing: 0.1em;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 
-    /* background-color:rgba(217, 233, 66, 0.3); */
-    /* background-color:rgba(47, 72, 88, 0.6); */
-    background-color: rgba(0, 163, 245, 0.8);
-
     border-color:white;
     border-radius: 8px;
+    background-color: rgba(0, 163, 245, 0.8);
 }
 
+/* links in the pages' header */
 .pages-header a{
     color:white;
     text-decoration: none;
 }
 
+/* pages' header nav ul */
 .pages-nav ul{
     float:right;
     margin: 5px;
     padding:0;
 }
 
+/* pages' header nav li items*/
 .pages-nav li{
     list-style-type: none;
     float:left;
-    /* margin: 0 5px; */
     margin: 3px 20px 0 20px;
     padding: 0 10px;
 }
 
+/* opacity for the nav icon relating to the user's current page */
 .pages-nav .current-page{
     opacity:0.75;
 }
 
+/* hover effect for pages' header nav icons */
 .pages-nav img:hover{
-    background-color: rgba(0, 163, 245, 0.8);
-    /* border-radius: 50%; */
     border-radius: 8px;
+    background-color: rgba(0, 163, 245, 0.8);
 }
 
+/* hover effect for pages' header nav icon relating to the user's current page */
 .pages-nav .current-page:hover{
-    /* background-color:rgba(217, 233, 66, 0.5); */
-    /* background-color:rgba(0, 160, 243, 0.5); */
     background-color:white;
 }
 
 
 /* --------- The 3 info pages fixed links --------- */
 
+/* fixed-links on the page bottom right hand side */
 .fixed-links{
     list-style-type: none;
+    text-align:center;
+
     position: fixed;
     bottom: 0;
     right: 0;
-    text-align:center;
+    
     padding:0;
     margin:10px 10px 100px 10px;
 }
 
+/* breathing space for fixed-links li items */
 .fixed-links li{
     margin:2px;
     padding:5px;
 }
 
+/* fixed-links text links styles */
 .fixed-links a{
-    /* color:rgba(128,128,128,0.5); */
-    color:rgba(0, 160, 243, 0.5);
     font-weight:500;
     text-decoration: none;
     text-transform: uppercase;
 
+    color:rgba(0, 160, 243, 0.5);
     padding:5px;
 }
 
+/* fixed-links icon links styles */
 .fixed-links-icon{
     padding: 5px;
     opacity:0.5;
 }
 
-  .fixed-links-words:hover {
+/* hover effect on fixed-links text links */
+.fixed-links-words:hover {
     color: white;
     /* background-color:rgba(128,128,128,0.5); */
     background-color:rgba(47, 72, 88, 0.6);
     border-radius: 8px;
     opacity: 1;
-  }
+}
 
-  .fixed-links-icon:hover{
-    /* background-color:rgba(128,128,128,0.5); */
-    /* background-color:rgba(217, 233, 66, 0.5); */
-    background-color:rgba(0, 160, 243, 0.5);
+/* hover effect on fixed-links icons links */
+.fixed-links-icon:hover{
     border-radius: 8px;
     box-sizing: border-box;
+    background-color:rgba(0, 160, 243, 0.5);
     opacity: 1;
-  }
+}
 
 
 /* --------- 3 info pages' headings and <p> styling --------- */
 
+/* page section styling */
 .page-section{
     text-align: center;
     margin:0 10%;
 }
 
+/* page section h3 styling */
 .page-section > h3{
     text-transform: uppercase;
     text-align:center;
     margin-bottom:0;
-
     /* padding for sticky header space when using fixed-links nav (header height + 5px) */
     padding-top: 55px;
 }
 
 /* page section paragraph styling */
 .page-section p, .page-section ul, .page-section ol{
-    font-family: Fira Sans, sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight:400;
     line-height:150%;
     margin:2% 10%;
 }
 
+/* page section ol styling */
 ol{
     text-align: left;
     padding:0;
 }
 
+/* page section ul styling */
 ul{
     list-style-type: none;
     padding:0;
 }
 
+/* page section h4 styling */
 .page-section h4{
     font-weight: bolder;
     text-transform: uppercase;
 }
 
+/* page section h5 styling */
 .page-section h5{
     font-weight: bolder;
     text-transform: uppercase;
     margin:5px;
 }
 
-/* mini disclaimer */
+/* red mini disclaimer message */
 .mini-disclaimer{
+    color:#b81616;
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     font-weight:100;
-    font-size: small ;
-    color:#b81616;
-
-    /* RUINS icon as screen decreases! sets icon inline with the text and everything centralised within the paragraph */
-    /* display:flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
+    font-size: small;
 }
 
 /* styling links used within the text content */
@@ -479,7 +429,7 @@ ul{
 }
 
 
-/* --------- Background page --------- */
+/* --------- Info-tiles styling --------- */
 
 .info-tiles > p{
     width:100%;
@@ -489,7 +439,6 @@ ul{
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* align-content:flex-start; */
     margin-bottom:2%;
 }
 
@@ -500,74 +449,60 @@ ul{
 }
 
 .info-tiles div{
-    border: 1px solid rgba(0, 160, 243, 0.5);
+    border: 1px solid rgba(0, 160, 243, 1);
     border-radius:4px;
     background-color:rgba(0, 160, 243, 0.5);
 
-    /* before hover, just the term name is visible */
+    /* styling so that before the user hovers, just the term name is visible */
     width:200px;
     height:30px;
     overflow:hidden;
-
-    /* while checking the div content */
-    /* width:190px; */
-    /* height:290px; */
 
     padding: 5px;
     margin: 5px;
 }
 
-/* make on click instead? */
+/* hover effect */
 .info-tiles div:hover{
     width:200px;
-    /* height:200px; */
     height:auto;
     overflow:auto;
-    /* border: 2px groove white; */
-    /* border: 2px groove rgba(0, 160, 243, 0.75); */
 
     color:white;
     background-color:rgba(47, 72, 88, 0.75);
-    /* background-color:rgba(0, 160, 243, 0.75); */
 
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
 
 .info-tiles h5{
-    padding:5px;
-    margin:0;
-
     font-size:90%;
     font-weight:700;
     text-transform: uppercase;
 
-    /* border-left: 5px groove rgba(47, 72, 88, 0.75); */
-    /* border-top: 5px ridge rgba(47, 72, 88, 0.75); */
+    padding:5px;
+    margin:0;
+    
     border-left: 5px groove rgba(255, 255, 255, 0.75);
     border-top: 5px ridge rgba(255, 255, 255, 0.75);
-    /* border-left: 5px groove rgba(0, 160, 243, 0.75); */
-    /* border-top: 5px ridge rgba(0, 160, 243, 0.75); */
 }
 
 .info-tiles div p{
-    /* border-right: 5px groove rgba(47, 72, 88, 0.75); */
-    /* border-bottom: 5px ridge rgba(47, 72, 88, 0.75); */
-    /* border-right: 5px groove rgba(0, 160, 243, 0.75); */
-    /* border-bottom: 5px ridge rgba(0, 160, 243, 0.75); */
-    border-right: 5px groove rgba(255, 255, 255, 0.75);
-    border-bottom: 5px ridge rgba(255, 255, 255, 0.75);
-    padding:5px;
     text-align: left;
     line-height: 125%;
     font-weight: 200;
+
+    border-right: 5px groove rgba(255, 255, 255, 0.75);
+    border-bottom: 5px ridge rgba(255, 255, 255, 0.75);
+
+    padding:5px;
     margin: 0;
 }
 
 
-/* --------- form --------- */
+/* --------- Form styling --------- */
 
-/* styling for centralizing the form */
+/* centralizing the form */
 form{
     padding: 10px 5px;
     margin:5% 0;
@@ -577,20 +512,19 @@ form{
     align-items: center;
 }
 
-/* ieldset styling */
+/* fieldset styling */
 fieldset{
     text-transform: uppercase;
+    text-align: center;
     font-weight:600;
+
     border-radius: 4px;
     border:2px solid#2f4858;
+
     width:550px;
-    /* margin:1% 0; */
     margin: 10px 2px 2px 0;
 
-    text-align: center;
-
     display:flex;
-    /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
 }
@@ -603,24 +537,27 @@ fieldset:hover{
 
 /* styling the form labels */
 form label{
-    text-transform: capitalize;
-    font-family: Fira Sans, sans-serif;
-    font-size:smaller;
     font-weight:400;
+    font-size:smaller;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    
     margin:2px
 }
 
-/* adding a small left side margin so the user's curser has some space */
+/* adding a small left side margin so the user's curser has some space when user clicks to type */
 #user-name, #user-email, #textarea-chat{
     padding-left:5px;
 }
 
 /* styling the form textarea */
 textarea{
-    font-family: Fira Sans, sans-serif;
     font-weight:400;
+    font-family: "Fira Sans", sans-serif;
+
     border:1px solid #2f4858;
     border-radius: 4px;
+
     display:block;
     margin-top:10px;
 }
@@ -657,12 +594,8 @@ textarea{
     color:#00a0f3;
 }
 
-
-/* ---form and site credits--- */
-
-/* highlight link when on the page */
+/* highlight form/credits links when on the page */
 .current-footer-link{
-    /* background-color:rgba(217, 233, 66, 0.30); */
     background-color:rgba(0, 160, 243, 0.5);
     border-radius: 8px;
 }
@@ -676,8 +609,9 @@ textarea{
 }
 
 
-/* --------- As-Seen page --------- */
+/* --------- As-Seen-At-Tokyo-2020 page --------- */
 
+/* embedded video (iframe element) styling */
 .videos{
     /* reccomended by YouTube as the optimum size for this video */
     width: 560px; 
@@ -687,6 +621,7 @@ textarea{
     border-radius:4px;
 }
 
+/* olympic quote */
 blockquote{
     padding:2px;
 }
@@ -696,48 +631,54 @@ blockquote{
     width:50%;
 }
 
+/* styling images of olympic medalists */
 .medalists img{
     border-radius:50%;
     border-width:3px;
     border-style: solid;
 }
 
+/* hover effect for images of olympic medalists */
 .medalists img:hover{
     border-width:8px;
     transition-duration: 0.1s;
 }
 
+/* styling medalists content */
 .medalists p{
     margin-bottom:0;
 }
 
+/* styling medalists figure */
 .medalists figure{
     margin-top:5px;
 }
 
+/* styling medalists figcaption link */
 figcaption a{
     font-size: small;
     text-decoration: none;
     color:rgba(47, 72, 88, 0.75);
 }
 
+/* border colors for the medalists images */
 .gold{
     border-color: #ffd700;
 }
-
 .silver{
     border-color: #c0c0c0;
 }
-
 .bronze{
     border-color: #CD7F32;
 }
 
+/* styling the medalists sections in rows */
 .flex-row{
     display:flex;
     flex-direction:row;
     justify-content: center;
 }
+
 
 /* --------- Media Queries -------- */
 
@@ -834,7 +775,6 @@ figcaption a{
     fieldset{
         width:75%;
     }
-
 }
 
 /* further media queries for screen sizes 375px wide or less (i.e. smart phone size) */
@@ -862,7 +802,6 @@ figcaption a{
         margin:0 0 100px 0;
         font-size: small;
     }
-    
 
     /* adjusting pages' left and right widths at very small sizes */
     .page-section{
@@ -873,5 +812,4 @@ figcaption a{
     .page-section p{
         margin-bottom:5%;
     }
-
 }
