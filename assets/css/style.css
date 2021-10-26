@@ -741,27 +741,19 @@ figcaption a{
 
 /* --------- Media Queries -------- */
 
-/* for screen sizes ___px wide or less */
-/* @media (max-width: ___px){} */
-
-/* for screen sizes 375px wide or less */
-@media (max-width: 375px){
-
-    /* reducing homepage h1 size */
-    #homepage-header h1{
-        font-size:x-large;
-    }
+/* media queries for screen sizes 780px wide or less (i.e. tablet size) */
+@media (max-width: 780px){
 
     /* resizing the homepage nav */
     .main-nav-link{
-        font-size:large;
-        width:80%;
-        height:80px;
+        font-size: x-large;
+        width:60%;
+        height:60px;
     }
 
     /* resizing and arranging the footer-links on the left */
     .footer-left{
-        font-size:x-small;
+        font-size:small;
         /* display: flex; */
         flex-direction: column;
     }
@@ -811,19 +803,21 @@ figcaption a{
         margin: 0 5px;
     }
 
-    /* adjusting pages' left and right widths at very small sizes */
-    .page-section{
-        margin:0 8px;
+    /* keeping the fixed-links from covering the footer */
+    .fixed-links{
+        width:60px;
+        margin:0 0 150px 0;
     }
 
-    /* adjusting pages' paragraphs to have some breathing space */
-    .page-section p{
-        margin-bottom:5%;
+    /* moving fixed-link list items to the right so they dont cover the page content */
+    .fixed-links li{
+        float:right;
+        margin:0;
     }
 
-    /* reducing youtube video wdith to fit the page */
+    /* reducing youtube video width to 90% of the page so it adapts from its optimum width to suit smaller screen sizes */
     .videos{
-        width:350px;
+        width:90%;
     }
 
     /* readjusting medalists images to be in a column instead of rows */
@@ -836,8 +830,48 @@ figcaption a{
     #miho, #nathaniel{order:2}
     #akiyo, #jakob{order:3}
 
-    /* resizing the contact form */
+    /* resizing the contact form so it adapts to suit smaller screen sizes */
     fieldset{
-        width:300px;
+        width:75%;
     }
+
+}
+
+/* further media queries for screen sizes 375px wide or less (i.e. smart phone size) */
+@media (max-width: 375px){
+
+    /* reducing homepage h1 size */
+    #homepage-header h1{
+        font-size:x-large;
+    }
+
+    /* resizing the homepage nav */
+    .main-nav-link{
+        font-size:large;
+        width:80%;
+        height:80px;
+    }
+
+    /* resizing the footer-links on the left */
+    .footer-left{
+        font-size:x-small;
+    }
+
+    /* lowering the fixed-links again slightly and reducing font-size*/
+    .fixed-links{
+        margin:0 0 100px 0;
+        font-size: small;
+    }
+    
+
+    /* adjusting pages' left and right widths at very small sizes */
+    .page-section{
+        margin:0 8px;
+    }
+
+    /* adjusting pages' paragraphs to have some breathing space */
+    .page-section p{
+        margin-bottom:5%;
+    }
+
 }
