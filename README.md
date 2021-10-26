@@ -10,6 +10,17 @@ This site provides an insight into the rules, equipment and technical language i
 ---
 
 * wireframes screen shots
+
+![Homepage wireframe plan](./assets/images/wireframe-homepage.jpg "Homepage wireframe plan")
+![Background page wireframe plan](./assets/images/wireframe-background.jpg "Background page wireframe plan")
+![3 Main Disciplines page, bouldering section wireframe plan](./assets/wireframe-bouldering-section.jpg "3 Main Disciplines page, bouldering section wireframe plan")
+![3 Main Disciplines page, lead section wireframe plan](./assets/wireframe-lead-section.jpg "3 Main Disciplines page, lead section wireframe plan")
+![3 Main Disciplines page, speed section wireframe plan](./assets/images/wireframe-speed-section.jpg "3 Main Disciplines page, speed section wireframe plan")
+![As Seen At Tokyo 2020 page wireframe plan](./assets/wireframe-as-seen.jpg "As Seen At Tokyo 2020 page wireframe plan")
+
+
+
+
 * basic explanations for ideas
 
 The colours and layouts for each page just to distinguish the different sections and show how the content could be arranged. 
