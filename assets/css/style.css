@@ -678,8 +678,13 @@ blockquote{
 
 .medalists img{
     border-radius:50%;
-    border-width:6px;
+    border-width:3px;
     border-style: solid;
+}
+
+.medalists img:hover{
+    border-width:8px;
+    transition-duration: 0.1s;
 }
 
 .medalists p{
