@@ -560,6 +560,7 @@ ul{
 
 /* --------- form --------- */
 
+/* styling for centralizing the form */
 form{
     padding: 10px 5px;
     margin:5% 0;
@@ -567,9 +568,9 @@ form{
     display:flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+/* ieldset styling */
 fieldset{
     text-transform: uppercase;
     font-weight:600;
@@ -585,14 +586,15 @@ fieldset{
     /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
-
 }
 
+/* hover effect to chage the fieldset border color when the user hovers over it */
 fieldset:hover{
     border:2px solid#00a0f3;
     color:#00a0f3;
 }
 
+/* styling the form labels */
 form label{
     text-transform: capitalize;
     font-family: Fira Sans, sans-serif;
@@ -601,7 +603,12 @@ form label{
     margin:2px
 }
 
+/* adding a small left side margin so the user's curser has some space */
+#user-name, #user-email, #textarea-chat{
+    padding-left:5px;
+}
 
+/* styling the form textarea */
 textarea{
     font-family: Fira Sans, sans-serif;
     font-weight:400;
@@ -610,7 +617,6 @@ textarea{
     display:block;
     margin-top:10px;
 }
-
 
 /* shrinking the [optional] legend text */
 .optional{
@@ -623,7 +629,7 @@ textarea{
     margin: 0;
 }
 
-/* submit/reset buttons */
+/* styling submit/reset input buttons*/
 .submit-reset {
     color:#2f4858;
     font-family: Montserrat, sans-serif;
@@ -636,13 +642,14 @@ textarea{
 
     border:2px solid #2f4858;
     border-radius:4px;
-    
 }
 
+/* hover effect for submit/reset input buttons border color */
 .submit-reset:hover{
     border:2px solid#00a0f3;
     color:#00a0f3;
 }
+
 
 /* ---form and site credits--- */
 
