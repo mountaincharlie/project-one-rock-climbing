@@ -336,20 +336,20 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 
-    color:rgba(0, 160, 243, 0.5);
+    /* color:rgba(0, 160, 243, 0.5); */
+    color:rgba(0, 160, 243, 0.75);
     padding:5px;
 }
 
 /* fixed-links icon links styles */
 .fixed-links-icon{
     padding: 5px;
-    opacity:0.5;
+    opacity:0.75;
 }
 
 /* hover effect on fixed-links text links */
 .fixed-links-words:hover {
     color: #f1fbff;
-    /* background-color:rgba(128,128,128,0.5); */
     background-color:rgba(47, 72, 88, 0.6);
     border-radius: 8px;
     opacity: 1;
