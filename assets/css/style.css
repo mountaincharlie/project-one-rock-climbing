@@ -292,9 +292,14 @@ body{
     padding: 0 10px;
 }
 
-/* opacity for the nav icon relating to the user's current page */
-.pages-nav .current-page{
+/* opacity for the header nav icons */
+.pages-nav img{
     opacity:0.75;
+}
+
+/* opacity for the header nav icon relating to the user's current page */
+.pages-nav .current-page{
+    opacity:1;
 }
 
 /* hover effect for pages' header nav icons */
@@ -305,7 +310,7 @@ body{
 
 /* hover effect for pages' header nav icon relating to the user's current page */
 .pages-nav .current-page:hover{
-    background-color:#f1fbff;
+    background-color:rgba(47, 72, 88, 0.75);
 }
 
 
