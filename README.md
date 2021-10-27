@@ -128,8 +128,17 @@ To Do:
 ## Credits [**to complete**]
 ---
 Done: [add to Site Credits page]
-* Google Fonts [add-link] for Montserrat and Roboto (or the Fira Sans?) fonts used 
-* Using the Flexbox method to centralize content horizontally **and** vertically <a href = "https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block" >(scroll to: Approach 2 - Flexbox method)</a>
+
+External Code:
+* Using the Flexbox method to centralize content horizontally **and** vertically <a href = "https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block" >(Josh Crozier's Approach 2 - Flexbox method)</a>
+* Using rel="noopener noreferrer" for all anchor elements as <a href = "https://stackoverflow.com/questions/57628890/why-people-use-rel-noopener-noreferrer-instead-of-just-rel-noreferrer">Azametzin</a>  explains that some browsers may not support rel="noopener" and that there is no good reason to not include these values for the rel attribute. 
+
+Page Styling:
+* Finding that the Google Font Fira Sans paired well with Montserrat from <a href = "https://www.figma.com/google-fonts/montserrat-font-pairings/">Montserrat Font Pairing</a>
+* Using Google Fonts <a href = "https://fonts.google.com/specimen/Montserrat">Montserrat</a> and <a href = "https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a>
+* Colour scheme from My Color Space: <a href = "https://mycolor.space/?hex=%232F4858&sub=1">Natural Palette</a>
+
+Icons:
 * Using social media icons from Icons8:
     * <a href="https://icons8.com/icon/84884/instagram">Instagram icon by Icons8</a>
     * <a href="https://icons8.com/icon/84872/facebook">Facebook icon by Icons8</a>
@@ -138,17 +147,17 @@ Done: [add to Site Credits page]
     * <a href="https://icons8.com/icon/61752/order-history">Order History icon by Icons8</a>
     * <a href="https://icons8.com/icon/-oxziy4sBdXf/climbing-wall">Climbing Wall icon by Icons8</a>
     * <a href="https://icons8.com/icon/5111/olympic-rings">Olympic Rings icon by Icons8</a>
-* Finding that the Google Font Fira Sans paired better with Montserrat for me:
-    * https://www.figma.com/google-fonts/montserrat-font-pairings/
 * Using icons for my The 3 Main Climbing Disciplines page from Icons8:
     * <a href="https://icons8.com/icon/9800/drawstring-bag">Drawstring Bag icon by Icons8</a>
     * <a href="https://icons8.com/icon/9809/harness">Harness icon by Icons8</a>
     * <a href="https://icons8.com/icon/19099/time">Time icon by Icons8</a>
-* Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
-* Using the Important Event icon from Icons8 for my little disclaimer message about the risks of climbing:
-     * <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event">Important Event icon by Icons8</a>
+* Using an icon for my little disclaimer message about the risks of climbing from Icons8 :
+    * <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event">Important Event icon by Icons8</a>
+
+Videos and Images:
 * YouTube video added to the First Olympic Appearance section on the As Seen At Tokyo 2020 page:
      * <a href = "https://youtu.be/QUqRIUKBFTk">How will the Olympics change sport climbing?</a>
+* Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/">by cottonbro on Pexels</a>
 * IFSC images added to the Sport Climbing Medalists section on the As Seen At Tokyo 2020 page:
     * <a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
     * <a href = "https://www.flickr.com/photos/ifsclimbing/51357817919">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
@@ -156,6 +165,12 @@ Done: [add to Site Credits page]
     * <a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
     * <a href = "https://www.flickr.com/photos/123572206@N08/51359121591">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
     * <a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+
+Page content:
+* The Olympic medalists' information from the <a href = "https://www.ifsc-climbing.org/index.php/olympic-games/tokyo-2020">Olympic Games Tokyo 2020 page</a> on IFSC's website
+* The <a href = "https://olympics.com/ioc/faq/olympic-symbol-and-identity/what-is-the-olympic-motto">Olympic motto</a>
+* Information for when rock climbing was first thought to have been recognised as a sport from <a href = "https://en.wikipedia.org/wiki/History_of_rock_climbing#19th_century">Wikipedia - The History Of Rock Climbing</a>
+* Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/">Climbing.com</a>
 
 To Do:
 * mention the Site Credits page which is on the site 
