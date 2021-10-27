@@ -3,7 +3,6 @@
 /* Google Fonts: Montserrat (all normal font-weights), Fira Sans (all normal font-weights)  */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 /* --------- Body --------- */
 
 /* applying general styles to all pages */
@@ -24,7 +23,6 @@ body{
 .header-space{
     padding-top: 50px;
 }
-
 
 /* --------- Homepage styles --------- */
 
@@ -168,7 +166,6 @@ body{
     transition-timing-function: ease-out;
 }
 
-
 /* --------- Footer --------- */
 
 /* footer styling across all pages */
@@ -227,7 +224,6 @@ body{
     background-color:rgba(0, 160, 243, 0.5);
     border-radius: 8px;
 }
-
 
 /* --------- The 3 info pages' headers --------- */
 
@@ -313,7 +309,6 @@ body{
     background-color:rgba(47, 72, 88, 0.75);
 }
 
-
 /* --------- The 3 info pages fixed links --------- */
 
 /* fixed-links on the page bottom right hand side */
@@ -367,7 +362,6 @@ body{
     background-color:rgba(0, 160, 243, 0.5);
     opacity: 1;
 }
-
 
 /* --------- 3 info pages' headings and <p> styling --------- */
 
@@ -434,7 +428,6 @@ ul{
     font-weight:bold;
     text-decoration: none;
 }
-
 
 /* --------- Info-tiles styling --------- */
 
@@ -505,7 +498,6 @@ ul{
     padding:5px;
     margin: 0;
 }
-
 
 /* --------- Form styling --------- */
 
@@ -607,14 +599,12 @@ textarea{
     border-radius: 8px;
 }
 
-
 /* --------- Across all pages --------- */
 
 /* setting min-height for main/first large section of each page to fill the viewport and avoid white space below the footer on bigger screen */
 .page-min-height{
     min-height: 100vh;
 }
-
 
 /* --------- As-Seen-At-Tokyo-2020 page --------- */
 
@@ -685,7 +675,6 @@ figcaption a{
     flex-direction:row;
     justify-content: center;
 }
-
 
 /* --------- Media Queries -------- */
 
