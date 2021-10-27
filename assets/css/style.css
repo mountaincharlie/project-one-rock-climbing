@@ -38,14 +38,14 @@ body{
 
 /* homepage main heading */
 #homepage-header h1{
-    color: white;
+    color: #f1fbff;
     text-transform: uppercase;
     word-spacing:5px;
     text-align:center;
 
     padding: 0.5% 2%;
     margin:1% 5%;
-    border: 1px solid white;
+    border: 1px solid #f1fbff;
     border-radius: 4px;
     background-color:rgba(30, 70, 95, 0.8);
 }
@@ -61,30 +61,32 @@ body{
 
 /* header style also for other pages' sections with h2 headings*/
 .main-headings {
-    color: white;
+    color: #f1fbff;
     font-weight:lighter;
     text-transform: uppercase;
     word-spacing:5px;
 
     border-radius: 4px;
-    border:1px solid white;
+    border:1px solid #f1fbff;
     box-sizing: border-box;
     background-color:rgba(47, 72, 88, 0.75);
     
     /* for responsivity */
     width: 100%;
     height: auto;
-    
+}
+
+/* centralizing the h2 content for main headings */
+.main-headings h2{
     /* Credit: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block (For: Approach 2 - Flexbox method) */
     display:flex;
     align-items: center;
     justify-content: center;
 }
 
-
 /* welcome paragraph section */
 #welcome-para{
-    color: white;
+    color: #f1fbff;
     text-align:center;
 
     padding: 1% 0;
@@ -119,16 +121,16 @@ body{
 
 /* background image for the homepage */
 #homepage-body{
-    /* the homepage background image with a white gradient over it as an overlay to not distract from the page content*/
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../images/man-bouldering.jpg");
+    /* the homepage background image with a #f1fbff white gradient over it as an overlay to not distract from the page content*/
+    background-image: linear-gradient(rgba(241, 251, 255, 0.2),rgba(241, 251, 255, 0.2)), url("../images/man-bouldering.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 /* main navigation menu links */
 .main-nav-link{
-    color:white;
+    color:#f1fbff;
     text-transform: uppercase;
     text-decoration: none;
     text-align:center;
@@ -136,7 +138,7 @@ body{
     font-weight: 600;
     
     border-radius: 4px;
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid #f1fbff;
     background-color:rgba(0, 160, 243, 0.8);
     
     width: 40%;
@@ -149,14 +151,14 @@ body{
     justify-content:center;
 }
 
-/* main navigation menu link icons */
-.main-nav-link img{
+/* icon breathing space for main nav menu and main headings */
+.main-nav-link img, .main-headings img{
     margin-right:10px;
 }
 
 /* hover effects for the main-nav links */
 .main-nav-link:hover{
-    color:white;
+    color:#f1fbff;
     letter-spacing: 0.2em;
 
     background-color:rgba(47, 72, 88, 0.75);
@@ -171,7 +173,7 @@ body{
 
 /* footer styling across all pages */
 .footer{
-    color: white;
+    color: #f1fbff;
     background-color:rgba(47, 72, 88, 0.9);
     padding: 0.5% 0;
     width:100%;
@@ -210,13 +212,13 @@ body{
 
 /* links in the footer-left */
 .footer-links{
-    color: white;
+    color: #f1fbff;
     text-decoration: none;
     text-transform:uppercase;
     font-weight: 400;
 
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid #f1fbff;
     border-radius: 4px;
 }
 
@@ -243,12 +245,12 @@ body{
 
 /* h1 headings in the pages' header */
 .pages-header h1{
-    color:white;
+    color:#f1fbff;
     font-size: 130%;
     text-transform:uppercase;
     word-spacing: 2px;
 
-    border: 1px solid white;
+    border: 1px solid #f1fbff;
     border-radius:4px;
     background-color:rgba(47, 72, 88, 0.6);
 
@@ -259,19 +261,19 @@ body{
 
 /* hover effect for h1 headings in the pages' header */
 .pages-header h1:hover{
-    color:white;
+    color:#f1fbff;
     letter-spacing: 0.1em;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 
-    border-color:white;
+    border-color:#f1fbff;
     border-radius: 8px;
     background-color: rgba(0, 163, 245, 0.8);
 }
 
 /* links in the pages' header */
 .pages-header a{
-    color:white;
+    color:#f1fbff;
     text-decoration: none;
 }
 
@@ -303,7 +305,7 @@ body{
 
 /* hover effect for pages' header nav icon relating to the user's current page */
 .pages-nav .current-page:hover{
-    background-color:white;
+    background-color:#f1fbff;
 }
 
 
@@ -346,7 +348,7 @@ body{
 
 /* hover effect on fixed-links text links */
 .fixed-links-words:hover {
-    color: white;
+    color: #f1fbff;
     /* background-color:rgba(128,128,128,0.5); */
     background-color:rgba(47, 72, 88, 0.6);
     border-radius: 8px;
@@ -468,7 +470,7 @@ ul{
     height:auto;
     overflow:auto;
 
-    color:white;
+    color:#f1fbff;
     background-color:rgba(47, 72, 88, 0.75);
 
     transition-duration: 0.3s;
@@ -483,8 +485,8 @@ ul{
     padding:5px;
     margin:0;
     
-    border-left: 5px groove rgba(255, 255, 255, 0.75);
-    border-top: 5px ridge rgba(255, 255, 255, 0.75);
+    border-left: 5px groove rgba(241, 251, 255, 0.75);
+    border-top: 5px ridge rgba(241, 251, 255, 0.75);
 }
 
 .info-tiles div p{
@@ -492,8 +494,8 @@ ul{
     line-height: 125%;
     font-weight: 200;
 
-    border-right: 5px groove rgba(255, 255, 255, 0.75);
-    border-bottom: 5px ridge rgba(255, 255, 255, 0.75);
+    border-right: 5px groove rgba(241, 251, 255, 0.75);
+    border-bottom: 5px ridge rgba(241, 251, 255, 0.75);
 
     padding:5px;
     margin: 0;
