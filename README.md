@@ -75,16 +75,24 @@ Done:
 * Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts. I later removed the pre-set weighting from the import link so that I would have more flexibilty with styling the font.
 * Used Google Fonts [add-link] to choose Fira Sans to pair with Montserrat and imported all the none-italicised weights so that I had the flexibility to see which are most readable in different page sections.  
 * Homepage background image:
-    * Originally was a more close up image that was a bit dark and only a few many colours.
+    * Originally was a more close up image that was a bit dark and only a few colours.
     * Changed to the current image which is a lot lighter and even though there are a few more colours, I feel that no part of the image particularly draws the user's attention away from the main text and navigation.
     * I used the linear-gradient CSS property to create a semi-transparent layer over the image in order to make the text and navigation ontop stand out a bit more.
     * I tried using tinyPNG [add-link] and tinyJPEG [add-link] to reduce the size of the image, but when testing the reduced images I did feel that the quality of the image suffered a bit on larger screens so I decided to keep the full size image which is less than 500kb anyway. 
 * Colour scheme: while experimenting with what colours looked nice with my homepage background image, I found that the dark blue #2F4858 worked well and used <a href = "https://mycolor.space/?hex=%23845EC2&sub=1">ColorSpace</a> to find some other colours which worked with it. I ended up choosing from the reccomended Natural Palette; bright blue #00A0F3 and off-white #F1FBFF as nice complements to use throughout my pages' different features and highlihighlightsgths.
 * Adding the CSS transition-duration and transition-timing-function properties to make some of the hover effects smoother and a better experience for the user.
 
-To Do:
-* how you considered it in your design
-* justify deviations (if any)
+### Styling ...
+* colour
+* fonts
+* icons (continuity)
+* consistent page structure for the 3 info pages and same footer across all and same header for all bu the homepage, but the homepage main logo matches the one on the header LHS.
+
+### Interactivity ...
+* hover highlight effects
+* hover main-nav effect
+* CSS transition-duration and transition-timing-function properties
+* no autoplay on the video
 
 ## Accessability [**to complete**]
 ---
@@ -99,7 +107,7 @@ Done:
 To do:
 * how you considered it in your design 
     * aria-labels
-    * semantics html [buttons instead of divs]
+    * semantics html [buttons instead of divs etc]
     * testing screen readers?
 * research
     * the NV website/project
