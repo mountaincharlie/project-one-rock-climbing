@@ -1,152 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-    <meta name = "author" content = "Charlie Harland"> 
-
-    <title>Indoor Rock Climbing</title>
-    <link href = "./assets/css/style.css" rel = "stylesheet">
-
-</head>
-
-<!-- id for linking to the page top and class for creating space for fixed header -->
-<body id = "form-top" class = "header-space">
-    <header class = "pages-header">
-        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
-
-        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
-        <nav class = "pages-nav">
-            <ul>
-                <li>
-                    <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
-                </li>
-                <li>
-                    <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
-                </li>
-                <li>
-                    <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class = "main-headings">
-        <h2>Chat with us!</h2>
-    </section>
-
-
-    <!-- main page content -->
-    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
-        
-        <!-- If i had a database to send the information to, I would include the: method = "POST" form attribute (which can write to the database, unlike method = "GET") and I would include the database url in the action attribute. For now I have a thank-you.html page to take the user to when they fill in the form -->
-        <form action = "./thank-you.html">
-            <!-- user details -->
-            <fieldset>
-                <legend>About you</legend>
-                <!-- VALIDATION (validate attribute) -->
-                <label for = "user-name">Name</label>
-                <input id ="user-name" name = "user_name" type = "text" required>
-                <label for = "user-email">Email</label>
-                <input id ="user-email" name = "user_email" type = "email" required>
-                <!-- age range dropbox (optional?) [CREDIT TO CI?] -->
-            </fieldset>
-            <hr>
-        
-            <!-- radio buttons for if the textarea input is a question or suggestion -->
-            <fieldset>
-                <legend>Choose how to chat with us <span class = "optional">[optional]</span></legend>
-                <!-- question/suggestion radio buttons -->
-                <label for = "question">Question</label>
-                <input id = "question" name = "textarea_type" type = "radio" checked>
-                <label id = "second-radio-label" for = "question">Suggestion</label>
-                <input id = "suggestion" name = "textarea_type" type = "radio">
-                <!-- textarea for question/suggestion (not required) -->
-                <label for = "textarea-chat"></label>
-                <textarea id = "textarea-chat" name = "user_textarea" placeholder = "type your message here..." rows = "10" cols = "40"></textarea>
-            </fieldset>
-            <hr>
-        
-            <!-- tickbox buttons for which kind of newsletters the user would like to -->
-            <fieldset id = "newsletters">
-                <legend>Choose how to hear from us <span class = "optional">[optional]</span></legend>
-                <!-- NONE PRE-CHECKED -->
-                <!-- newsletter tick boxes -->
-                <span>
-                    <label for = "boulder-newsletter" >Bouldering Newsletter</label>
-                    <input id = "boulder-newsletter" name = "boulder_newsletter" type = "checkbox" value = "yes">
-                </span>
-                <span>
-                    <label for = "lead-newsletter" >Lead Climbing Newsletter</label>
-                    <input id = "lead-newsletter" name = "lead_newsletter" type = "checkbox" value = "yes">
-                </span>
-                <span>
-                    <label for = "speed-newsletter" >Speed Climbing Newsletter</label>
-                    <input id = "speed-newsletter" name = "speed_newsletter" type = "checkbox" value = "yes">
-                </span>
+    <head>
+        <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+        <meta name = "author" content = "Charlie Harland"> 
     
-            </fieldset>
-            <hr>
-        
-            <!-- form submit -->
-            <input class = "submit-reset" type = "submit" value = "Let's go!">
-            <!-- form reset -->
-            <input class = "submit-reset" type = "reset" value = "Start again">
-
-        </form>
-
-    </main>
-
-
-    <!-- Viewport fixed nav links -->
-    <ul class = "fixed-links">
-        <li>
-            <a class = "fixed-links-words" href = "#form-top">Top</a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "./index.html">Home</a>
-        </li>
-    </ul>
-
-    <footer class = "footer">
-        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
-        <!-- Contact/Newsletter and Site Credits buttons -->
-
-        <!-- add about the author aside -->
-
-        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
-        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
-
-        <div>
-            <ul class = "footer-left">
-                <li>
-                    <a href = "./form.html" class = "footer-links current-footer-link">Chat with us!</a>
-                </li>
-                <li> 
-                    <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <ul class = "footer-right">
-                <li class = "social-media">
-                    <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
-                </li>
-            </ul>
-        </div>
+        <title>Indoor Rock Climbing</title>
+        <link href = "./assets/css/style.css" rel = "stylesheet">
+    </head>
     
-    </footer>
-</body>
+    <!-- form body -->
+    <body id = "form-top" class = "header-space">
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered-->
+
+        <!-- page header styled the same on the other pages for consistency -->
+        <header class = "pages-header">
+
+            <!-- clickable heading to take the user to the homepage -->
+            <a href = "./index.html">
+                <h1>Indoor Rock Climbing</h1>
+            </a>
+    
+            <!-- page header nav between the 3 informational pages from within any of the pages, which reduces the user's need to return to homepage main nav everytime -->
+            <nav class = "pages-nav">
+
+                <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
+                <ul>
+                    <li>
+                        <!-- link to background page -->
+                        <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to three-main page -->
+                        <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to as-seen page -->
+                        <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- form heading section styled the same on the other pages for consistency -->
+        <section class = "main-headings">
+            <h2>Chat with us!</h2>
+        </section>
+    
+    
+        <!-- main page content -->
+        <main class = "page-min-height">
+            <!-- class = "page-min-height" to ensure there is no vertical white space in the viewport of larger screens, used on the main element as its the main/largest feature of the page -->
+            
+            <!-- if i had a database to send the user's information to, I would include the: method = "POST" form attribute (which can write to the database, unlike method = "GET") and I would include the database url in the action attribute. For now I have a thank-you.html page to take the user to when they fill in the form -->
+            <form action = "./thank-you.html">
+
+                <!-- user details fieldset with legend -->
+                <fieldset>
+                    <legend>About you</legend>
+
+                    <!-- user name label and input with required attribute -->
+                    <label for = "user-name">Name</label>
+                    <input id ="user-name" name = "user_name" type = "text" required>
+
+                    <!-- user email label and input with required attribute -->
+                    <label for = "user-email">Email</label>
+                    <input id ="user-email" name = "user_email" type = "email" required>
+                </fieldset>
+            
+                <!-- choose how to chat with us fieldset with legend -->
+                <fieldset>
+                    <legend>Choose how to chat with us <span class = "optional">[optional]</span></legend>
+
+                    <!-- question label and radio input with checked attribute, as one of the radios needs to start selected -->
+                    <label for = "question">Question</label>
+                    <input id = "question" name = "textarea_type" type = "radio" checked>
+
+                    <!-- suggestion label and radio input without checked attribute, as only one of the radios needs to start selected -->
+                    <label for = "question">Suggestion</label>
+                    <input id = "suggestion" name = "textarea_type" type = "radio">
+
+                    <!-- textarea for user's question/suggestion depending on radio input selected (not required) -->
+                    <label for = "textarea-chat"></label>
+                    <textarea id = "textarea-chat" name = "user_textarea" placeholder = "type your message here..." rows = "10" cols = "40"></textarea>
+                </fieldset>
+            
+                <!-- choose how to hear from us fieldset with legend -->
+                <fieldset id = "newsletters">
+                    <legend>Choose how to hear from us <span class = "optional">[optional]</span></legend>
+
+                    <!-- tickbox inputs for which kind of newsletters the user would like to recieve (not required) -->
+                    <!-- placed in span elements in order to style the pairs of labels/inputs -->
+                    <span>
+                        <!-- bouldering newsletter label and checkbox input -->
+                        <label for = "boulder-newsletter" >Bouldering Newsletter</label>
+                        <input id = "boulder-newsletter" name = "boulder_newsletter" type = "checkbox" value = "yes">
+                    </span>
+
+                    <span>
+                        <!-- lead climbing newsletter label and checkbox input -->
+                        <label for = "lead-newsletter" >Lead Climbing Newsletter</label>
+                        <input id = "lead-newsletter" name = "lead_newsletter" type = "checkbox" value = "yes">
+                    </span>
+
+                    <span>
+                        <!-- speed climbing newsletter label and checkbox input -->
+                        <label for = "speed-newsletter" >Speed Climbing Newsletter</label>
+                        <input id = "speed-newsletter" name = "speed_newsletter" type = "checkbox" value = "yes">
+                    </span>
+                </fieldset>
+            
+                <!-- form submit input -->
+                <input class = "submit-reset" type = "submit" value = "Let's go!">
+
+                <!-- form reset input -->
+                <input class = "submit-reset" type = "reset" value = "Start again">
+            </form>
+        </main>
+    
+    
+        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
+        <ul class = "fixed-links">
+            <li>
+                <!-- link back to the top of the page -->
+                <a class = "fixed-links-words" href = "#form-top">Top</a>
+            </li>
+            <li>
+                <!-- link back to the homepage -->
+                <a class = "fixed-links-words" href = "./index.html">Home</a>
+            </li>
+        </ul>
+    
+        <!-- page footer with links to contact and credits pages and social media links -->
+        <footer class = "footer">
+
+            <!-- contact and credits list of links, on the left side of the footer -->
+            <div>
+                <ul class = "footer-left">
+                    <li>
+                        <!-- link to the chat with us form -->
+                        <a href = "./form.html" class = "footer-links current-footer-link">Chat with us!</a>
+                    </li>
+                    <li> 
+                        <!-- link to the site credits page -->
+                        <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social media list of links, on the right side of the footer -->
+            <div>
+                <ul class = "footer-right">
+
+                    <li class = "social-media">
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
