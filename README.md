@@ -11,16 +11,16 @@ This site provides an insight into the rules, equipment and technical language i
 ## Contents [**to complete**]
 ---
 
-* [Initial Project Vision](#initial-project-vision)
-* [Features](#features)
-* [Responsiveness](#responsiveness)
-* [UXD](#uxd)
-* [Accessability](#accessability)
-* [Other Feature Ideas](#other-feature-ideas)
-* [Testing](#testing)
-* [Deployment](#deployment)
-* [Credits](#credits)
-* [Site Expansion Ideas](#site-expansion-ideas)
+* [Initial Project Vision](https://github.com/mountaincharlie/project-one-rock-climbing#initial-project-vision)
+* [Features](https://github.com/mountaincharlie/project-one-rock-climbing#features)
+* [Responsiveness](https://github.com/mountaincharlie/project-one-rock-climbing#responsiveness)
+* [UXD](https://github.com/mountaincharlie/project-one-rock-climbing#uxd)
+* [Accessability](https://github.com/mountaincharlie/project-one-rock-climbing#accessability)
+* [Other Feature Ideas](https://github.com/mountaincharlie/project-one-rock-climbing#other-feature-ideas)
+* [Testing](https://github.com/mountaincharlie/project-one-rock-climbing#testing)
+* [Deployment](https://github.com/mountaincharlie/project-one-rock-climbing#deployment)
+* [Credits](https://github.com/mountaincharlie/project-one-rock-climbing#credits)
+* [Site Expansion Ideas](https://github.com/mountaincharlie/project-one-rock-climbing#site-expansion-ideas)
 
 ## Initial Project Vision [**to complete**] 
 ---
