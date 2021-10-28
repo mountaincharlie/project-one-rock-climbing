@@ -12,7 +12,9 @@ This site provides an insight into the rules, equipment and technical language i
 ---
 
 * [Initial Project Vision](https://github.com/mountaincharlie/project-one-rock-climbing#initial-project-vision)
+* [Technologies](https://github.com/mountaincharlie/project-one-rock-climbing#technologies)
 * [Features](https://github.com/mountaincharlie/project-one-rock-climbing#features)
+* [Pages](https://github.com/mountaincharlie/project-one-rock-climbing#pages)
 * [Responsiveness](https://github.com/mountaincharlie/project-one-rock-climbing#responsiveness)
 * [UXD](https://github.com/mountaincharlie/project-one-rock-climbing#uxd)
 * [Accessability](https://github.com/mountaincharlie/project-one-rock-climbing#accessability)
@@ -41,6 +43,12 @@ This site provides an insight into the rules, equipment and technical language i
 
 The colours and layouts for each page just to distinguish the different sections and show how the content could be arranged. 
 
+## Technologies [**to complete**]
+---
+
+* HTML5
+* CSS
+
 ## Features [**to complete**]
 ---
 Done:
@@ -60,6 +68,37 @@ To Do:
 * site credits (new tab? with links to new tabs)
 * about the author
 * social media links (new tab)
+
+## Pages [**to complete**]
+---
+
+### Homepage 
+* image
+* description/purpose
+
+### Background 
+* image
+* description/purpose
+
+### The Three Main Disciplines 
+* image
+* description/purpose
+
+### As Seen At Tokyo 2020 
+* image
+* description/purpose
+
+### Chat With Us! 
+* image
+* description/purpose
+
+### Thank You! 
+* image
+* description/purpose
+
+### Site Credits 
+* image
+* description/purpose
 
 ## Responsiveness [**to complete**]
 ---
@@ -89,6 +128,9 @@ Done:
 * consistent page structure for the 3 info pages and same footer across all and same header for all bu the homepage, but the homepage main logo matches the one on the header LHS.
 
 ### Interactivity ...
+* info-tiles
+* social media
+* form (ask/suggest/hear)
 * hover highlight effects
 * hover main-nav effect
 * CSS transition-duration and transition-timing-function properties
