@@ -1,325 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-    <meta name = "author" content = "Charlie Harland"> 
-
-    <title>Indoor Rock Climbing</title>
-    <link href = "./assets/css/style.css" rel = "stylesheet">
-</head>
-
-<!-- id for linking to the page top and class for creating space for fixed header -->
-<body id = "three-main-top" class = "header-space">
-    <header class = "pages-header">
-        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
-
-        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
-        <nav class = "pages-nav">
-            <ul>
-                <li>
-                    <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
-                </li>
-                <li>
-                    <a href = "./the-three-main-climbing-disciplines.html"><img class = "current-page" src="https://img.icons8.com/ios-filled/30/f1fbff/climbing-wall.png" alt = "Climbing wall icon"></a>
-                </li>
-                <li>
-                    <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
-                </li>
-            </ul>
-        </nav>
-    </header> 
-
-    <section class = "main-headings">
-        <h2><img src="https://img.icons8.com/ios-filled/30/f1fbff/climbing-wall.png" alt = "Climbing wall icon"> The 3 Main Climbing Disciplines</h2>
-    </section>
-
-    <!-- main page content -->
-    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
-
-        <!-- Bouldering section -->
-        <section class = "page-section" id = "bouldering-section">
-
-            <!-- icon credit: https://icons8.com/icon/9800/drawstring-bag - Drawstring Bag icon by Icons8 -->
-            <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"> Bouldering</h3>
-            <hr>
+    <head>
+        <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+        <meta name = "author" content = "Charlie Harland"> 
     
-            <section>
-                <h4>Discipline overview:</h4>
-                <p>
-                    Indoor Bouldering is probably the most accessible form of indoor rock climbing for new climbers as it requires the least amount of specific equipment and safety training. Most notciable as the climbing discipline which doesn't require the use of a rope, Bouldering routes/problems tend to be shorter climbs with a focus on being more of a physical puzzle for the climber to solve.
-                </p>
-                <p class = "mini-disclaimer">
-                    <!-- icon credit: https://icons8.com/icon/_lUhJoHVhm18/important-event - Important Event icon by Icons8 -->
-                    <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
-                </p>
-            </section>
-            <hr class = "half-width">
+        <title>Indoor Rock Climbing</title>
+        <link href = "./assets/css/style.css" rel = "stylesheet">
+    </head>
+    
+    <!-- three-main body -->
+    <body id = "three-main-top" class = "header-space">
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered-->
 
-            <section class = "info-tiles">
-                <h4>Equipment needed:</h4>
-                <p>
-                    Hover over/click the tiles below to find out about the equipment you need to boulder:     
-                </p>
-                <div>
-                    <h5>Climbing shoes</h5>
-                    <p>
-                        Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
-                    </p>
-                </div>
-                <div>
-                    <h5>Chalk</h5>
-                    <p>
-                        Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
-                    </p>
-                </div>
-                <div>
-                    <h5>Chalk bags</h5>
-                    <p>
-                        [optional] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
-                    </p>
-                </div>
-                <div>
-                    <h5>Boulder Brushes</h5>
-                    <p>
-                        [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
-                    </p>
-                </div>
-                <div>
-                    <h5>Clothes</h5>
-                    <p>
-                        Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
-                    </p>
-                </div>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>How to Boulder:</h4>
-                <ol>
-                    <li>Identify the starting hand holds. These are often indicated either by coloured tape or a little metal tag with an <strong>S</strong> on it and/or the grade of the climb, but this varies from gym to gym. </li>
-                    <li>Identify the starting feet holds. These may be marked similarly to the starting hand holds. If none are marked, then it is up to you where you place your feet to start the climb.</li>
-                    <li>To start the climb, you must not be holding anything other than the marked start holds or have any part of your body on the gym matting, unless the climb requires a sit-start. It's good form to be stable in this position for at least a second or two but this isn't a strict rule in casual climbing.</li>
-                    <li>Make your way up the wall towards the heighest hold that is part of your route  or up onto the top of the wall if it is a Top-Out wall. You may only use; the holds which are part of your route, volumes and any wall surfaces/edges which are allowed as part of your route, which will be specified by the gym. </li>
-                    <li>Finish with both of your hands on the final hold in a controlled/stable position, which is down to your own judgement in casual climbing, or climb onto the top of the wall if it is a Top-Out wall. </li>
-                </ol>
-            </section>
+        <!-- page header styled the same on the other pages for consistency -->
+        <header class = "pages-header">
+
+            <!-- clickable heading to take the user to the homepage -->
+            <a href = "./index.html">
+                <h1>Indoor Rock Climbing</h1>
+            </a>
+    
+            <!-- page header nav between the 3 informational pages from within any of the pages, which reduces the user's need to return to homepage main nav everytime -->
+            <nav class = "pages-nav">
+
+                <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
+                <ul>
+                    <li>
+                        <!-- link to background page -->
+                        <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to three-main page (current - icon is coloured in the #f1fbff shade of white) -->
+                        <a href = "./the-three-main-climbing-disciplines.html"><img class = "current-page" src="https://img.icons8.com/ios-filled/30/f1fbff/climbing-wall.png" alt = "Climbing wall icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to as-seen page -->
+                        <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header> 
+    
+        <!-- three-main page heading section -->
+        <section class = "main-headings">
+            <!-- background page heading with Icons8 icon consistent with the navs -->
+            <h2><img src="https://img.icons8.com/ios-filled/30/f1fbff/climbing-wall.png" alt = "Climbing wall icon"> The 3 Main Climbing Disciplines</h2>
         </section>
     
-        <!-- Lead climbing section -->
-        <section class = "page-section" id = "lead-section">
+        <!-- main page content -->
+        <main class = "page-min-height">
+            <!-- class = "page-min-height" to ensure there is no vertical white space in the viewport of larger screens, used on the main element as its the main/largest feature of the page -->
     
-            <!-- icon credit: href="https://icons8.com/icon/9809/harness - Harness icon by Icons8 -->
-            <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"> Lead Climbing</h3>
-            <hr>
-            <section>
-                <h4>Discipline overview:</h4>
-                <p>
-                    Indoor Lead Climbing is generally only performed by more experienced climbers as it requires special equipment and safety training as well as a high level of physcial endurance and familiarity with rock climbing techniques. There are, however, a couple of more accessible forms of roped rock climbing for newer climbers, namely; Top Rope and Auto-belay. Whilst Lead Climbing routes can still have elements of the physical problem solving found in Bouldering, the routes generally have more of a focus on challenging the climber's physical and mental endurance. 
-                </p>
-                <p class = "mini-disclaimer">
-                    <!-- icon credit: https://icons8.com/icon/_lUhJoHVhm18/important-event - Important Event icon by Icons8 -->
-                    <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
-                </p>
-            </section>
-            <hr class = "half-width">
-
-            <section class = "info-tiles">
-                <h4>Equipment needed:</h4>
-                <p>
-                    Hover over/click the tiles below to find out about the equipment you need to lead climb:     
-                </p>
-                <div>
-                    <h5>Climbing shoes</h5>
-                    <p>
-                        Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
-                    </p>
-                </div>
-                <div>
-                    <h5>Chalk</h5>
-                    <p>
-                        Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
-                    </p>
-                </div>
-                <div>
-                    <h5>Chalk bags</h5>
-                    <p>
-                        [preferably with a belt clip] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
-                    </p>
-                </div>
-                <div>
-                    <h5>Climbing harnesses</h5>
-                    <p>
-                        Can be owned by the climber or rented from a climbing gym. Used to secure the climber to the wall via climbing rope.
-                    </p>
-                </div>
-                <div>
-                    <h5>Climbing rope</h5>
-                    <p>
-                        Can be owned by the climber or rented from some climbing gyms for Lead Climbing. Top Rope and Autobelay routes have the rope already setup.
-                    </p>
-                </div>
-                <div>
-                    <h5>Boulder Brushes</h5>
-                    <p>
-                        [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
-                    </p>
-                </div>
-                <div>
-                    <h5>Clothes</h5>
-                    <p>
-                        Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
-                    </p>
-                </div>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>How to Lead Climb:</h4>
-                <ol>
-                    <li>Identify the starting hand holds. These are often indicated either by coloured tape or a little metal tag with an <strong>S</strong> on it and/or the grade of the climb, but this varies from gym to gym.</li>
-                    <li>Identify the starting feet holds. These may be marked similarly to the starting hand holds. If none are marked, then it is up to you where you place your feet to start the climb.</li>
-                    <li>To start the climb, you must not be holding anything other than the marked start holds or have any part of your body on the gym matting, unless the climb requires a sit-start which is rare for roped routes. It's good form to be stable in this position for at least a second or two but this isn't a strict rule in casual climbing.</li>
-                    <li>Make your way up the wall towards the heighest hold that is part of your route, clipping your climbing rope into the quickdraws as you ascend. You may only use; the holds which are part of your route, volumes and any wall surfaces/edges which are allowed as part of your route, which will be specified by the gym. </li>
-                    <li>Finish by clipping your rope through the final quickdraw and placing both of your hands on the final hold in a controlled/stable position, which is down to your own judgement in casual climbing. </li>
-                    <li>Communicate with your belayer to ensure they are ready to lower you down and it is safe for them to do so. When they signal they're ready, place your feet flat against the wall and a slight bend in your knees and hold onto your climbing rope. As you descend, use your feet to gently push yourself away from/walk yourself down the wall to avoid knocking into the holds. </li>
-                </ol>
-            </section>
-        </section>
+            <!-- bouldering section, styled with pages-section for consistency, id for navigating to with the fixed-links nav -->
+            <section class = "page-section" id = "bouldering-section">
     
-        <!-- Speed climbing section -->
-        <section class = "page-section" id = "speed-section">
+                <!-- bouldering section heading with Icons8 icon consistent with the navs -->
+                <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"> Bouldering</h3>
+                <hr>
+        
+                <!-- bouldering discipline overview section heading and explanatory paragraph -->
+                <section>
+                    <h4>Discipline overview:</h4>
+                    <p>
+                        Indoor Bouldering is probably the most accessible form of indoor rock climbing for new climbers as it requires the least amount of specific equipment and safety training. Most notciable as the climbing discipline which doesn't require the use of a rope, Bouldering routes/problems tend to be shorter climbs with a focus on being more of a physical puzzle for the climber to solve.
+                    </p>
+
+                    <!-- note, with Icons8 important note icon, to remind the user to pay attention to gym instructors due to the risks of climbing -->
+                    <p class = "mini-disclaimer">
+                        <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
+                    </p>
+                </section>
+                <hr class = "half-width">
     
-            <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"> Speed Climbing</h3>
-            <hr>
-            <section>
-                <h4>Discipline overview:</h4>
-                <p>
-                    Indoor Speed Climbing is probably the least accessible of the three main disciplines, to new climbers, as it requires a very specific combination of physical strength, agility and familiarity with rock climbing techniques. The physical setup of the route is characterised by the sole use of only two shapes of climbing hold; small, round footholds and large, X-shaped hand holds, and the large timer display at the top of the wall, which is started by releasing the pressure pad at the foot of the route and stopped by hitting the pressure pad at the top of the route. Another very distinct difference in Speed Climbing from the other disciplines is that the route is always the same, having more of a focus on the climber's speed and ability to ascend the route as efficiently as possible.
-                </p>
-                <p class = "mini-disclaimer">
-                    <!-- icon credit: https://icons8.com/icon/_lUhJoHVhm18/important-event - Important Event icon by Icons8 -->
-                    <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
-                </p>
+                <!-- bouldering equipment needed section heading and explanatory paragraph -->
+                <section class = "info-tiles">
+                    <h4>Equipment needed:</h4>
+                    <p>
+                        Hover over/click the tiles below to find out about the equipment you need to boulder:     
+                    </p>
+
+                    <!-- bouldering equipment needed info-tiles -->
+                    <div>
+                        <h5>Climbing shoes</h5>
+                        <p>
+                            Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk</h5>
+                        <p>
+                            Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk bags</h5>
+                        <p>
+                            [optional] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Boulder Brushes</h5>
+                        <p>
+                            [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Clothes</h5>
+                        <p>
+                            Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
+                        </p>
+                    </div>
+                </section>
+                <hr class = "half-width">
+
+                <!-- how to boulder section heading and explanatory paragraph -->
+                <section>
+                    <h4>How to Boulder:</h4>
+
+                    <!-- ordered list of instructions on how to boulder -->
+                    <ol>
+                        <li>Identify the starting hand holds. These are often indicated either by coloured tape or a little metal tag with an <strong>S</strong> on it and/or the grade of the climb, but this varies from gym to gym. </li>
+                        <li>Identify the starting feet holds. These may be marked similarly to the starting hand holds. If none are marked, then it is up to you where you place your feet to start the climb.</li>
+                        <li>To start the climb, you must not be holding anything other than the marked start holds or have any part of your body on the gym matting, unless the climb requires a sit-start. It's good form to be stable in this position for at least a second or two but this isn't a strict rule in casual climbing.</li>
+                        <li>Make your way up the wall towards the heighest hold that is part of your route  or up onto the top of the wall if it is a Top-Out wall. You may only use; the holds which are part of your route, volumes and any wall surfaces/edges which are allowed as part of your route, which will be specified by the gym. </li>
+                        <li>Finish with both of your hands on the final hold in a controlled/stable position, which is down to your own judgement in casual climbing, or climb onto the top of the wall if it is a Top-Out wall. </li>
+                    </ol>
+                </section>
             </section>
-            <hr class = "half-width">
+        
+            <!-- lead climbing section, styled with pages-section for consistency, id for navigating to with the fixed-links nav -->
+            <section class = "page-section" id = "lead-section">
+        
+                <!-- lead climbing section heading with Icons8 icon consistent with the navs -->
+                <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"> Lead Climbing</h3>
+                <hr>
+
+                <!-- lead climbing discipline overview section heading and explanatory paragraph -->
+                <section>
+                    <h4>Discipline overview:</h4>
+                    <p>
+                        Indoor Lead Climbing is generally only performed by more experienced climbers as it requires special equipment and safety training as well as a high level of physcial endurance and familiarity with rock climbing techniques. There are, however, a couple of more accessible forms of roped rock climbing for newer climbers, namely; Top Rope and Auto-belay. Whilst Lead Climbing routes can still have elements of the physical problem solving found in Bouldering, the routes generally have more of a focus on challenging the climber's physical and mental endurance. 
+                    </p>
+
+                    <!-- note, with Icons8 important note icon, to remind the user to pay attention to gym instructors due to the risks of climbing -->
+                    <p class = "mini-disclaimer">
+                        <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
+                    </p>
+                </section>
+                <hr class = "half-width">
     
-            <section class = "info-tiles">
-                <h4>Equipment needed:</h4>
-                <p>
-                    Hover over/click the tiles below to find out about the equipment you need to speed climb:     
-                </p>
-                <div>
-                    <h5>Climbing shoes</h5>
+                <!-- lead climbing equipment needed section heading and explanatory paragraph -->
+                <section class = "info-tiles">
+                    <h4>Equipment needed:</h4>
                     <p>
-                        Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
+                        Hover over/click the tiles below to find out about the equipment you need to lead climb:     
                     </p>
-                </div>
-                <div>
-                    <h5>Chalk</h5>
-                    <p>
-                        Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
-                    </p>
-                </div>
-                <div>
-                    <h5>Chalk bags</h5>
-                    <p>
-                        [preferably with a belt clip] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
-                    </p>
-                </div>
-                <div>
-                    <h5>Climbing harnesses</h5>
-                    <p>
-                        Can be owned by the climber or rented from a climbing gym. Used to secure the climber to the wall via the route's climbing rope.
-                    </p>
-                </div>
-                <div>
-                    <h5>Boulder Brushes</h5>
-                    <p>
-                        [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
-                    </p>
-                </div>
-                <div>
-                    <h5>Clothes</h5>
-                    <p>
-                        Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
-                    </p>
-                </div>
+
+                    <!-- lead climbing equipment needed info-tiles -->
+                    <div>
+                        <h5>Climbing shoes</h5>
+                        <p>
+                            Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk</h5>
+                        <p>
+                            Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk bags</h5>
+                        <p>
+                            [preferably with a belt clip] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Climbing harnesses</h5>
+                        <p>
+                            Can be owned by the climber or rented from a climbing gym. Used to secure the climber to the wall via climbing rope.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Climbing rope</h5>
+                        <p>
+                            Can be owned by the climber or rented from some climbing gyms for Lead Climbing. Top Rope and Autobelay routes have the rope already setup.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Boulder Brushes</h5>
+                        <p>
+                            [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Clothes</h5>
+                        <p>
+                            Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
+                        </p>
+                    </div>
+                </section>
+                <hr class = "half-width">
+
+                <!-- how to lead climb section heading and explanatory paragraph -->
+                <section>
+                    <h4>How to Lead Climb:</h4>
+
+                    <!-- ordered list of instructions on how to lead climb -->
+                    <ol>
+                        <li>Identify the starting hand holds. These are often indicated either by coloured tape or a little metal tag with an <strong>S</strong> on it and/or the grade of the climb, but this varies from gym to gym.</li>
+                        <li>Identify the starting feet holds. These may be marked similarly to the starting hand holds. If none are marked, then it is up to you where you place your feet to start the climb.</li>
+                        <li>To start the climb, you must not be holding anything other than the marked start holds or have any part of your body on the gym matting, unless the climb requires a sit-start which is rare for roped routes. It's good form to be stable in this position for at least a second or two but this isn't a strict rule in casual climbing.</li>
+                        <li>Make your way up the wall towards the heighest hold that is part of your route, clipping your climbing rope into the quickdraws as you ascend. You may only use; the holds which are part of your route, volumes and any wall surfaces/edges which are allowed as part of your route, which will be specified by the gym. </li>
+                        <li>Finish by clipping your rope through the final quickdraw and placing both of your hands on the final hold in a controlled/stable position, which is down to your own judgement in casual climbing. </li>
+                        <li>Communicate with your belayer to ensure they are ready to lower you down and it is safe for them to do so. When they signal they're ready, place your feet flat against the wall and a slight bend in your knees and hold onto your climbing rope. As you descend, use your feet to gently push yourself away from/walk yourself down the wall to avoid knocking into the holds. </li>
+                    </ol>
+                </section>
             </section>
-            <hr class = "half-width">
-            <section>
-                <h4>How to Speed Climb:</h4>
-                <ol>
-                    <li>Identify the starting hand holds. These are the two lowest X shaped holds on the right-hand side of the wall. </li>
-                    <li>Identify the starting feet positions. One foot must be placed on the timer pressure pad on the floor below the starting hand holds and the other placed on the lowest foothold. </li>
-                    <li>You must wait until signalled to start the climb, as releasing your foot from the pressure pad too soon will result in a false start and immediate disqualification, which is not necessarily applicable for casual climbing. </li>
-                    <li>Make your way up the wall as quickly as possible towards the timer stop pressure pad, using whichever of the holds you wish. </li>
-                    <li>Finish by hitting the timer stop pressure pad, which will leave the timer displaying your climb time. If you are racing another climber, the shortest time wins.</li>
-                    <li>After hitting the pressure pad and letting go of the wall, the autobelay system that you are attached to will slow your descent back down to the ground. </li>
-                </ol>
+        
+            <!-- speed climbing section, styled with pages-section for consistency, id for navigating to with the fixed-links nav -->
+            <section class = "page-section" id = "speed-section">
+        
+                <!-- speed climbing section heading with Icons8 icon consistent with the navs -->
+                <h3><img src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"> Speed Climbing</h3>
+                <hr>
+
+                <!-- speed climbing discipline overview section heading and explanatory paragraph -->
+                <section>
+                    <h4>Discipline overview:</h4>
+                    <p>
+                        Indoor Speed Climbing is probably the least accessible of the three main disciplines, to new climbers, as it requires a very specific combination of physical strength, agility and familiarity with rock climbing techniques. The physical setup of the route is characterised by the sole use of only two shapes of climbing hold; small, round footholds and large, X-shaped hand holds, and the large timer display at the top of the wall, which is started by releasing the pressure pad at the foot of the route and stopped by hitting the pressure pad at the top of the route. Another very distinct difference in Speed Climbing from the other disciplines is that the route is always the same, having more of a focus on the climber's speed and ability to ascend the route as efficiently as possible.
+                    </p>
+
+                    <!-- note, with Icons8 important note icon, to remind the user to pay attention to gym instructors due to the risks of climbing -->
+                    <p class = "mini-disclaimer">
+                        <img src="https://img.icons8.com/material-rounded/20/b81616/important-event.png" alt = "Important note icon"> Safety First: There are risks involved with indoor rock climbing so please pay attention to advice from staff at your climbing gym
+                    </p>
+                </section>
+                <hr class = "half-width">
+        
+                <!-- speed climbing equipment needed section heading and explanatory paragraph -->
+                <section class = "info-tiles">
+                    <h4>Equipment needed:</h4>
+                    <p>
+                        Hover over/click the tiles below to find out about the equipment you need to speed climb:     
+                    </p>
+
+                    <!-- speed climbing equipment needed info-tiles -->
+                    <div>
+                        <h5>Climbing shoes</h5>
+                        <p>
+                            Can be owned by the climber or rented from a climbing gym. Designed to fit tightly around the climber's foot to increase the precision and control of their foot placements.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk</h5>
+                        <p>
+                            Can come in powdered or liquid form. Applied to the climber's hands to increase the friction between them and the climbing holds. 
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chalk bags</h5>
+                        <p>
+                            [preferably with a belt clip] <br> Used to hold powdered chalk and sometimes have additional pockets and/or a clip belt.  
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Climbing harnesses</h5>
+                        <p>
+                            Can be owned by the climber or rented from a climbing gym. Used to secure the climber to the wall via the route's climbing rope.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Boulder Brushes</h5>
+                        <p>
+                            [optional] <br> Can be owned by the climber or found for general use in a climbing gym. Used to brush excess chalk from climbing holds to reduce layers of built up chalk making the holds slippery.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Clothes</h5>
+                        <p>
+                            Can be any comfortable, gym style clothing. Long sleeves and trousers may be prefferable to prevent accidental scrapes while climbing. 
+                        </p>
+                    </div>
+                </section>
+                <hr class = "half-width">
+
+                <!-- how to speed climb section heading and explanatory paragraph -->
+                <section>
+                    <h4>How to Speed Climb:</h4>
+                    <ol>
+                        <!-- ordered list of instructions on how to speed climb -->
+                        <li>Identify the starting hand holds. These are the two lowest X shaped holds on the right-hand side of the wall. </li>
+                        <li>Identify the starting feet positions. One foot must be placed on the timer pressure pad on the floor below the starting hand holds and the other placed on the lowest foothold. </li>
+                        <li>You must wait until signalled to start the climb, as releasing your foot from the pressure pad too soon will result in a false start and immediate disqualification, which is not necessarily applicable for casual climbing. </li>
+                        <li>Make your way up the wall as quickly as possible towards the timer stop pressure pad, using whichever of the holds you wish. </li>
+                        <li>Finish by hitting the timer stop pressure pad, which will leave the timer displaying your climb time. If you are racing another climber, the shortest time wins.</li>
+                        <li>After hitting the pressure pad and letting go of the wall, the autobelay system that you are attached to will slow your descent back down to the ground. </li>
+                    </ol>
+                </section>
             </section>
-        </section>
-    </main>
-
-
-    <!-- Viewport fixed nav links -->
-    <ul class = "fixed-links">
-        <li>
-            <!-- icon credit: https://icons8.com/icon/9800/drawstring-bag - Drawstring Bag icon by Icons8 -->
-            <a href = "#bouldering-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"></a>
-        </li>
-        <li>
-            <!-- icon credit: href="https://icons8.com/icon/9809/harness - Harness icon by Icons8 -->
-            <a href = "#lead-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"></a>
-        </li>
-        <li>
-            <a href = "#speed-section"> <img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"></a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "#three-main-top">Top</a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "./index.html">Home</a>
-        </li>
-    </ul>
-
-    <footer class = "footer">
-        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
-        <!-- Contact/Newsletter and Site Credits buttons -->
-
-        <!-- add about the author aside -->
-
-        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
-        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
-
-        <div>
-            <ul class = "footer-left">
-                <li>
-                    <a href = "./form.html" class = "footer-links">Chat with us!</a>
-                </li>
-                <li> 
-                    <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <ul class = "footer-right">
-                <li class = "social-media">
-                    <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
-                </li>
-            </ul>
-        </div>
+        </main>
     
-    </footer>
-</body>
+        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
+        <ul class = "fixed-links">
+            <li>
+                <!-- link to bouldering section with Icons8 icon consistent with the navs/headings -->
+                <a href = "#bouldering-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"></a>
+            </li>
+            <li>
+                <!-- link to lead climbing section with Icons8 icon consistent with the navs/headings -->
+                <a href = "#lead-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"></a>
+            </li>
+            <li>
+                <!-- link to speed climbing section with Icons8 icon consistent with the navs/headings -->
+                <a href = "#speed-section"> <img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"></a>
+            </li>
+            <li>
+                <!-- link back to the top of the page -->
+                <a class = "fixed-links-words" href = "#three-main-top">Top</a>
+            </li>
+            <li>
+                <!-- link back to the homepage -->
+                <a class = "fixed-links-words" href = "./index.html">Home</a>
+            </li>
+        </ul>
+    
+        <!-- page footer with links to contact and credits pages and social media links -->
+        <footer class = "footer">
+
+            <!-- contact and credits list of links, on the left side of the footer -->
+            <div>
+                <ul class = "footer-left">
+                    <li>
+                        <!-- link to the chat with us form -->
+                        <a href = "./form.html" class = "footer-links">Chat with us!</a>
+                    </li>
+                    <li> 
+                        <!-- link to the site credits page -->
+                        <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social media list of links, on the right side of the footer -->
+            <div>
+                <ul class = "footer-right">
+
+                    <li class = "social-media">
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
+                    </li>
+                    
+                    <li class = "social-media">
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
