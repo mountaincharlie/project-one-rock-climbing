@@ -1,261 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-    <meta name = "author" content = "Charlie Harland"> 
+    <head>
+        <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+        <meta name = "author" content = "Charlie Harland"> 
+    
+        <title>Indoor Rock Climbing</title>
+        <link href = "./assets/css/style.css" rel = "stylesheet">
+    </head>
 
-    <title>Indoor Rock Climbing</title>
-    <link href = "./assets/css/style.css" rel = "stylesheet">
+    <!-- as-seen page body -->
+    <body id = "as-seen-top" class = "header-space">
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered-->
 
-</head>
+        <!-- page header styled the same on the other pages for consistency -->
+        <header class = "pages-header">
+            <a href = "./index.html">
+                <h1>Indoor Rock Climbing</h1>
+            </a>
+    
+            <!-- page header nav between the 3 informational pages from within any of the pages, which reduces the user's need to return to homepage main nav everytime -->
+            <nav class = "pages-nav">
 
-<!-- id for linking to the page top and class for creating space for fixed header -->
-<body id = "as-seen-top" class = "header-space">
-    <header class = "pages-header">
-        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
+                <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
+                <ul>
+                    <li>
+                        <!-- link to background page -->
+                        <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to three-main page -->
+                        <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to as-seen page (current - icons8 icon img is coloured in the #f1fbff shade of white) -->
+                        <a href = "./as-seen-at-tokyo-2020.html"><img class = "current-page" src="https://img.icons8.com/metro/30/f1fbff/olympic-rings.png" alt = "Olympic rings icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- as-seen page heading section -->
+        <section class = "main-headings">
+            <!-- as-seen page heading with Icons8 icon consistent with the navs -->
+            <h2><img src="https://img.icons8.com/metro/30/f1fbff/olympic-rings.png" alt = "Olympic rings icon"> As Seen At Tokyo 2020</h2>
+        </section>
+    
+        <!-- main page content -->
+        <main class = "page-min-height"> 
+            <!-- class = "page-min-height" to ensure there is no vertical white space in the viewport of larger screens, used on the main element as its the main/largest feature of the page -->
+    
+            <!-- first olympic appearance section, styled with pages-section for consistency -->
+            <section class = "page-section">
 
-        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
-        <nav class = "pages-nav">
-            <ul>
-                <li>
-                    <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
-                </li>
-                <li>
-                    <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
-                </li>
-                <li>
-                    <a href = "./as-seen-at-tokyo-2020.html"><img class = "current-page" src="https://img.icons8.com/metro/30/f1fbff/olympic-rings.png" alt = "Olympic rings icon"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class = "main-headings">
-        <h2><img src="https://img.icons8.com/metro/30/f1fbff/olympic-rings.png" alt = "Olympic rings icon"> As Seen At Tokyo 2020</h2>
-    </section>
-
-    <!-- main page content -->
-    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
-
-        <section class = "page-section">
-            <h3>First Olympic Appearance</h3>
-            <hr>
-
-            <!-- Video credit: embedded link from Olympics YouTube to allow for views to contribute to YouTube views -->
-            <!-- Class for styling. Source link to the video. Title attribute for accessability. Included the allow attribute values; accelerometer and gyroscope for user to rotate mobile/tablet screen, picture-in-picture for users to continue to use other apps and move the video player around on their home screen. allowfullscreen attribute to allow full screen viewing -->
-            <iframe class = "videos" src = "https://www.youtube.com/embed/QUqRIUKBFTk" title = "Youtube video player showing How will the Olympics change sport climbing? video" allow = "accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>First Olympic Appearance</h3>
+                <hr>
+    
+                <!-- video credit: embedded link from Olympics YouTube to allow for views to contribute to YouTube views -->
+                <!-- iframe element with attribute; class for styling, source link to the video, title attribute for accessability and including the allow attribute values; accelerometer and gyroscope for user to rotate mobile/tablet screen, picture-in-picture for users to continue to use other apps and move the video player around on their home screen and the allowfullscreen attribute to allow full screen viewing -->
+                <iframe class = "videos" src = "https://www.youtube.com/embed/QUqRIUKBFTk" title = "Youtube video player showing How will the Olympics change sport climbing? video" allow = "accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <!-- blockquote for the Olympic motto (english translation) with cite attribute for the motto credit -->
+                <blockquote cite = "https://olympics.com/ioc/faq/olympic-symbol-and-identity/what-is-the-olympic-motto">Olympic motto (english translation): "Faster, Higher, Stronger - Together"</blockquote>
+    
+                <!-- paragraph about climbing's first olympic apperance -->
+                <p>
+                    In the summer of 2021, rock climbing finally made it's first ever appearance at the Tokyo 2020 Olympic Games in Japan's Aomi Urban Sports Park, giving the athletes and the climbing community the opportunity to share their sport with the world. The event fell under the title Sport Climbing and included the three main disciplines; Bouldering, Lead Climbing and Speed Climbing.
+                </p>
+            </section>
         
-            <blockquote cite = "https://olympics.com/ioc/faq/olympic-symbol-and-identity/what-is-the-olympic-motto">Olympic motto (english translation): "Faster, Higher, Stronger - Together"</blockquote>
+            <!-- sport climbing rules and scoring section, styled with pages-section for consistency -->
+            <section class = "page-section">
 
-            <p>
-                In the summer of 2021, rock climbing finally made it's first ever appearance at the Tokyo 2020 Olympic Games in Japan's Aomi Urban Sports Park, giving the athletes and the climbing community the opportunity to share their sport with the world. The event fell under the title Sport Climbing and included the three main disciplines; Bouldering, Lead Climbing and Speed Climbing.
-            </p>
-            <!-- include relevant images -->
-        </section>
+                <h3>Sport Climbing Rules and scoring</h3>
+                <hr>
+
+                <!-- rules section heading and explanatory paragraph -->
+                <section>
+                    <h4>Rules:</h4>
+                    <p>
+                        Sport climbing follows the same basic rules as casual climbing in each of the three disciplines, but also including specific competition rules for the athletes and routes. 
+                    </p>
+
+                    <!-- bouldering comp specific stats -->
+                    <section>
+                        <h5> Bouldering </h5>
+                        <ul>
+                            <li>Wall height: 4.5 meters</li>
+                            <li>Time limit: 4 minutes</li>
+                            <li>Attempt limit: none</li>
+                            <li>Inspection time: 2 minutes per boulder problem</li>
+                            <li>Isolation: yes</li>
+                        </ul>
+                    </section>
+
+                    <!-- lead climbing comp specific stats -->
+                    <section>
+                        <h5>Lead Climbing</h5>
+                        <ul>
+                            <li>Wall height: 15 meters</li>
+                            <li>Time limit: 6 minutes</li>
+                            <li>Attempt limit: 1</li>
+                            <li>Inspection time: 6 minutes</li>
+                            <li>Isolation: yes</li>
+                        </ul>
+                    </section>
+
+                    <!-- speed climbing comp specific stats -->
+                    <section>
+                        <h5>Speed Climbing</h5>
+                        <ul>
+                            <li>Wall height: 15 meters</li>
+                            <li>Time limit: none</li>
+                            <li>Attempt limit: none</li>
+                            <li>Inspection time: none</li>
+                            <li>Isolation: yes</li>
+                        </ul>
+                    </section>
     
-        <section class = "page-section">
-            <h3>Sport Climbing Rules and scoring</h3>
-            <hr>
-            <section>
-                <h4>Rules:</h4>
-                <p>
-                    Sport climbing follows the same basic rules as casual climbing in each of the three disciplines, but also including specific competition rules for the athletes and routes. 
-                </p>
-                <section>
-                    <h5> Bouldering </h5>
-                    <ul>
-                        <li>Wall height: 4.5 meters</li>
-                        <li>Time limit: 4 minutes</li>
-                        <li>Attempt limit: none</li>
-                        <li>Inspection time: 2 minutes per boulder problem</li>
-                        <li>Isolation: yes</li>
-                    </ul>
                 </section>
+
+                <!-- horizontal rule with half-width styles to visually separate sub-sections within the main sections -->
+                <hr class = "half-width">
+
+                <!-- scoring section heading -->
                 <section>
-                    <h5>Lead Climbing</h5>
-                    <ul>
-                        <li>Wall height: 15 meters</li>
-                        <li>Time limit: 6 minutes</li>
-                        <li>Attempt limit: 1</li>
-                        <li>Inspection time: 6 minutes</li>
-                        <li>Isolation: yes</li>
-                    </ul>
-                </section>
-                <section>
+                    <h4>Scoring:</h4>
+
+                    <!-- overall score section heading and explanatory paragraph -->
+                    <h5>Overall score</h5>
+                    <p>
+                        All the athletes compete in each of the three disciplines; Speed Climbing followed by Bouldering followed by Lead Climbing. At the end of each stage of the competition, their overall score is calculated by multiplying the ranks they achieve in each discipline and the athletes with the lowest overall scores rank the highest overall. 
+                        <br>
+                        <strong>Overall Score = Speed Climbing Rank * Bouldering Rank * Lead Climbing Rank. </strong>
+                    </p>
+
+                    <!-- speed climbing scoring section heading and explanatory paragraph -->
                     <h5>Speed Climbing</h5>
-                    <ul>
-                        <li>Wall height: 15 meters</li>
-                        <li>Time limit: none</li>
-                        <li>Attempt limit: none</li>
-                        <li>Inspection time: none</li>
-                        <li>Isolation: yes</li>
-                    </ul>
+                    <p>
+                        This first event consists of a single route, which always has the same layout. The athletes are put in a one on one race to reach the top of the wall and stop the timer in the shortest time. A false start results in an instant disqualification and those who win their race, race against the other winners in knock out round style until each climber is ranked 1st to last based on their number of wins.
+                    </p>
+
+                    <!-- bouldering scoring section heading and explanatory paragraph -->
+                    <h5>Bouldering</h5>
+                    <p>
+                        This second event consists of three different boulder problems, with all the athletes attempting the first problem, one at a time, before moving onto the second and finally the third. At the end of the three problems, the athletes are ranked 1st to last place based on the number of Zones and Tops they have achieved. Where two athletes tie, their number of attempts to reach the Zones and Tops are examined to determine who takes the higher place. 
+                    </p>
+
+                    <!-- lead climbing scoring section heading and explanatory paragraph -->
+                    <h5>Lead Climbing</h5>
+                    <p>
+                        This final event consists of a single route with it's holds numbered from 1 upwards to the Top hold. The athletes have one attempt to reach the Top hold or the highest hold they can, whilst clipping their rope into each quick-draw along the route and are ranked 1st to last place based on the number of the hold they reach. To be awarded with the hold, the climber must be in a controlled position while holding it and if the climber makes an reasonable but unsuccessful attempt towards the next hold, they are given a + after their number. This means that for two athletes who reach the same hold, if one of them had the + they would rank higher and if there is still a tie, then the climber who reached the hold in the shortest time wuld rank higher.
+                    </p>
                 </section>
+            </section>
 
+            <!-- sport climbing event structure section, styled with pages-section for consistency -->
+            <section class = "page-section">
+
+                <h3>Sport Climbing event structure</h3>
+                <hr>
+
+                <!-- qualifying for the olympics section heading and explanatory paragraph -->
+                <section>
+                    <h4>Qualifying for the Olympics:</h4>
+                    <p>
+                        The climbing world championships, held by the International Federation of Sport Climbing (<a href = "https://www.ifsc-climbing.org/" target = "_blank" rel = "noopener noreffer">IFSC</a>) in Japan, Hachioji in 2019, acted as the qualifying round for athletes to represent their country in the Tokyo 2020 Olympics. Over 250 climbers were narrowed down to just 40 athletes, with a maximum of 4 athletes per country being allowed to qualify, 2 for the mens catagory and 2 for the womens catagory.
+                    </p>
+                </section>
+                <hr class = "half-width">
+
+                <!-- qualifying for the olympic finals section heading and explanatory paragraph -->
+                <section>
+                    <h4>Qualifying for the Olympic finals:</h4>
+                    <p>
+                        The first stage of Sport Climbing in the Olympics was held in Japan's Aomi Urban Sports Park in Tokyo. It had a total of 40 athletes, split evenly across the mens and womens catagories, with only the top scoring 8 athletes, per catagory, making it into the finals.
+                    </p>
+                </section>
+                <hr class = "half-width">
+
+                <!-- the olympic finals section heading and explanatory paragraph -->
+                <section>
+                    <h4>The Olympic finals:</h4>
+                    <p>
+                        The second, and final, stage of Sport Climbing in the Olympics was held in Japan's Aomi Urban Sports Park in Tokyo. It had a total of 16 athletes, split evenly across the mens and womens catagories, with 1st, 2nd and 3rd places being awarded in each catagory.
+                    </p>
+                </section>
             </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Scoring:</h4>
-                <h5>Overall score</h5>
-                <p>
-                    All the athletes compete in each of the three disciplines; Speed Climbing followed by Bouldering followed by Lead Climbing. At the end of each stage of the competition, their overall score is calculated by multiplying the ranks they achieve in each discipline and the athletes with the lowest overall scores rank the highest overall. 
-                    <br>
-                    <strong>Overall Score = Speed Climbing Rank * Bouldering Rank * Lead Climbing Rank. </strong>
-                </p>
-                <h5>Speed Climbing</h5>
-                <p>
-                    This first event consists of a single route, which always has the same layout. The athletes are put in a one on one race to reach the top of the wall and stop the timer in the shortest time. A false start results in an instant disqualification and those who win their race, race against the other winners in knock out round style until each climber is ranked 1st to last based on their number of wins.
-                </p>
-                <h5>Bouldering</h5>
-                <p>
-                    This second event consists of three different boulder problems, with all the athletes attempting the first problem, one at a time, before moving onto the second and finally the third. At the end of the three problems, the athletes are ranked 1st to last place based on the number of Zones and Tops they have achieved. Where two athletes tie, their number of attempts to reach the Zones and Tops are examined to determine who takes the higher place. 
-                </p>
-                <h5>Lead Climbing</h5>
-                <p>
-                    This final event consists of a single route with it's holds numbered from 1 upwards to the Top hold. The athletes have one attempt to reach the Top hold or the highest hold they can, whilst clipping their rope into each quick-draw along the route and are ranked 1st to last place based on the number of the hold they reach. To be awarded with the hold, the climber must be in a controlled position while holding it and if the climber makes an reasonable but unsuccessful attempt towards the next hold, they are given a + after their number. This means that for two athletes who reach the same hold, if one of them had the + they would rank higher and if there is still a tie, then the climber who reached the hold in the shortest time wuld rank higher.
-                </p>
+        
+            <!-- sport climbing medalists section, styled with pages-section for consistency and medalists class to style the medalists' imgs/hover effects -->
+            <section class = "page-section medalists">
+
+                <h3>Sport Climbing Medalists</h3>
+                <hr>
+
+                <!-- women's catagory section heading -->
+                <section >
+                    <h4>Womens catagory:</h4>
+
+                    <!-- each medalists' section has an id for ordering with CSS so that on smaller screens they order gold, silver, bronze rather than in horizonal podium order -->
+
+                    <!-- div container used to style the individual medalists' sections to display in a row in horizonal podium order -->
+                    <div class = "flex-row">
+
+                        <!-- Miho Nonaka section heading and name paragraph -->
+                        <section id = "miho">
+                            <h5>SILVER</h5>
+                            <p>Miho Nonaka [JPN]</p>
+
+                            <!-- figure with image and credit link in figcaption -->
+                            <figure>
+                                <!-- silver class for border styling -->
+                                <img class = "silver" src = "./assets/images/square-miho-by-dimitris-tosidis.jpg" alt = "Picture of Miho Nonaka bouldering">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/ifsclimbing/51357817919" target = "_blank" rel = "noopener noreffer">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                        <!-- Janja Garnbret section heading and name paragraph -->
+                        <section id = "janja">
+                            <h5>GOLD</h5>
+                            <p>Janja Garnbret [SLO]</p>
+
+                            <!-- gold class for border styling -->
+                            <figure>
+                                <img class = "gold" src = "./assets/images/square-janja-by-dimitris-tosidis.jpg" alt = "Picture of Janja Garnbret lead climbing">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/" target = "_blank" rel = "noopener noreffer">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                        <!-- Akiyo Noguchi section heading and name paragraph -->
+                        <section id = "akiyo">
+                            <h5>BRONZE</h5>
+                            <p>Akiyo Noguchi [JPN]</p>
+
+                            <!-- bronze class for border styling -->
+                            <figure>
+                                <img class = "bronze" src = "./assets/images/square-akiyo-by-leo-zhukov.jpg" alt = "Picture of Akiyo Noguchi lead climbing">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/ifsclimbing/51357381063/" target = "_blank" rel = "noopener noreffer">Akiyo Noguchi at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                    </div>
+                </section>
+                <hr class = "half-width">
+
+                <!-- men's catagory section heading -->
+                <section>
+                    <h4>Mens catagory:</h4>
+
+                    <!-- each medalists' section has an id for ordering with CSS so that on smaller screens they order gold, silver, bronze rather than in horizonal podium order -->
+
+                    <!-- div container used to style the individual medalists' sections to display in a row in horizonal podium order -->
+                    <div class = "flex-row">
+
+                        <!-- Nathaniel Coleman section heading and name paragraph -->
+                        <section id = "nathaniel">
+                            <h5>SILVER</h5>
+                            <p>Nathaniel Coleman [USA]</p>
+
+                            <!-- silver class for border styling -->
+                            <figure>
+                                <img class = "silver" src = "./assets/images/square-nathaniel-by-dimitris-tosidis.jpg" alt = "Picture of Nathaniel Coleman celebrating after completing a boulder">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/123572206@N08/51359121591" target = "_blank" rel = "noopener noreffer">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                        <!-- Alberto Ginés López section heading and name paragraph -->
+                        <section id = "alberto">
+                            <h5>GOLD</h5>
+                            <p>Alberto Ginés López [ESP]</p>
+
+                            <!-- gold class for border styling -->
+                            <figure>
+                                <img class = "gold" src = "./assets/images/square-alberto-by-dimitris-tosidis.jpg" alt = "Picture of Alberto Ginés López bouldering">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/" target = "_blank" rel = "noopener noreffer">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                        <!-- Jakob Schubert section heading and name paragraph -->
+                        <section id = "jakob">
+                            <h5>BRONZE</h5>
+                            <p>Jakob Schubert [AUT]</p>
+
+                            <!-- bronze class for border styling -->
+                            <figure>
+                                <img class = "bronze" src = "./assets/images/square-jakob-by-leo-zhukov.jpg" alt = "Picture of Jakob Schubert at the top of the men's lead climbing route">
+                                <figcaption>
+                                    <a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/" target = "_blank" rel = "noopener noreffer">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+                                </figcaption>
+                            </figure>
+                        </section>
+
+                    </div>
+                </section>
             </section>
-            <h3>Sport Climbing event structure</h3>
-            <hr>
-            <section>
-                <h4>Qualifying for the Olympics:</h4>
-                <p>
-                    The climbing world championships, held by the International Federation of Sport Climbing (<a href = "https://www.ifsc-climbing.org/" target = "_blank" rel = "noopener noreffer">IFSC</a>) in Japan, Hachioji in 2019, acted as the qualifying round for athletes to represent their country in the Tokyo 2020 Olympics. Over 250 climbers were narrowed down to just 40 athletes, with a maximum of 4 athletes per country being allowed to qualify, 2 for the mens catagory and 2 for the womens catagory.
-                </p>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Qualifying for the Olympic finals:</h4>
-                <p>
-                    The first stage of Sport Climbing in the Olympics was held in Japan's Aomi Urban Sports Park in Tokyo. It had a total of 40 athletes, split evenly across the mens and womens catagories, with only the top scoring 8 athletes, per catagory, making it into the finals.
-                </p>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>The Olympic finals:</h4>
-                <p>
-                    The second, and final, stage of Sport Climbing in the Olympics was held in Japan's Aomi Urban Sports Park in Tokyo. It had a total of 16 athletes, split evenly across the mens and womens catagories, with 1st, 2nd and 3rd places being awarded in each catagory.
-                </p>
-            </section>
-            <!-- include relevant images -->
-        </section>
+        </main>
     
-        <section class = "page-section medalists">
-            <h3>Sport Climbing Medalists</h3>
-            <hr>
-            <section >
-                <h4>Womens catagory:</h4>
-                <div class = "flex-row">
-                    <section id = "miho">
-                        <h5>SILVER</h5>
-                        <p>Miho Nonaka [JPN]</p>
-                        <figure>
-                            <img class = "silver" src = "./assets/images/square-miho-by-dimitris-tosidis.jpg" alt = "Picture of Miho Nonaka bouldering">
-                            <figcaption><a href = "https://www.flickr.com/photos/ifsclimbing/51357817919" target = "_blank" rel = "noopener noreffer">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                    <section id = "janja">
-                        <h5>GOLD</h5>
-                        <p>Janja Garnbret [SLO]</p>
-                        <figure>
-                            <img class = "gold" src = "./assets/images/square-janja-by-dimitris-tosidis.jpg" alt = "Picture of Janja Garnbret lead climbing">
-                            <figcaption><a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/" target = "_blank" rel = "noopener noreffer">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                    <section id = "akiyo">
-                        <h5>BRONZE</h5>
-                        <p>Akiyo Noguchi [JPN]</p>
-                        <figure>
-                            <img class = "bronze" src = "./assets/images/square-akiyo-by-leo-zhukov.jpg" alt = "Picture of Akiyo Noguchi lead climbing">
-                            <figcaption><a href = "https://www.flickr.com/photos/ifsclimbing/51357381063/" target = "_blank" rel = "noopener noreffer">Akiyo Noguchi at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                </div>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Mens catagory:</h4>
-                <div class = "flex-row">
-                    <section id = "nathaniel">
-                        <h5>SILVER</h5>
-                        <p>Nathaniel Coleman [USA]</p>
-                        <figure>
-                            <img class = "silver" src = "./assets/images/square-nathaniel-by-dimitris-tosidis.jpg" alt = "Picture of Nathaniel Coleman celebrating after completing a boulder">
-                            <figcaption><a href = "https://www.flickr.com/photos/123572206@N08/51359121591" target = "_blank" rel = "noopener noreffer">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                    <section id = "alberto">
-                        <h5>GOLD</h5>
-                        <p>Alberto Ginés López [ESP]</p>
-                        <figure>
-                            <img class = "gold" src = "./assets/images/square-alberto-by-dimitris-tosidis.jpg" alt = "Picture of Alberto Ginés López bouldering">
-                            <figcaption><a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/" target = "_blank" rel = "noopener noreffer">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                    <section id = "jakob">
-                        <h5>BRONZE</h5>
-                        <p>Jakob Schubert [AUT]</p>
-                        <figure>
-                            <img class = "bronze" src = "./assets/images/square-jakob-by-leo-zhukov.jpg" alt = "Picture of Jakob Schubert at the top of the men's lead climbing route">
-                            <figcaption><a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/" target = "_blank" rel = "noopener noreffer">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a></figcaption>
-                        </figure>
-                    </section>
-                </div>
-            </section>
-            <!-- include relevant images -->
-        </section>
-    </main>
-
-    <!-- Viewport fixed nav links -->
-    <ul class = "fixed-links">
-        <li>
-            <a class = "fixed-links-words" href = "#as-seen-top">Top</a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "./index.html">Home</a>
-        </li>
-    </ul>
-
-    <footer class = "footer">
-        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
-        <!-- Contact/Newsletter and Site Credits buttons -->
-
-        <!-- add about the author aside -->
-
-        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
-        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
-
-        <div>
-            <ul class = "footer-left">
-                <li>
-                    <a href = "./form.html" class = "footer-links">Chat with us!</a>
-                </li>
-                <li> 
-                    <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <ul class = "footer-right">
-                <li class = "social-media">
-                    <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
-                </li>
-            </ul>
-        </div>
+        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
+        <ul class = "fixed-links">
+            <li>
+                <!-- link back to the top of the page -->
+                <a class = "fixed-links-words" href = "#as-seen-top">Top</a>
+            </li>
+            <li>
+                <!-- link back to the homepage -->
+                <a class = "fixed-links-words" href = "./index.html">Home</a>
+            </li>
+        </ul>
     
-    </footer>
-</body>
+        <!-- page footer with links to contact and credits pages and social media links -->
+        <footer class = "footer">
+
+            <!-- contact and credits list of links, on the left side of the footer -->
+            <div>
+                <ul class = "footer-left">
+                    <li>
+                        <!-- link to the chat with us form -->
+                        <a href = "./form.html" class = "footer-links">Chat with us!</a>
+                    </li>
+                    <li> 
+                        <!-- link to the site credits page -->
+                        <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social media list of links, on the right side of the footer -->
+            <div>
+                <ul class = "footer-right">
+
+                    <li class = "social-media">
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
