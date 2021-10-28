@@ -142,44 +142,28 @@
     
         <!-- page footer with links to contact and credits pages and social media links -->
         <footer class = "footer">
-
-            <!-- contact and credits list of links, on the left side of the footer -->
-            <div>
+            <!-- contact and credits list of links, on the left side of the footer with navigation role attribute and aria-label for screen reader accessability -->
+            <div role = "navigation" aria-label = "Footer links to contact form or site credits">
                 <ul class = "footer-left">
                     <li>
-                        <!-- link to the chat with us form -->
-                        <a href = "./form.html" class = "footer-links current-footer-link">Chat with us!</a>
+                        <a href = "./form.html" class = "footer-links current-footer-link" aria-label = "Contact form for getting in touch or receiving our newsletter (opens in the same tab)">Chat with us!</a>
                     </li>
                     <li> 
-                        <!-- link to the site credits page -->
-                        <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
+                        <a href = "./site-credits.html" class = "footer-links" aria-label = "Page of resource credits for this website (opens in the same tab)">Site Credits</a>
                     </li>
                 </ul>
             </div>
-
             <!-- social media list of links, on the right side of the footer -->
-            <div>
+            <div role = "navigation" aria-label = "Footer links to social media pages">
                 <ul class = "footer-right">
-
                     <li class = "social-media">
-                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
-                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
-                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
-                        </a>
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
                     </li>
-
                     <li class = "social-media">
-                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
-                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
-                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
-                        </a>
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
                     </li>
-
                     <li class = "social-media">
-                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
-                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
-                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
-                        </a>
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
                     </li>
                 </ul>
             </div>
