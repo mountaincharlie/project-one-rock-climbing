@@ -1,100 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-    <meta name = "author" content = "Charlie Harland"> 
-
-    <title>Indoor Rock Climbing</title>
-    <link href = "./assets/css/style.css" rel = "stylesheet">
-
-</head>
-
-<!-- id for linking to the page top and class for creating space for fixed header -->
-<body id = "thank-you-top" class = "header-space">
-    <header class = "pages-header">
-        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
-
-        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
-        <nav class = "pages-nav">
-            <ul>
-                <li>
-                    <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
-                </li>
-                <li>
-                    <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
-                </li>
-                <li>
-                    <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class = "main-headings">
-        <h2>Thank you!</h2>
-    </section>
-
-
-    <!-- main page content -->
-    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
-        
-        <section class = "page-section">
-            <hr>
-            <h3>We really appreciate you getting in touch and will get back to you as soon as we can! </h3>
-            <h3>In the meantime we hope you continue to enjoy exploring indoor rock climbing! </h3>
-        </section>
-    </main>
-
-    <!-- Viewport fixed nav links -->
-    <ul class = "fixed-links">
-        <li>
-            <a class = "fixed-links-words" href = "#thank-you-top">Top</a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "./index.html">Home</a>
-        </li>
-    </ul>
-
-    <footer class = "footer">
-        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
-        <!-- Contact/Newsletter and Site Credits buttons -->
-
-        <!-- add about the author aside -->
-
-        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
-        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
-
-        <div>
-            <ul class = "footer-left">
-                <li>
-                    <a href = "./form.html" class = "footer-links">Chat with us!</a>
-                </li>
-                <li> 
-                    <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <ul class = "footer-right">
-                <li class = "social-media">
-                    <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
-                </li>
-            </ul>
-        </div>
+    <head>
+        <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+        <meta name = "author" content = "Charlie Harland"> 
     
-    </footer>
-</body>
+        <title>Indoor Rock Climbing</title>
+        <link href = "./assets/css/style.css" rel = "stylesheet">
+    </head>
+    
+    <!-- tahnk you page body -->
+    <body id = "thank-you-top" class = "header-space">
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered -->
+
+        <!-- page header styled the same on the other pages for consistency -->
+        <header class = "pages-header">
+
+            <!-- clickable heading to take the user to the homepage -->
+            <a href = "./index.html">
+                <h1>Indoor Rock Climbing</h1>
+            </a>
+    
+            <!-- page header nav between the 3 informational pages from within any of the pages, which reduces the user's need to return to homepage main nav everytime -->
+            <nav class = "pages-nav">
+
+                <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
+                <ul>
+                    <li>
+                        <!-- link to background page -->
+                        <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to three-main page -->
+                        <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to as-seen page -->
+                        <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- thank you page heading section styled the same on the other pages for consistency -->
+        <section class = "main-headings">
+            <h2>Thank you!</h2>
+        </section>
+    
+    
+        <!-- main page content -->
+        <main class = "page-min-height"> 
+            <!-- class = "page-min-height" to ensure there is no vertical white space in the viewport of larger screens, used on the main element as its the main/largest feature of the page -->
+            
+            <!-- content section, styled with pages-section for consistency -->
+            <section class = "page-section">
+                <hr>
+                <!-- headings with thank you message text -->
+                <h3>We really appreciate you getting in touch and will get back to you as soon as we can!</h3>
+                <h4>In the meantime we hope you continue to enjoy exploring indoor rock climbing!</h4>
+            </section>
+        </main>
+    
+        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
+        <ul class = "fixed-links">
+            <li>
+                <!-- link back to the top of the page -->
+                <a class = "fixed-links-words" href = "#thank-you-top">Top</a>
+            </li>
+            <li>
+                <!-- link back to the homepage -->
+                <a class = "fixed-links-words" href = "./index.html">Home</a>
+            </li>
+        </ul>
+    
+        <!-- page footer with links to contact and credits pages and social media links -->
+        <footer class = "footer">
+
+            <!-- contact and credits list of links, on the left side of the footer -->
+            <div>
+                <ul class = "footer-left">
+                    <li>
+                        <!-- link to the chat with us form -->
+                        <a href = "./form.html" class = "footer-links">Chat with us!</a>
+                    </li>
+                    <li> 
+                        <!-- link to the site credits page -->
+                        <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social media list of links, on the right side of the footer -->
+            <div>
+                <ul class = "footer-right">
+
+                    <li class = "social-media">
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
