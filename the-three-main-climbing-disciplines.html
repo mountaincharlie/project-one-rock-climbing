@@ -314,29 +314,31 @@
             </section>
         </main>
     
-        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
-        <ul class = "fixed-links">
-            <li>
-                <!-- link to bouldering section with Icons8 icon consistent with the navs/headings -->
-                <a href = "#bouldering-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"></a>
-            </li>
-            <li>
-                <!-- link to lead climbing section with Icons8 icon consistent with the navs/headings -->
-                <a href = "#lead-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"></a>
-            </li>
-            <li>
-                <!-- link to speed climbing section with Icons8 icon consistent with the navs/headings -->
-                <a href = "#speed-section"> <img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"></a>
-            </li>
-            <li>
-                <!-- link back to the top of the page -->
-                <a class = "fixed-links-words" href = "#three-main-top">Top</a>
-            </li>
-            <li>
-                <!-- link back to the homepage -->
-                <a class = "fixed-links-words" href = "./index.html">Home</a>
-            </li>
-        </ul>
+        <!-- list of page nav links fixed to the lower right hand side of the viewport with navigation role attribute and aria-label for screen reader accessability -->
+        <div role = "navigation" aria-label = "Links to bouldering, lead climbing or speed climbing sections or page top or homepage">
+            <ul class = "fixed-links">
+                <li>
+                    <!-- link to bouldering section with Icons8 icon consistent with the navs/headings -->
+                    <a href = "#bouldering-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/chalk-bag.png" alt = "Chalk bag icon"></a>
+                </li>
+                <li>
+                    <!-- link to lead climbing section with Icons8 icon consistent with the navs/headings -->
+                    <a href = "#lead-section"><img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/harness.png" alt = "Climbing harness icon"></a>
+                </li>
+                <li>
+                    <!-- link to speed climbing section with Icons8 icon consistent with the navs/headings -->
+                    <a href = "#speed-section"> <img class = "fixed-links-icon" src="https://img.icons8.com/ios-filled/20/2f4858/time.png" alt = "Stop watch icon"></a>
+                </li>
+                <li>
+                    <!-- link back to the top of the page -->
+                    <a class = "fixed-links-words" href = "#three-main-top">Top</a>
+                </li>
+                <li>
+                    <!-- link back to the homepage -->
+                    <a class = "fixed-links-words" href = "./index.html">Home</a>
+                </li>
+            </ul>
+        </div>
     
         <!-- page footer with links to contact and credits pages and social media links -->
         <footer class = "footer">

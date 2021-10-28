@@ -317,17 +317,19 @@
             </section>
         </main>
     
-        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
-        <ul class = "fixed-links">
-            <li>
-                <!-- link back to the top of the page -->
-                <a class = "fixed-links-words" href = "#as-seen-top">Top</a>
-            </li>
-            <li>
-                <!-- link back to the homepage -->
-                <a class = "fixed-links-words" href = "./index.html">Home</a>
-            </li>
-        </ul>
+        <!-- list of page nav links fixed to the lower right hand side of the viewport with navigation role attribute and aria-label for screen reader accessability -->
+        <div role = "navigation" aria-label = "Links to page top or homepage"> 
+            <ul class = "fixed-links">
+                <li>
+                    <!-- link back to the top of the page -->
+                    <a class = "fixed-links-words" href = "#as-seen-top">Top</a>
+                </li>
+                <li>
+                    <!-- link back to the homepage -->
+                    <a class = "fixed-links-words" href = "./index.html">Home</a>
+                </li>
+            </ul>
+        </div>
     
         <!-- page footer with links to contact and credits pages and social media links -->
         <footer class = "footer">
