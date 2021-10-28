@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <!-- head element consistent through all pages -->
     <head>
+        <!-- metadata elements -->
         <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
         <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-        <meta name = "author" content = "Charlie Harland"> 
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport."> <!-- site description for Search Engine Optimisation -->
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> <!-- site keywords for Search Engine Optimisation -->
+        <meta name = "author" content = "Charlie Harland"> <!-- site author info -->
     
+        <!-- title element shows in the webpage tab -->
         <title>Indoor Rock Climbing</title>
+
+        <!-- link to external css file for styling -->
         <link href = "./assets/css/style.css" rel = "stylesheet">
     </head>
     
-    <!-- background body -->
+    <!-- background page body -->
     <body id = "b-g-top" class = "header-space">
-        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered-->
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered -->
 
         <!-- page header styled the same on the other pages for consistency -->
         <header class = "pages-header" >
@@ -30,7 +36,7 @@
                 <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
                 <ul>
                     <li>
-                        <!-- link to background page (current - icon is coloured in the #f1fbff shade of white) -->
+                        <!-- link to background page (current - icons8 icon img is coloured in the #f1fbff shade of white) -->
                         <a href = "./background.html"><img class = "current-page" src="https://img.icons8.com/ios-glyphs/30/f1fbff/order-history.png" alt = "History scroll icon"></a>
                     </li>
                     <li>
@@ -45,7 +51,7 @@
             </nav>
         </header> 
     
-        <!-- background page heading section -->
+        <!-- background page heading section styled the same on the other pages for consistency -->
         <section class = "main-headings">
             <!-- background page heading with Icons8 icon consistent with the navs -->
             <h2><img class = "current-page" src="https://img.icons8.com/ios-glyphs/30/f1fbff/order-history.png" alt = "History scroll icon"> Background</h2>
@@ -72,7 +78,7 @@
                 <!-- horizontal rule with half-width styles to visually separate sub-sections within the main sections -->
                 <hr class = "half-width">
 
-                <!-- when? section -->
+                <!-- when? section heading and explanatory paragraph -->
                 <section>
                     <h4>When?</h4>
                     <p>
@@ -81,7 +87,7 @@
                 </section>
                 <hr class = "half-width">
 
-                <!-- who? section -->
+                <!-- who? section heading and explanatory paragraph -->
                 <section>
                     <h4>Who?</h4>
                     <p>
@@ -90,7 +96,7 @@
                 </section>
                 <hr class = "half-width">
 
-                <!-- how? section -->
+                <!-- how? section heading and explanatory paragraph -->
                 <section>
                     <h4>How?</h4>
                     <p>
@@ -99,7 +105,7 @@
                 </section>
                 <hr class = "half-width">
 
-                <!-- where? section -->
+                <!-- where? section heading and explanatory paragraph -->
                 <section>
                     <h4>Where?</h4>
                     <p>
@@ -108,7 +114,7 @@
                 </section>
                 <hr class = "half-width">
 
-                <!-- why? section -->
+                <!-- why? section heading and explanatory paragraph -->
                 <section>
                     <h4>Why?</h4>
                     <p>
@@ -129,7 +135,7 @@
                 </p>
                 <hr class = "half-width">
 
-                <!-- note to propt the user to get in contact if they notice mistake/soemthing missing -->
+                <!-- note to prompt the user to get in contact if they notice mistake/soemthing missing -->
                 <p>
                     Noticed a mistake or think we may have missed something? <a class = "in-text-link" href = "./form.html">Chat with us!</a> We would love to hear from you!
                 </p>
@@ -523,16 +529,18 @@
             </li>
         </ul>
     
-        <!-- homepage footer with links to contact and credits pages and social media links -->
+        <!-- page footer with links to contact and credits pages and social media links -->
         <footer class = "footer">
 
             <!-- contact and credits list of links, on the left side of the footer -->
             <div>
                 <ul class = "footer-left">
                     <li>
+                        <!-- link to the chat with us form -->
                         <a href = "./form.html" class = "footer-links">Chat with us!</a>
                     </li>
                     <li> 
+                        <!-- link to the site credits page -->
                         <a href = "./site-credits.html" class = "footer-links">Site Credits</a>
                     </li>
                 </ul>
@@ -541,14 +549,26 @@
             <!-- social media list of links, on the right side of the footer -->
             <div>
                 <ul class = "footer-right">
+
                     <li class = "social-media">
-                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon" rel = "noopener noreffer"></a>
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
                     </li>
+
                     <li class = "social-media">
-                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
                     </li>
+
                     <li class = "social-media">
-                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
                     </li>
                 </ul>
             </div>
