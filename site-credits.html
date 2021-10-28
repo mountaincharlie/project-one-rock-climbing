@@ -1,199 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
-    <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
-    <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
-    <meta name = "author" content = "Charlie Harland"> 
+    <head>
+        <meta charset = "UTF-8"> <!-- instructs browser to use UTF-8 character encoding -->
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"> <!-- tells Internet Explorer to use Edge -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the browser viewport scale (important for CSS responsive design) -->
+        <meta name = "description" content = "Indoor Rock Climbing introduces the three main disciplines of competition climbing; Bouldering, Lead Climbing and Speed Climbing to new climbers or those interested in the sport.">
+        <meta name = "keywords" content = "indoor, rock climbing, bouldering, lead climbing, speed climbing, top rope, tokyo 2020, olympics"> 
+        <meta name = "author" content = "Charlie Harland"> 
+    
+        <title>Indoor Rock Climbing</title>
+        <link href = "./assets/css/style.css" rel = "stylesheet">
+    </head>
+    
+    <!-- site credits page body -->
+    <body id = "site-credits-top" class = "header-space">
+        <!-- id for linking to the page top using the TOP fixed-link and class for creating space for fixed header so content isnt covered -->
 
-    <title>Indoor Rock Climbing</title>
-    <link href = "./assets/css/style.css" rel = "stylesheet">
+        <!-- page header styled the same on the other pages for consistency -->
+        <header class = "pages-header">
 
-</head>
+            <!-- clickable heading to take the user to the homepage -->
+            <a href = "./index.html">
+                <h1>Indoor Rock Climbing</h1>
+            </a>
+    
+            <!-- page header nav between the 3 informational pages from within any of the pages, which reduces the user's need to return to homepage main nav everytime -->
+            <nav class = "pages-nav">
 
-<!-- id for linking to the page top and class for creating space for fixed header -->
-<body id = "site-credits-top" class = "header-space">
-    <header class = "pages-header">
-        <a href = "./index.html"><h1>Indoor Rock Climbing</h1></a>
+                <!-- unordered list of links to the 3 informational pages, with Icons8 icons that match the homepage nav for consistency -->
+                <ul>
+                    <li>
+                        <!-- link to background page -->
+                        <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to three-main page -->
+                        <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
+                    </li>
+                    <li>
+                        <!-- link to as-seen page -->
+                        <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- site credits page heading section styled the same on the other pages for consistency -->
+        <section class = "main-headings">
+            <h2>Site Credits</h2>
+        </section>
+    
+    
+        <!-- main page content -->
+        <main class = "page-min-height"> 
+            <!-- class = "page-min-height" to ensure there is no vertical white space in the viewport of larger screens, used on the main element as its the main/largest feature of the page -->
+            
+            <!-- content section, styled with pages-section for consistency -->
+            <section class = "page-section">
 
-        <!-- nav between the 3 pages from within the pages (reduces need to return to homepage everytime) -->
-        <nav class = "pages-nav">
-            <ul>
-                <li>
-                    <a href = "./background.html"><img src="https://img.icons8.com/ios-glyphs/30/2f4858/order-history.png" alt = "History scroll icon"></a>
-                </li>
-                <li>
-                    <a href = "./the-three-main-climbing-disciplines.html"><img src="https://img.icons8.com/ios-filled/30/2f4858/climbing-wall.png" alt = "Climbing wall icon"></a>
-                </li>
-                <li>
-                    <a href = "./as-seen-at-tokyo-2020.html"><img src="https://img.icons8.com/metro/30/2f4858/olympic-rings.png" alt = "Olympic rings icon"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+                <h3>Content</h3>
+                <hr>
 
-    <section class = "main-headings">
-        <h2>Site Credits</h2>
-    </section>
+                <!-- text section heading and explanatory paragraphs with links to resources being credited -->
+                <section>
+                    <h4>Text:</h4>
+                    <p>
+                        The Olympic medalists' information from the IFSC's <a href = "https://www.ifsc-climbing.org/index.php/olympic-games/tokyo-2020" target = "_blank" rel = "noopener noreffer">Olympic Games Tokyo 2020 page</a>
+                    </p>
+                    <p>
+                        The <a href = "https://olympics.com/ioc/faq/olympic-symbol-and-identity/what-is-the-olympic-motto" target = "_blank" rel = "noopener noreffer">Olympic motto</a>
+                    </p>
+                    <p>
+                        Information for when rock climbing was first thought to have been recognised as a sport from <a href = "https://en.wikipedia.org/wiki/History_of_rock_climbing#19th_century" target = "_blank" rel = "noopener noreffer">Wikipedia The History Of Rock Climbing</a>
+                    </p>
+                    <p>
+                        Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/" target = "_blank" rel = "noopener noreffer">Climbing.com</a>
+                    </p>
+                </section>
 
+                <!-- horizontal rule with half-width styles to visually separate sub-sections within the main sections -->
+                <hr class = "half-width">
 
-    <!-- main page content -->
-    <main class = "page-min-height"> <!-- class = "page-min-height" to ensure nav fills the viewport -->
+                <!-- styling/features section heading and explanatory paragraphs with links to resources being credited -->
+                <section>
+                    <h4>Styling/Features:</h4>
+                    <p>
+                        Google Fonts: <a href = "https://fonts.google.com/specimen/Montserrat" target = "_blank" rel = "noopener noreffer">Montserrat</a>
+                    </p>
+                    <p>
+                        Google Fonts: <a href = "https://fonts.google.com/specimen/Fira+Sans" target = "_blank" rel = "noopener noreffer">Fira Sans</a>
+                    </p>
+                    <p>
+                        Colour scheme from My Color Space: <a href = "https://mycolor.space/?hex=%232F4858&sub=1" target = "_blank" rel = "noopener noreffer">Natural Palette</a>
+                    </p>
+                </section>
+                <hr class = "half-width">
+
+                <!-- icons section heading and explanatory paragraphs with links to resources being credited -->
+                <section>
+                    <h4>Icons:</h4>
+                    <p>
+                        <a href="https://icons8.com/icon/84884/instagram" target = "_blank" rel = "noopener noreffer">Icons8: Instagram icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/84872/facebook" target = "_blank" rel = "noopener noreffer">Icons8: Facebook icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/84938/twitter" target = "_blank" rel = "noopener noreffer">Icons8: Twitter icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/61752/order-history" target = "_blank" rel = "noopener noreffer">Icons8: Order History icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/-oxziy4sBdXf/climbing-wall" target = "_blank" rel = "noopener noreffer">Icons8: Climbing Wall icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/5111/olympic-rings" target = "_blank" rel = "noopener noreffer">Icons8: Olympic Rings icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/9800/drawstring-bag" target = "_blank" rel = "noopener noreffer">Icons8: Drawstring Bag icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/9809/harness" target = "_blank" rel = "noopener noreffer">Icons8: Harness icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/19099/time" target = "_blank" rel = "noopener noreffer">Icons8: Time icon</a>
+                    </p>
+                    <p>
+                        <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event" target = "_blank" rel = "noopener noreffer">Icons8: Important Event icon</a>
+                    </p>
+                </section>
+            </section>
         
-        <section class = "page-section">
-            <h3>Content</h3>
-            <hr>
-            <section>
-                <h4>Text:</h4>
-                <p>
-                    The Olympic medalists' information from the IFSC's <a href = "https://www.ifsc-climbing.org/index.php/olympic-games/tokyo-2020" target = "_blank" rel = "noopener noreffer">Olympic Games Tokyo 2020 page</a>
-                </p>
-                <p>
-                    The <a href = "https://olympics.com/ioc/faq/olympic-symbol-and-identity/what-is-the-olympic-motto" target = "_blank" rel = "noopener noreffer">Olympic motto</a>
-                </p>
-                <p>
-                    Information for when rock climbing was first thought to have been recognised as a sport from <a href = "https://en.wikipedia.org/wiki/History_of_rock_climbing#19th_century" target = "_blank" rel = "noopener noreffer">Wikipedia The History Of Rock Climbing</a>
-                </p>
-                <p>
-                    Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/" target = "_blank" rel = "noopener noreffer">Climbing.com</a>
-                </p>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Styling/Features:</h4>
-                <p>
-                    Google Fonts: <a href = "https://fonts.google.com/specimen/Montserrat" target = "_blank" rel = "noopener noreffer">Montserrat</a>
-                </p>
-                <p>
-                    Google Fonts: <a href = "https://fonts.google.com/specimen/Fira+Sans" target = "_blank" rel = "noopener noreffer">Fira Sans</a>
-                </p>
-                <p>
-                    Colour scheme from My Color Space: <a href = "https://mycolor.space/?hex=%232F4858&sub=1" target = "_blank" rel = "noopener noreffer">Natural Palette</a>
-                </p>
-            </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Icons:</h4>
-                <p>
-                    <a href="https://icons8.com/icon/84884/instagram" target = "_blank" rel = "noopener noreffer">Icons8: Instagram icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/84872/facebook" target = "_blank" rel = "noopener noreffer">Icons8: Facebook icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/84938/twitter" target = "_blank" rel = "noopener noreffer">Icons8: Twitter icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/61752/order-history" target = "_blank" rel = "noopener noreffer">Icons8: Order History icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/-oxziy4sBdXf/climbing-wall" target = "_blank" rel = "noopener noreffer">Icons8: Climbing Wall icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/5111/olympic-rings" target = "_blank" rel = "noopener noreffer">Icons8: Olympic Rings icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/9800/drawstring-bag" target = "_blank" rel = "noopener noreffer">Icons8: Drawstring Bag icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/9809/harness" target = "_blank" rel = "noopener noreffer">Icons8: Harness icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/19099/time" target = "_blank" rel = "noopener noreffer">Icons8: Time icon</a>
-                </p>
-                <p>
-                    <a href="https://icons8.com/icon/_lUhJoHVhm18/important-event" target = "_blank" rel = "noopener noreffer">Icons8: Important Event icon</a>
-                </p>
-            </section>
-        </section>
+            <!-- media section, styled with pages-section for consistency -->
+            <section class = "page-section">
+
+                <h3>Media</h3>
+                <hr>
+
+                <!-- photos section heading and explanatory paragraphs with links to resources being credited -->
+                <section>
+                    <h4>Photos:</h4>
+                    <p>
+                        Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/" target = "_blank">by cottonbro on Pexels</a>
+                    </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/" target = "_blank" rel = "noopener noreffer">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                    </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/ifsclimbing/51357817919" target = "_blank" rel = "noopener noreffer">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                    </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/ifsclimbing/51357381063/" target = "_blank" rel = "noopener noreffer">Akiyo Noguchi at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+                    </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/" target = "_blank" rel = "noopener noreffer">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                    </p>
     
-        <section class = "page-section">
-            <h3>Media</h3>
-            <hr>
-            <section>
-                <h4>Photos:</h4>
-                <p>
-                    Homepage background image: <a href = "https://www.pexels.com/photo/girl-in-blue-and-brown-dress-standing-on-multi-colored-heart-shaped-blocks-6700629/" target = "_blank">by cottonbro on Pexels</a>
-                </p>
-                <p>
-                    <a href = "https://www.flickr.com/photos/ifsclimbing/51369358028/" target = "_blank" rel = "noopener noreffer">Janja Garnbret at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
-                </p>
-                <p>
-                    <a href = "https://www.flickr.com/photos/ifsclimbing/51357817919" target = "_blank" rel = "noopener noreffer">Miho Nonaka at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
-                </p>
-                <p>
-                    <a href = "https://www.flickr.com/photos/ifsclimbing/51357381063/" target = "_blank" rel = "noopener noreffer">Akiyo Noguchi at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
-                </p>
-                <p>
-                    <a href = "https://www.flickr.com/photos/ifsclimbing/51360129665/" target = "_blank" rel = "noopener noreffer">Alberto Ginés López at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
-                </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/123572206@N08/51359121591" target = "_blank" rel = "noopener noreffer">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
+                    </p>
+                    <p>
+                        <a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/" target = "_blank" rel = "noopener noreffer">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
+                    </p>
+                </section>
+                <hr class = "half-width">
 
-                <p>
-                    <a href = "https://www.flickr.com/photos/123572206@N08/51359121591" target = "_blank" rel = "noopener noreffer">Nathaniel Coleman at the Tokyo 2020 Olympics by Dimitris Tosidis/IFSC</a>
-                </p>
-                <p>
-                    <a href = "https://www.flickr.com/photos/ifsclimbing/51359884554/" target = "_blank" rel = "noopener noreffer">Jakob Schubert at the Tokyo 2020 Olympics by Leo Zhukov/IFSC</a>
-                </p>
+                <!-- videos section heading and explanatory paragraphs with links to resources being credited -->
+                <section>
+                    <h4>Videos:</h4>
+                    <p>
+                        Olympics' video from YouTube: <a href = "https://youtu.be/QUqRIUKBFTk" target = "_blank" rel = "noopener noreffer">How will the Olympics change sport climbing?</a>
+                    </p>
+                </section>
             </section>
-            <hr class = "half-width">
-            <section>
-                <h4>Videos:</h4>
-                <p>
-                    Olympics' video from YouTube: <a href = "https://youtu.be/QUqRIUKBFTk" target = "_blank" rel = "noopener noreffer">How will the Olympics change sport climbing?</a>
-                </p>
-            </section>
-            <!-- include relevant images -->
-        </section>
-    </main>
-
-    <!-- Viewport fixed nav links -->
-    <ul class = "fixed-links">
-        <li>
-            <a class = "fixed-links-words" href = "#site-credits-top">Top</a>
-        </li>
-        <li>
-            <a class = "fixed-links-words" href = "./index.html">Home</a>
-        </li>
-    </ul>
-
-    <footer class = "footer">
-        <!--Footer with: Contact/Newletter button, Credits button, (about the author?), social media icons/links-->
-        <!-- Contact/Newsletter and Site Credits buttons -->
-
-        <!-- add about the author aside -->
-
-        <!-- links to social media, opening in new tabs, with aria-labels for accessability -->
-        <!-- icon credit: https://icons8.com/icon/84884/instagram - Instagram icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84872/facebook - Facebook icon by Icons8 -->
-        <!-- icon credit: https://icons8.com/icon/84938/twitter - Twitter icon by Icons8 -->
-
-        <div>
-            <ul class = "footer-left">
-                <li>
-                    <a href = "./form.html" class = "footer-links">Chat with us!</a>
-                </li>
-                <li> 
-                    <a href = "./site-credits.html" class = "footer-links current-footer-link">Site Credits</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <ul class = "footer-right">
-                <li class = "social-media">
-                    <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer"><img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon"></a>
-                </li>
-                <li class = "social-media">
-                    <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer"><img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon"></a>
-                </li>
-            </ul>
-        </div>
+        </main>
     
-    </footer>
-</body>
+        <!-- list of page nav links fixed to the lower right hand side of the viewport -->
+        <ul class = "fixed-links">
+            <li>
+                <!-- link back to the top of the page -->
+                <a class = "fixed-links-words" href = "#site-credits-top">Top</a>
+            </li>
+            <li>
+                <!-- link back to the homepage -->
+                <a class = "fixed-links-words" href = "./index.html">Home</a>
+            </li>
+        </ul>
+    
+        <!-- page footer with links to contact and credits pages and social media links -->
+        <footer class = "footer">
+
+            <!-- contact and credits list of links, on the left side of the footer -->
+            <div>
+                <ul class = "footer-left">
+                    <li>
+                        <!-- link to the chat with us form -->
+                        <a href = "./form.html" class = "footer-links">Chat with us!</a>
+                    </li>
+                    <li> 
+                        <!-- link to the site credits page -->
+                        <a href = "./site-credits.html" class = "footer-links current-footer-link">Site Credits</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- social media list of links, on the right side of the footer -->
+            <div>
+                <ul class = "footer-right">
+
+                    <li class = "social-media">
+                        <!-- external link to instagram with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.instagram.com/" target = "_blank" aria-label = "Check us out on Instagram (opens new tab)" rel = "noopener noreffer">
+                            <img src = "https://img.icons8.com/material/38/f1fbff/instagram-new--v1.png" alt = "Instagram icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to facebook with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.facebook.com/" target = "_blank" aria-label = "Check us out on Facebook (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/facebook--v1.png" alt = "Facebook icon">
+                        </a>
+                    </li>
+
+                    <li class = "social-media">
+                        <!-- external link to twitter with; target attribute to open in new tab, rel attribute to prevent potential malicious interferance from the linked page, aria-label for screen readers -->
+                        <a href = "https://www.twitter.com/" target = "_blank" aria-label = "Check us out on Twitter (opens new tab)" rel = "noopener noreffer">
+                            <img src="https://img.icons8.com/material/38/f1fbff/twitter--v1.png" alt = "Twitter icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
