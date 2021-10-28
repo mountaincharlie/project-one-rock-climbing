@@ -301,7 +301,7 @@ body{
 /* hover effect for pages' header nav icons */
 .pages-nav img:hover{
     border-radius: 8px;
-    background-color: rgba(0, 163, 245, 0.8);
+    background-color: #f1fbff;
 }
 
 /* hover effect for pages' header nav icon relating to the user's current page */
