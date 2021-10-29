@@ -69,32 +69,158 @@ This site provides an insight into the rules, equipment and technical language i
 * HTML5
 * CSS
 
-## Features [**to complete**]
+## Pages and Features Breakdown [**to complete**]
 ---
 
 ### The Homepage
 
-* Header logo and Welcome banner
+* Header logo:
+    * Clearly discribes the topic of the website.
+* Welcome banner:
+    * Introduces the user to the site's purpose and how to use the site.
 
 ![Screenshot of Homepage header logo and welcome banner](./assets/images/homepage-header-welcome.jpg "Homepage header logo and welcome banner")
 
-Done:
-* The header in each of the 3 information pages is fixed so that the logo and nav menu stay at the top of the page as the user scrolls
-* The heading in the top left corner of each information page is also a clickable link back to the homepage
-* The information pages each have a fixed set of links in the bottom right hand corner which stays in this position as the user scrolls. The initial styling is set so that it is visible enough but doesnt distract from the page content. Once hovered over, the links are styled so that their text and background colours invert making them more visually obvious (also contributes to user interactivity/UXD)
+* Main Navigation: 
+    * Contains links to the 'Background', 'The 3 Main Climbing Disciplines' and 'As Seen At Tokyo 2020' pages with icons related to the page headings.
+* Background image:
+     * Draws the attention of the user as its colourful but the white linear-gradient placed over it means it doesn't distract from the page content. 
 
-To Do:
-* homepage
-* header
-* footer
-* navigation
-* main background
-* 3 main menu items
-* 3 main info pages (their images, videos, links, navs)
-* contact/newsletter form
-* site credits (new tab? with links to new tabs)
-* about the author
-* social media links (new tab)
+![Screenshot of Homepage main navigation](./assets/images/homepage-main-nav.jpg "Homepage main navigation")
+
+* Footer:
+    * The left hand side contains links to the 'Chat With Us!' contact form and the 'Site Credits' page, which open up within the same tab.
+    * The right hand side contains links to the Instagram, Facebook and Twitter social media pages, which open up in a new tab. 
+
+![Screenshot of Homepage footer](./assets/images/homepage-footer.jpg "Homepage footer")
+
+
+### The Three Informational Pages
+
+* Fixed header:
+    * Has a background colour matching that homepage header for consistency.
+    * The left hand side contains the logo matching the homepage header logo, which also acts a link to the homepage.
+    * The right hand side contains the navigation between the 3 informational pages, using icons which are consistent with the homepage navigation and are coloured white when the user is on that page.
+    * Is fixed to the top of the viewport so that as the user scrolls they still have easy access to the pages navigation and logo which links to the homepage.
+* Page heading:
+    * Contains the page heading and icon consistent with the header and homepage navigations.
+
+![Screenshot of Fixed header and page heading](./assets/images/pages-header.jpg "Fixed header and page heading")
+
+* Fixed navigation:
+    * Is fixed to the lower right hand side of the page so that as the user scrolls they have easy access to links to the top of the page and to the homepage.
+
+![Screenshot of Fixed navigation](./assets/images/fixed-nav.jpg "Fixed navigation")
+
+### The Background page
+
+* The Brief Background of Rock Climbing section:
+    * Uses the What?/When?/Who?/How/Where?/Why? questions to cover the basic background of rock climbing in a logical order.
+
+![Screenshot of The Brief Background of Rock Climbing section](./assets/images/brief-background.jpg "The Brief Background of Rock Climbing section")
+
+* The Climbing Terminology section:
+    * Explains briefly about the terminology/slang in the climbing community, which is an aspect of the sport which can be confusing for those who are new to it.
+    * Contains four subsections which catagorise the most common climbing terminology to make it easer for the user to explore the different terms.
+
+![Screenshot of The Climbing Terminology section](./assets/images/climbing-terms.jpg "The Climbing Terminology section")
+
+* Terminology subsections:
+    * Cover four catagories: Climbing Holds, Types of Climbing Walls, Climbing Technique and Competition Specific
+    * Contain an explanatory for the subsection catagory and explain that the user should hover over/tap on the informational tiles to find out the explanations for each term.
+    * Contain informational tiles, which expand and change colour when the user hovers over it on a desktop or taps it on a smart phone, to provide the term's explanation.
+
+![Screenshot of Types of Climbing Walls Terminology subsection](./assets/images/term-subsections.jpg "Types of Climbing Walls Terminology subsection")
+
+### The 3 Main Climbing Disciplines page
+
+* The 3 main sections:
+    * Contain the same subsections structure; Discipline Overview, Equipment Needed and How To, for the 3 disciplines; Bouldering, Lead Climbing, Speed Climbing, in the order which they are most accessible to new climbers.
+
+* The Discipline Overview subsection:
+    * Contains a description of the particular discipine and a Safety First warning to remind the user that there are risks involved with the sport and they should pay attention to gym staff's advice.
+
+![Screenshot of The Discipline Overview subsection](./assets/images/discipline-overview.jpg "The Discipline Overview subsection")
+
+* The Equipment Needed subsection:
+    * Contains explanatory text informing the user should hover over/tap on the informational tiles to find out the explanations for each piece of equipment.
+    * Contains informational tiles, relevant to each discipline, which expand and change colour when the user hovers over it on a desktop or taps it on a smart phone, to provide an explanation for the piece of equipment.
+
+![Screenshot of The Equipment Needed subsection](./assets/images/equipment-needed.jpg "The Equipment Needed subsection")
+
+* The How To subsection:
+    * Contains an ordered list of instructions on the steps to completing a climbing route/problem for each discipline.
+
+![Screenshot of The How To subsection](./assets/images/how-to.jpg "The How To subsection")
+
+* Page specific fixed navigation:
+    * Is fixed to the lower right hand side of the page so that as the user scrolls they have easy access to links to the top of the page and to the homepage.
+    * Also contains links to jump to each of the 3 disciplines, using icons which are consistent with those in the section headings for each discipline.
+
+![Screenshot of Page specific fixed navigation](./assets/images/three-main-fixed-nav.jpg "Page specific fixed navigation")
+
+![Screenshot of Bouldering section heading](./assets/images/bouldering-section.jpg "Bouldering section heading")
+![Screenshot of Lead Climbing section heading](./assets/images/lead-section.jpg "Lead Climbing section heading")
+![Screenshot of Speed Climbing section heading](./assets/images/speed-section.jpg "Speed Climbing section heading")
+
+### The As Seen At Tokyo 2020 page
+
+* The First Olympic Apperance section:
+    * Contains a short embedded YouTube video from the Olympics offical YouTube account about the sport's first olympic appearance.
+    * Contains a blockquote for the english translation of the Olympic Motto which is mentioned at the end of the YouTube video.  
+
+![Screenshot of The First Olympic Apperance section](./assets/images/first-appearance.jpg "The First Olympic Apperance section")
+
+* The Sport Climbing Rules and Scoring section:
+    * Contains subsections for how the rules and scoring works in sport climbing.
+
+![Screenshot of The Sport Climbing Rules and Scoring section](./assets/images/rules-scoring-section.jpg "The Sport Climbing Rules and Scoring section")
+
+* The Rules subsection:
+    * Contains an explanation of how the basic rules of the disciplines are the same as in casual climbing and includes the 5 competition specific rules for each discipline. 
+
+![Screenshot of The Rules subsection](./assets/images/rules.jpg "The Rules subsection")
+
+* The Scoring subsection:
+    * Explains how the overall scoring works and then breaks down how the athletes are scored and ranked in each discipline, in the order that the disciplines are held. 
+
+![Screenshot of The Scoring subsection](./assets/images/scoring.jpg "The Scoring subsection")
+
+* The Sport Climbing Event Structure section:
+    * Contains subsections explaining the location and the number of atheletes who entered/progressed for each of the three stages; Qualifying For The Olympics, Qualifying For The Olympic Finals and The Olympic Finals.
+
+![Screenshot of The Sport Climbing Event Structure section](./assets/images/event-structure.jpg "The Sport Climbing Event Structure section")
+
+* The Sport Climbing Medalists section:
+    * Contains subsections for the Women's and Men's catagories, with the althetes who were awarded medals arranged horizontonally in podium order; silver, gold, bronze, from left to right.
+    * Each medalist section has the athelete's medal position, name, an image of them from the Olympics with a circular, coloured border and a clickable link to the photo credit.
+ 
+![Screenshot of The Sport Climbing Medalists section](./assets/images/medalists.jpg "The Sport Climbing Medalists section")
+
+### The Chat With Us! Form
+
+* Contains 3 fieldsets for; the user's details, optional ways for the user to contact us, optional newsletters for the user to sign up for.
+    * The user's details are required inputs for the form and will prompt the user to enter a correct name/email address if they try to submit without.
+    * There are radio inputs for the optional contact so that the user can submit a question or suggestion and this allows us to catagorise what kind of contact the user is making.
+    * There are tickbox inputs for the optional newsletter signups so the user can choose which specific newsletters they may want to sign up to.  
+* Contains a 'LET'S GO!" submit input to submit the form and a 'STAR AGAIN' reset input to reset the form.
+
+![Screenshot of The Chat With Us! Form](./assets/images/form.jpg "The Chat With Us! Form")
+
+### The Thank You! Page
+
+* Contains a thank you message for the user and a prompt to keep enjoying the website (this page has the same fixed navigation links for the page top and homepage as the other pages).
+* There is no link navigation to this page, it is only reached when the user submits the form.
+
+![Screenshot of The Thank You! Page](./assets/images/thank-you.jpg "The Thank You! Page")
+
+### The Site Credits Page
+
+* Contains 2 sections; Content and Media.
+    * The Content section contains subsections; Text, Styling/Features and Icons, with clickable links to the appropriate credits, which open in a new tab. 
+    * The Media section contains subsections; Photos and Videos, with clickable links to the appropriate credits, which open in a new tab.
+
+![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
 
 ## Pages [**to complete**]
 ---
