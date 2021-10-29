@@ -272,7 +272,7 @@ Done:
     * The role = "note" attribute to my Safety First message on my The Three Main Climbign Disciplines page and on the background page paragraph which prompts the user to get in contact if they think I've missed something on the site. This was because these paragraphs were designed to act more as 'side notes' to the main content.
     * The role = "navigation" to the div elements in my footer, which I needed to use in order to float the lists of links to the left and right of the footer, along with the aria-label = "Footer links to contact form or site credits" (for the left div) and aria-label = "Footer links to social media pages" (for the right div).
     * A div around the list of viewport fixed links I have fixed to the lower right hand side so that I could use the role = "navigation" aria-label = "Links to page top or homepage" attributes.
-* Used the <a href = "https://www.digitala11y.com/definition-role/">WAI-ARIA: Role=Definition</a> Digital A11Y webpage to learn how the role = "definition" attribute can be used the aria-labelledby attribute for definitions, so I applied this to my info-tiles in my Background and The Three Main Climbing Disciplines pages by:
+* Used the <a href = "https://www.digitala11y.com/definition-role/">WAI-ARIA: Role=Definition</a> Digital A11Y webpage to learn how the role = "definition" attribute can be used with the aria-labelledby attribute for definitions, so I applied this to my info-tiles in my Background and The Three Main Climbing Disciplines pages by:
 
 ```
 <div aria-labelledby = "term-id">
@@ -314,7 +314,6 @@ No unfixed bugs.
 
 ## Credits [**to complete**]
 ---
-Done: [add to Site Credits page]
 
 External Code:
 * Using the Flexbox method to centralize content horizontally **and** vertically <a href = "https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block" >(Josh Crozier's Approach 2 - Flexbox method)</a>
@@ -322,6 +321,13 @@ External Code:
 * Using Rita Łyczwek's guide for creating a <a href = "https://www.flynerd.pl/2018/06/jak-napisac-dobre-readme-projektu-na-githubie.html">Table of Contents</a> section in this README file. 
 * Using Abbey Fitzgerald's article on <a href = "https://getflywheel.com/layout/create-sticky-website-header-how-to/">How to create a sticky website header</a> to find out that I could adjust the body of the page with the CSS property padding-top with a value equal to the height of the fixed header, instead of using a div element as a 'buffer' to stop the fixed header covering content.
 * Using and editing (to only keep the attributes i wanted, and explaining in the code why I kept the ones I did) the embedded code from YouTube's <a href = "https://youtu.be/QUqRIUKBFTk">How will the Olympics change sport climbing?</a> video so that the views from my site would contribute to the YouTube views for the video.
+
+Research on Accessability:
+* Using Web Accessibility Education's video <a href = "https://www.youtube.com/watch?v=38JDscMbB4I">What Are ARIA Attributes?</a> to learn about how the aria-labels and aria-labelledby can help accessability and when/how to use them. 
+* Used W3's page on <a href = "https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html">Using aria-label for link purpose</a> to learn how to add aria-labels to the footer social media links.
+* Learnt from Steve Griffith's YouTube video <a href = "https://www.youtube.com/watch?v=OmoCfODeBTA">Stop Using Buttons as Links</a> to avoid using buttons as links to make the page make more sematical sense and improve accessability for those using screen readers.
+* Used W3' webpage on <a href = "https://www.w3.org/WAI/PF/HTML/wiki/RoleAttribute">RoleAttribute</a> to learn about the role attribute and some of the values it can have for elements which don't have specific semantic value.
+* Used Digital A11Y's webpage <a href = "https://www.digitala11y.com/definition-role/">WAI-ARIA: Role=Definition</a> to learn how the role = "definition" attribute can be used with the aria-labelledby attribute for definitions.
 
 Page Styling:
 * Finding that the Google Font Fira Sans paired well with Montserrat from <a href = "https://www.figma.com/google-fonts/montserrat-font-pairings/">Montserrat Font Pairing</a>
@@ -362,12 +368,6 @@ Page content:
 * Information for when rock climbing was first thought to have been recognised as a sport from <a href = "https://en.wikipedia.org/wiki/History_of_rock_climbing#19th_century">Wikipedia - The History Of Rock Climbing</a>
 * Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/">Climbing.com</a>
 
-To Do:
-* mention the Site Credits page which is on the site 
-* links to things you borrowed from/were inspired by
-    * content (text/icons)
-    * features (things in css or functions on the site)
-    * media (photos/videos)
 
 ##  Site Expansions Ideas [**to complete**] 
 ---
