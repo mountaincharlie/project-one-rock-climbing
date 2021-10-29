@@ -73,32 +73,32 @@ To Do:
 ---
 
 ### Homepage 
-* image
-* description/purpose
+* Description: The landing page for the website has a clear logo, colourful but not distracting background image, and an explanatory/welcome paragraph for the user. Below there is the main navigation section with links to the three informational pages. The footer contains links for the 'Chat With US!' contact form and Site Credits page on the left and the INstagram, Facebook and Twitter social media links on the right.  
+* Purpose: To draw the user's attention, inform them of the site's purpose and how to navigate and to make its simple for the user to start navigating the pages right away.
 
 ### Background 
-* image
-* description/purpose
+* Description:
+* Purpose: 
 
 ### The Three Main Disciplines 
-* image
-* description/purpose
+* Description:
+* Purpose:
 
 ### As Seen At Tokyo 2020 
-* image
-* description/purpose
+* Description:
+* Purpose:
 
 ### Chat With Us! 
-* image
-* description/purpose
+* Description:
+* Purpose:
 
 ### Thank You! 
-* image
-* description/purpose
+* Description: A page the user is take to after filling in the contact form 
+* Purpose: To thank the user for engaing, so they feel acknowledged and to prompt them to keep using the website.
 
 ### Site Credits 
-* image
-* description/purpose
+* Description:
+* Purpose:
 
 ## Responsiveness [**to complete**]
 ---
@@ -141,7 +141,7 @@ Done:
 
 Done: 
 * Added aria-labels to the footer social media links (read about on: <a href = "https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html">Using aria-label for link purpose</a>)
-* Added the alt attribute to the img element for social media icons
+* Added the alt attribute to the img element for social media icons for better accessibility for screen readers and so that some text will be displayed if the image fails to load for some reason.
 * Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The <a href = "https://www.youtube.com/watch?v=OmoCfODeBTA">Stop Using Buttons as Links</a> Youtube video by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
 * Added the main element around the main content of each page (except for the homepage whose main content is the nav element which cannot be placed inside the main element) for better screen reader accessability.
 * Used the <a href = "https://www.w3.org/WAI/PF/HTML/wiki/RoleAttribute">RoleAttribute</a> W3 webpage to learn about the role attribute and some of the values it can have for elements which don't have specific semantic value. So in order to increase the accessability of my website I added:
@@ -159,42 +159,48 @@ Done:
 </div>
 ```
 
-To do:
-* how you considered it in your design 
-    * aria-labels
-    * semantics html [buttons instead of divs etc]
-    * testing screen readers?
-* research
-    * the NV website/project
-    * continual testing with Lighthouse (Google Dev Tool)
-
 ## Other Feature Ideas [**to complete**]
 ---
 
-* ideas there wasn't time to implement (and how you would)
-* incl. wireframes?
+Some other feature ideas, which I didn't have time to implement.
+
+### Fixed navigation links:
+Like the 3 icon links for the Bouldering, Lead Climbing and Speed sections on my The Three Main Climbing Disciplines page, it would be nice to add these extra navigation features on the Background and As Seen At Tokyo 2020 pages. 
+
+### Icons for the TOP and HOME links:
+To give some more uniformity with the icons on my The Three Main Climbing Disciplines page, it would be nice to replace the TOP and HOME fixed-links with icons like an up arrow for TOP and a house for HOME.
+
+### Images for the equipment required:
+Having pictures of the equipment such as the climbing shoes and harnesses could help users who haven't seen the equipment make sense of it more in their head. 
+
+### Videos for the equipment required: 
+Videos could be used to demonstrate how to use the climbing equipment and/or to show some best practices in rock climbing.
+
+### Paraclimbing page:
+Include a page about paraclimbers; more information on accessability for different people in climbing, about casual and competative paraclimbing and the possibility of it making an apperance in a later Paraolympics.
 
 ## Testing [**to complete**]
 ---
-Done:
 
-[html & css validators (regularly, comment on any frequent/difficult issues)]
+### HTML & CSS validator warnings and fixes:
 * [19-10-21] 1st testing index.html in WC3 markup validator indicated:
     * that I had section elements without headings, which led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element.
     * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
+* [29-10-21] tested my background.html file after adding role = "section" to the divs of my info-tiles, but this came back as a bad request and checking the <a href = "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/section_role">Aria: Section Role</a> page on MDN Web Docs highlighted to me that role = "section" shouldn't be used, so I used the aria-labelledby attribute as explained in the Accessability section.
 
-[bugs and fixes]
+### Bugs and Fixes:
 * [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. 
     * Solution: After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
 * [24-10-21] on larger screens some of my pages which didn't have a lot of content ment that the footer was not at the bottom of the viewport. 
     * Solution: I created a CSS class with min-height = 100vh and applied it to the main element of each page (nav element for the homepage) so that the main content of each page adapts to have a minimum height which allows it to fill the viewport on any screen size.
 * [24-10-21] I had been using some styled div elements as 'buffers' for all the pages which have the fixed header, so that the header wouldn't cover content when it shouldn't. But this was a bit messy and more of a 'hack'.
     * Solution: I learnt from Abbey Fitzgerald's article on <a href = "https://getflywheel.com/layout/create-sticky-website-header-how-to/">How to create a sticky website header</a> that I could adjust the body of the page with the css property padding-top with a value equal to the height of the fixed header.
+* [29-10-21] after running Lighthouse in Google Dev Tools, it warned that the fixed-link words in blue did't have an appropriate contrast to the white background.
+    * Solution: so I changed these to be the same colour as the icons (#2f4858) 
 
-To Do:
-* Lighthouse accessability score
-* bugs and fixes (document throughout)
-* any unfixed bugs (and what you tried or changed to instead)
+
+### Unfixed bugs
+No unfixed bugs.
 
 ## Deployment [**to complete**]
 ---
@@ -261,6 +267,9 @@ To Do:
 
 ##  Site Expansions Ideas [**to complete**] 
 ---
+
+### Find a gym near you function:
+Using Google Maps inside the website so the user can type in their location and what type of climbing they would like to try and would show them the best matches in their area and a way for the user to click a link to the website of the climbing gym(s) they discover.
 
 (different to Other Feature Ideas)
 
