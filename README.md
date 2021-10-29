@@ -223,33 +223,70 @@ This site provides an insight into the rules, equipment and technical language i
 
 ![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
 
-## UXD [**to complete**]
+## User Experience Design (UXD) [**to complete**]
 ---
-Done:
-* Used Google Fonts [add-link] to choose a main font which I liked the look of (Montserrat - Extra-light 200) and one that was recommended to pair with it (Roboto - Light 300) and imported them into my styles.css so that all of my html files with the style.css link can access these fonts. I later removed the pre-set weighting from the import link so that I would have more flexibilty with styling the font.
-* Used Google Fonts [add-link] to choose Fira Sans to pair with Montserrat and imported all the none-italicised weights so that I had the flexibility to see which are most readable in different page sections.  
+
+In order for users to have a good experience while using the website, I followed the user centered design process, mading sure to consider the usefulness, usability and value of different features of the site and making them intuative, simple and enjoyable.  
+
+### Styling 
+* Colour scheme: 
+    * While experimenting with what colours looked nice with my homepage background image, I found that the dark blue #2F4858 worked well and used <a href = "https://mycolor.space/?hex=%23845EC2&sub=1">ColorSpace</a> to find some other colours which worked with it. I ended up choosing from the reccomended Natural Palette; bright blue #00A0F3 and off-white #F1FBFF as nice complements to use throughout my pages' different features and highlights.
+
+![Screenshot of Natural Palette recommended by ColorSpace](./assets/images/natural-palette-by-color-space.jpg "Natural Palette recommended by ColorSpace")
+
+* Fonts:
+    * Used Google Fonts to choose <a href = "https://fonts.google.com/specimen/Montserrat">Montserrat</a> for my headings and <a href = "https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a> to pair with it for the rest of the text on the pages. For both of these fonts I imported all the none-italicised weights into my style.css file, so that I had the flexibility to use different font-weights. By importing them into my styles.css file, all of my html files with the style.css link could access these fonts.
+ 
+* Icons: 
+    * In order to have a consistent feel across my icons I chose to use them all from <a href = "https://icons8.com/">Icons8</a> as they had the best range of rock climbing related icons.
+    * My primary use for the icons was for the user to be able to instantly recognise which icons in the navigation related to which pages within the site.
+    * The icons also provided a way to have navigation sections and links to social media which didn't need to have written links and gave it a clearer, simplified look. 
+    * Icons8 icons were included into the code via the img element, so I made sure to include descriptive alt attributes to each of them for screen readers and incase there were any issues loading them.  
+
+* Continuity across the pages:
+    * I kept the footer exactly the same through all the pages.
+    * Apart from the homepage, I used the same fixed header with logo and navigation, but the logo and the navigation icons were consistent with those on the homepage.
+    * I used CSS classes to style the layout, fonts, sizes of all the sections and subsections on each page.
+
 * Homepage background image:
-    * Originally was a more close up image that was a bit dark and only a few colours.
-    * Changed to the current image which is a lot lighter and even though there are a few more colours, I feel that no part of the image particularly draws the user's attention away from the main text and navigation.
-    * I used the linear-gradient CSS property to create a semi-transparent layer over the image in order to make the text and navigation ontop stand out a bit more.
-    * I tried using tinyPNG [add-link] and tinyJPEG [add-link] to reduce the size of the image, but when testing the reduced images I did feel that the quality of the image suffered a bit on larger screens so I decided to keep the full size image which is less than 500kb anyway. 
-* Colour scheme: while experimenting with what colours looked nice with my homepage background image, I found that the dark blue #2F4858 worked well and used <a href = "https://mycolor.space/?hex=%23845EC2&sub=1">ColorSpace</a> to find some other colours which worked with it. I ended up choosing from the reccomended Natural Palette; bright blue #00A0F3 and off-white #F1FBFF as nice complements to use throughout my pages' different features and highlihighlightsgths.
-* Adding the CSS transition-duration and transition-timing-function properties to make some of the hover effects smoother and a better experience for the user.
+    * Originally, I was using a more close up image that was a bit dark and only had a few colours.
+    * But then I changed to the current image which is a lot lighter, doesn't have a particular subject that draws too much attention and includes a few more colours, without dominating the page or distracting from the main text and navigation.
+    * I used the linear-gradient CSS property to create a semi-transparent, white layer over the image in order to make the text and navigation ontop stand out even more.
+    * I tried using <a href = "https://tinypng.com/">tinyPNG</a> and <a href = "https://tinyjpg.com/">tinyJPEG</a> to reduce the size of the image, but when testing the reduced images I did feel that the quality of the image suffered a bit on larger screens so I decided to keep the full size image, which is still less than 500kb anyway, in order to preserve the quality of the image. 
 
-### Styling ...
-* colour
-* fonts
-* icons (continuity)
-* consistent page structure for the 3 info pages and same footer across all and same header for all bu the homepage, but the homepage main logo matches the one on the header LHS.
+### Interactivity:
 
-### Interactivity ...
-* info-tiles
-* social media
-* form (ask/suggest/hear)
-* hover highlight effects
-* hover main-nav effect
-* CSS transition-duration and transition-timing-function properties
-* no autoplay on the video
+* Info-tiles:
+    * Are used on the Background page in order to provide explanations for climbing terms and on the The Three Main Climbing Disciplines page for more information on the equipment needed for each discipline. 
+    * Change colour on opening to make them stand out on the page and amongst the other tiles.
+    * Provide a way to have less text on the screen at any one time which makes the page visually less busy and more pleasing for the user.
+    * Are grouped logically to help users find specific terms/equipment more quickly and easily.
+    * Give the user the ability to choose which explanations/definitions they look at, for example some users may only wish to look at certain terms/equipment if they already have knowledge of others or may want to find the definition of a particular term they have heard, without having to scroll through many other definitions.
+
+![Screenshot of collapsed info-tile](./assets/images/info-tile-collapsed.jpg "Collapsed info-tile")
+![Screenshot of expanded info-tile](./assets/images/info-tile-expanded.jpg "Expanded info-tile")
+
+* Social Media:
+    * Links included on the right hand side of the footer and open in a new tab so that they don't replace the website in the current tab.
+    
+* Contact form:
+    * Enables the user to input their name/email address and prompt correct input if the user tries to submit the form while these are not entered correctly.
+    * Gives the user the option to make a suggestion or ask a question and provides a textarea element for them to type in.
+    * Gives the user a choice of optional newsletters which they can choose to recieve. 
+    
+* CSS :hover Pseudo Class, used to:
+    * Hghlight the homepage logo, by changing its background colour from grey to blue, increasing the letter spacing.
+    * Highlight the items in the homepage main navigation, by changing their background colour from blue to grey, increasing the border-radius from 4px to 8px and increasing the letter spacing.
+    * Highlight the icons for the three informational pages in the fixed header, by changing the background colour to white, or grey if the icon represents the current page.
+    * Highlight the logo in the left hand side of the fixed header, by changing the background colour from grey to blue and increasing the letter spacing.
+    * Highlight; the Chat With Us! form, Site Credits Page and social media links in the footer, by changing the background colour to a light blue and border-radius from 4px to 8px when hovered over.
+    * Uncover further information for the Info-tiles, by changing the paragraph element's overflow CSS property from hidden to auto. 
+    * Highlight the form's fieldsets and submit/reset inputs when hovered over, by changing the text and border colour from grey to blue.
+    * Highlight the Olympic medalists' image borders, by changing the thickness from 3px to 8px as the user hovers over them.
+    
+* Embedded video:
+    * Has no autoplay allowed, to prevent bad user experience when they arrive at the page.
+    * Has YouTube controls for the user to pause/play, change the volume and allow fullscreen mode.
 
 ## Responsiveness [**to complete**]
 ---
