@@ -24,45 +24,6 @@ This site provides an insight into the rules, equipment and technical language i
 * [Credits](https://github.com/mountaincharlie/project-one-rock-climbing#credits)
 * [Site Expansion Ideas](https://github.com/mountaincharlie/project-one-rock-climbing#site-expansion-ideas)
 
-## Initial Project Vision [**to complete**] {#initial-project-vision}
----
-
-### wireframes screen shots
-
-* basic explanations for ideas
-
-    * The colours and layouts for each page just to distinguish the different sections and show how the content could be arranged. 
-
-
-* Homepage wireframe plan
-
-![Screenshot of Homepage wireframe plan](./assets/images/wireframe-homepage.jpg "Homepage wireframe plan")
-
-* Background page wireframe plan
-
-![Screenshot of Background page wireframe plan](./assets/images/wireframe-background.jpg "Background page wireframe plan")
-
-* 3 Main Disciplines page, bouldering section wireframe plan
-
-![Screenshot of 3 Main Disciplines page, bouldering section wireframe plan](./assets/images/wireframe-bouldering-section.jpg "3 Main Disciplines page, bouldering section wireframe plan")
-
-* 3 Main Disciplines page, lead section wireframe plan
-
-![Screenshot of 3 Main Disciplines page, lead section wireframe plan](./assets/images/wireframe-lead-section.jpg "3 Main Disciplines page, lead section wireframe plan")
-
-* 3 Main Disciplines page, speed section wireframe plan
-
-![Screenshot of 3 Main Disciplines page, speed section wireframe plan](./assets/images/wireframe-speed-section.jpg "3 Main Disciplines page, speed section wireframe plan")
-
-* As Seen At Tokyo 2020 page wireframe plan
-
-![Screenshot of As Seen At Tokyo 2020 page wireframe plan](./assets/images/wireframe-as-seen.jpg "As Seen At Tokyo 2020 page wireframe plan")
-
-
-
-
-
-
 ## Technologies Used [**to complete**]
 ---
 
@@ -330,6 +291,20 @@ In order to make the website more accessible, for those who rely on screen reade
     * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
 * [29-10-21] tested my background.html file after adding role = "section" to the divs of my info-tiles, but this came back as a bad request and checking the <a href = "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/section_role">Aria: Section Role</a> page on MDN Web Docs highlighted to me that role = "section" shouldn't be used, so I used the aria-labelledby attribute as explained in the Accessability section.
 
+### HTML Validation in Offical W3C Validator
+
+* No errors or warnings
+* <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fmountaincharlie.github.io%2Fproject-one-rock-climbing%2F">Link to validator results</a>
+
+### CSS Validation in Offical Jigsaw Validator
+
+* No errors or warnings
+* <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmountaincharlie.github.io%2Fproject-one-rock-climbing%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Link to validator results</a>
+
+### Lighthouse Accessability score
+
+![Screenshot of Google Dev Tool's Lighthouse Score for my website](./assets/images/lighthouse-score.jpg "Google Dev Tool's Lighthouse Score for my website") 
+
 ### Bugs and Fixes:
 * [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. 
     * Solution: After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
@@ -347,11 +322,14 @@ No unfixed bugs.
 ## Deployment [**to complete**]
 ---
 
-* Deployment Process (with GitHub):
-    * ... to GitHub Pages
+### Deployment Process on GitHub:
+* I selected the Settings tab from within the project-one-rock-climbing repository 
+* The selected the Pages tab within Settings
+* Then chose Main from the Branch dropdown menu
+* Finally, the page then provided the live link to my website and after a few minutes it was ready to be viewed
 
-* Live website link:
-    * 
+### Live website link:
+* <a href = "https://mountaincharlie.github.io/project-one-rock-climbing/">Indoor Rock Climbing</a>
 
 ## Credits [**to complete**]
 ---
