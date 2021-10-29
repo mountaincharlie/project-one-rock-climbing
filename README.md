@@ -139,12 +139,25 @@ Done:
 ## Accessability [**to complete**]
 ---
 
-Done:
-* Made the main navigation links 'button' elements instead of 'divs' [semantic html] 
-* Added aria-labels to the footer social media links (read about on: https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html)
+Done: 
+* Added aria-labels to the footer social media links (read about on: <a href = "https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html">Using aria-label for link purpose</a>)
 * Added the alt attribute to the img element for social media icons
-* Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The Youtube video: https://www.youtube.com/watch?v=OmoCfODeBTA by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
+* Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The <a href = "https://www.youtube.com/watch?v=OmoCfODeBTA">Stop Using Buttons as Links</a> Youtube video by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
 * Added the main element around the main content of each page (except for the homepage whose main content is the nav element which cannot be placed inside the main element) for better screen reader accessability.
+* Used the <a href = "https://www.w3.org/WAI/PF/HTML/wiki/RoleAttribute">RoleAttribute</a> W3 webpage to learn about the role attribute and some of the values it can have for elements which don't have specific semantic value. So in order to increase the accessability of my website I added:
+    * The role = "note" attribute to my Safety First message on my The Three Main Climbign Disciplines page and on the background page paragraph which prompts the user to get in contact if they think I've missed something on the site. This was because these paragraphs were designed to act more as 'side notes' to the main content.
+    * The role = "navigation" to the div elements in my footer, which I needed to use in order to float the lists of links to the left and right of the footer, along with the aria-label = "Footer links to contact form or site credits" (for the left div) and aria-label = "Footer links to social media pages" (for the right div).
+    * A div around the list of viewport fixed links I have fixed to the lower right hand side so that I could use the role = "navigation" aria-label = "Links to page top or homepage" attributes.
+* Used the <a href = "https://www.digitala11y.com/definition-role/">WAI-ARIA: Role=Definition</a> Digital A11Y webpage to learn how the role = "definition" attribute can be used the aria-labelledby attribute for definitions, so I applied this to my info-tiles in my Background and The Three Main Climbing Disciplines pages by:
+
+```
+<div aria-labelledby = "term-id">
+    <h5 id = "term-id">'term title'</h5>
+    <p role = "definition" aria-labelledby = "term-id">
+        'definition wording'
+    </p>
+</div>
+```
 
 To do:
 * how you considered it in your design 
