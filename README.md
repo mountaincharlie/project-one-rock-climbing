@@ -29,12 +29,13 @@ This site provides an insight into the rules, equipment and technical language i
 
 * wireframes screen shots
 
-![Homepage wireframe plan](./assets/images/wireframe-homepage.jpg "Homepage wireframe plan")
-![Background page wireframe plan](./assets/images/wireframe-background.jpg "Background page wireframe plan")
-![3 Main Disciplines page, bouldering section wireframe plan](./assets/wireframe-bouldering-section.jpg "3 Main Disciplines page, bouldering section wireframe plan")
-![3 Main Disciplines page, lead section wireframe plan](./assets/wireframe-lead-section.jpg "3 Main Disciplines page, lead section wireframe plan")
-![3 Main Disciplines page, speed section wireframe plan](./assets/images/wireframe-speed-section.jpg "3 Main Disciplines page, speed section wireframe plan")
-![As Seen At Tokyo 2020 page wireframe plan](./assets/wireframe-as-seen.jpg "As Seen At Tokyo 2020 page wireframe plan")
+
+![Screenshot of Homepage wireframe plan](./assets/images/wireframe-homepage.jpg "Homepage wireframe plan")
+![Screenshot of Background page wireframe plan](./assets/images/wireframe-background.jpg "Background page wireframe plan")
+![Screenshot of 3 Main Disciplines page, bouldering section wireframe plan](./assets/wireframe-bouldering-section.jpg "3 Main Disciplines page, bouldering section wireframe plan")
+![Screenshot of 3 Main Disciplines page, lead section wireframe plan](./assets/wireframe-lead-section.jpg "3 Main Disciplines page, lead section wireframe plan")
+![Screenshot of 3 Main Disciplines page, speed section wireframe plan](./assets/images/wireframe-speed-section.jpg "3 Main Disciplines page, speed section wireframe plan")
+![Screenshot of As Seen At Tokyo 2020 page wireframe plan](./assets/wireframe-as-seen.jpg "As Seen At Tokyo 2020 page wireframe plan")
 
 
 
@@ -43,7 +44,7 @@ This site provides an insight into the rules, equipment and technical language i
 
 The colours and layouts for each page just to distinguish the different sections and show how the content could be arranged. 
 
-## Technologies [**to complete**]
+## Technologies Used [**to complete**]
 ---
 
 * HTML5
@@ -51,6 +52,14 @@ The colours and layouts for each page just to distinguish the different sections
 
 ## Features [**to complete**]
 ---
+
+### The Homepage
+
+* Header logo and Welcome banner
+
+![Screenshot of Homepage header logo and welcome banner](./assets/images/homepage-header-welcome.jpg "Homepage header logo and welcome banner")
+
+
 Done:
 * The header in each of the 3 information pages is fixed so that the logo and nav menu stay at the top of the page as the user scrolls
 * The heading in the top left corner of each information page is also a clickable link back to the homepage
