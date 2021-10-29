@@ -288,15 +288,6 @@ In order for users to have a good experience while using the website, I followed
     * Has no autoplay allowed, to prevent bad user experience when they arrive at the page.
     * Has YouTube controls for the user to pause/play, change the volume and allow fullscreen mode.
 
-## Responsiveness [**to complete**]
----
-
-(note: using % heights/widths in CSS contribute to responsiveness)
-* media queries 
-* different screen sizes
-* incl. screeenshots
-
-
 ## Accessability [**to complete**]
 ---
 
