@@ -8,7 +8,7 @@ This site provides an insight into the rules, equipment and technical language i
 
 [Image made using <a href = "http://ami.responsivedesign.is/">Am I Responsive Website</a>]
 
-## Contents [**to complete - will work once each section is complete**]
+## Contents 
 ---
 
 * [Technologies Used](https://github.com/mountaincharlie/project-one-rock-climbing#technologies-used)
@@ -21,13 +21,13 @@ This site provides an insight into the rules, equipment and technical language i
 * [Credits](https://github.com/mountaincharlie/project-one-rock-climbing#credits)
 * [Site Expansion Ideas](https://github.com/mountaincharlie/project-one-rock-climbing#site-expansion-ideas)
 
-## Technologies Used [**to complete**]
+## Technologies Used
 ---
 
 * HTML5
 * CSS
 
-## Pages and Features Breakdown [**to complete**]
+## Pages and Features Breakdown
 ---
 
 ### The Homepage
@@ -182,7 +182,7 @@ This site provides an insight into the rules, equipment and technical language i
 
 ![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
 
-## User Experience Design [**to complete**]
+## User Experience Design
 ---
 
 In order for users to have a good experience while using the website, I followed the user centered design process, making sure to consider the usefulness, usability and value of different features of the site and that they were intuative, simple and enjoyable.  
@@ -247,7 +247,7 @@ In order for users to have a good experience while using the website, I followed
     * Has no autoplay allowed, to prevent bad user experience when they arrive at the page.
     * Has YouTube controls for the user to pause/play, change the volume and allow fullscreen mode.
 
-## Accessability [**to complete**]
+## Accessability
 ---
 
 In order to make the website more accessible, for those who rely on screen readers, I made sure that I used used semantic HTML elements to create the structure on all of my pages and where this wasn't possible, I made sure to implement other techniques to increase the accessibility of the site for the use of screen readers.
@@ -280,7 +280,7 @@ In order to make the website more accessible, for those who rely on screen reade
 </div>
 ```
 
-## Testing [**to complete**]
+## Testing
 ---
 
 ### HTML & CSS validator warnings and fixes
@@ -317,7 +317,7 @@ In order to make the website more accessible, for those who rely on screen reade
 ### Unfixed bugs
 No unfixed bugs.
 
-## Deployment [**to complete**]
+## Deployment
 ---
 
 ### Deployment Process on GitHub
@@ -329,7 +329,7 @@ No unfixed bugs.
 ### Live website link
 * <a href = "https://mountaincharlie.github.io/project-one-rock-climbing/">Indoor Rock Climbing</a>
 
-## Credits [**to complete**]
+## Credits
 ---
 
 External Code:
@@ -386,7 +386,7 @@ Page content:
 * Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/">Climbing.com</a>
 
 
-##  Site Expansions Ideas [**to complete**] 
+##  Site Expansions Ideas
 ---
 
 Features that could be added to expand and improve the website in the future.
