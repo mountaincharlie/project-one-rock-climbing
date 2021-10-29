@@ -82,6 +82,7 @@ This site provides an insight into the rules, equipment and technical language i
 ![Screenshot of Homepage header logo and welcome banner](./assets/images/homepage-header-welcome.jpg "Homepage header logo and welcome banner")
 
 * Main Navigation: 
+    * Found below the Welcome banner and is the main feature of the homepage.
     * Contains links to the 'Background', 'The 3 Main Climbing Disciplines' and 'As Seen At Tokyo 2020' pages with icons related to the page headings.
 * Background image:
      * Draws the attention of the user as its colourful but the white linear-gradient placed over it means it doesn't distract from the page content. 
@@ -221,37 +222,6 @@ This site provides an insight into the rules, equipment and technical language i
     * The Media section contains subsections; Photos and Videos, with clickable links to the appropriate credits, which open in a new tab.
 
 ![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
-
-## Pages [**to complete**]
----
-
-### Homepage 
-* Description: The landing page for the website has a clear logo, colourful but not distracting background image, and an explanatory/welcome paragraph for the user. Below there is the main navigation section with links to the three informational pages. The footer contains links for the 'Chat With US!' contact form and Site Credits page on the left and the INstagram, Facebook and Twitter social media links on the right.  
-* Purpose: To draw the user's attention, inform them of the site's purpose and how to navigate and to make its simple for the user to start navigating the pages right away.
-
-### Background 
-* Description:
-* Purpose: 
-
-### The Three Main Disciplines 
-* Description:
-* Purpose:
-
-### As Seen At Tokyo 2020 
-* Description:
-* Purpose:
-
-### Chat With Us! 
-* Description:
-* Purpose:
-
-### Thank You! 
-* Description: A page the user is take to after filling in the contact form 
-* Purpose: To thank the user for engaing, so they feel acknowledged and to prompt them to keep using the website.
-
-### Site Credits 
-* Description:
-* Purpose:
 
 ## Responsiveness [**to complete**]
 ---
