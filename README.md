@@ -13,7 +13,6 @@ This site provides an insight into the rules, equipment and technical language i
 
 * [Technologies Used](https://github.com/mountaincharlie/project-one-rock-climbing#technologies-used)
 * [Pages and Features Breakdown](https://github.com/mountaincharlie/project-one-rock-climbing#pages-and-features-breakdown)
-* [Responsiveness](https://github.com/mountaincharlie/project-one-rock-climbing#responsiveness)
 * [User Experience Design](https://github.com/mountaincharlie/project-one-rock-climbing#user-experience-design)
 * [Accessability](https://github.com/mountaincharlie/project-one-rock-climbing#accessability)
 * [Testing](https://github.com/mountaincharlie/project-one-rock-climbing#testing)
@@ -386,7 +385,7 @@ Page content:
 * Information for when the first indoor rock climbing gym was built from <a href = "https://www.climbing.com/places/the-state-of-climbing-gyms-in-2018/">Climbing.com</a>
 
 
-##  Site Expansions Ideas
+##  Site Expansion Ideas
 ---
 
 Features that could be added to expand and improve the website in the future.
