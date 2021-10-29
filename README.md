@@ -254,7 +254,7 @@ In order for users to have a good experience while using the website, I followed
     * I used the linear-gradient CSS property to create a semi-transparent, white layer over the image in order to make the text and navigation ontop stand out even more.
     * I tried using <a href = "https://tinypng.com/">tinyPNG</a> and <a href = "https://tinyjpg.com/">tinyJPEG</a> to reduce the size of the image, but when testing the reduced images I did feel that the quality of the image suffered a bit on larger screens so I decided to keep the full size image, which is still less than 500kb anyway, in order to preserve the quality of the image. 
 
-### Interactivity:
+### Interactivity
 
 * Info-tiles:
     * Are used on the Background page in order to provide explanations for climbing terms and on the The Three Main Climbing Disciplines page for more information on the equipment needed for each discipline. 
@@ -291,21 +291,31 @@ In order for users to have a good experience while using the website, I followed
 ## Accessability [**to complete**]
 ---
 
-Done: 
-* Added aria-labels to the footer social media links (read about on: <a href = "https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html">Using aria-label for link purpose</a>)
-* Added the alt attribute to the img element for social media icons for better accessibility for screen readers and so that some text will be displayed if the image fails to load for some reason.
-* Changed homepage navigation buttons into anchor element links after researching which would be best from an accessability point of view. The <a href = "https://www.youtube.com/watch?v=OmoCfODeBTA">Stop Using Buttons as Links</a> Youtube video by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or openeing a new page, such as opening in new tabs/incognito tabs/windows.
-* Added the main element around the main content of each page (except for the homepage whose main content is the nav element which cannot be placed inside the main element) for better screen reader accessability.
-* Used the <a href = "https://www.w3.org/WAI/PF/HTML/wiki/RoleAttribute">RoleAttribute</a> W3 webpage to learn about the role attribute and some of the values it can have for elements which don't have specific semantic value. So in order to increase the accessability of my website I added:
-    * The role = "note" attribute to my Safety First message on my The Three Main Climbign Disciplines page and on the background page paragraph which prompts the user to get in contact if they think I've missed something on the site. This was because these paragraphs were designed to act more as 'side notes' to the main content.
+In order to make the website more accessible, for those who rely on screen readers, I made sure that I used used semantic HTML elements to create the structure on all of my pages and where this wasn't possible, I made sure to implement other techniques to increase the accessibility of the site for the use of screen readers.
+
+### Semantic elements
+
+*  I changed my homepage navigation buttons into anchor element links after researching which method would be best from an accessability point of view. The <a href = "https://www.youtube.com/watch?v=OmoCfODeBTA">Stop Using Buttons as Links</a> Youtube video by Steve Griffith explains how the button and anchor elements can be styled to look identical and work the same with other languages such as JavaScript, but there is actually more inbuilt accessability with anchor elements, if you are using it for the purpose of linking to another part of the page or opening a new page, such as opening in new tabs/incognito tabs/windows.
+* I added the main element around the main content of each page for better screen reader accessability.
+
+### Aria-labels
+
+* I added aria-labels to internal and external links after reading W3's page about <a href = "https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8.html">Using aria-label for link purpose</a>.
+* I added aria-labels to the submit/rest inputs in the contact form as the text displayed on them; 'LET'S GO!' and 'START AGAIN' might not have been descriptive enough.
+
+### Attributes
+
+* I added the alt attribute to the img element for all of the Icons8 icons and Olympic medalists' images I used, for better accessibility for screen readers and so that some text will be displayed if the image fails to load for some reason.
+* I used W3's <a href = "https://www.w3.org/WAI/PF/HTML/wiki/RoleAttribute">RoleAttribute</a> webpage to learn about the role attribute and some of the values it can have for elements which don't have specific semantic value. So in order to increase the accessability of my website I added:
+    * The role = "note" attribute to my Safety First message on my The Three Main Climbing Disciplines page and on the Background page paragraph which prompts the user to get in contact if they think I've missed something on the site. This was because these paragraphs were designed to act more as 'side notes' to the main content.
     * The role = "navigation" to the div elements in my footer, which I needed to use in order to float the lists of links to the left and right of the footer, along with the aria-label = "Footer links to contact form or site credits" (for the left div) and aria-label = "Footer links to social media pages" (for the right div).
-    * A div around the list of viewport fixed links I have fixed to the lower right hand side so that I could use the role = "navigation" aria-label = "Links to page top or homepage" attributes.
+    * A div around the list of viewport fixed links I have fixed to the lower right hand side of each page (besides the homepage) so that I could use the role = "navigation" aria-label = "Links to page top or homepage" attributes.
 * Used the <a href = "https://www.digitala11y.com/definition-role/">WAI-ARIA: Role=Definition</a> Digital A11Y webpage to learn how the role = "definition" attribute can be used with the aria-labelledby attribute for definitions, so I applied this to my info-tiles in my Background and The Three Main Climbing Disciplines pages by:
 
 ```
-<div aria-labelledby = "term-id">
-    <h5 id = "term-id">'term title'</h5>
-    <p role = "definition" aria-labelledby = "term-id">
+<div aria-labelledby = "'term-id'">
+    <h5 id = "'term-id'">'term title'</h5>
+    <p role = "definition" aria-labelledby = "'term-id'">
         'definition wording'
     </p>
 </div>
@@ -337,8 +347,11 @@ No unfixed bugs.
 ## Deployment [**to complete**]
 ---
 
-* describe process to deploy to GitHub Pages
-* live site link
+* Deployment Process (with GitHub):
+    * ... to GitHub Pages
+
+* Live website link:
+    * 
 
 ## Credits [**to complete**]
 ---
