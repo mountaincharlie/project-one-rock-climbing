@@ -223,14 +223,6 @@ This site provides an insight into the rules, equipment and technical language i
 
 ![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
 
-## Responsiveness [**to complete**]
----
-
-(note: using % heights/widths in CSS contribute to responsiveness)
-* media queries 
-* different screen sizes
-* incl. screeenshots
-
 ## UXD [**to complete**]
 ---
 Done:
@@ -259,6 +251,15 @@ Done:
 * CSS transition-duration and transition-timing-function properties
 * no autoplay on the video
 
+## Responsiveness [**to complete**]
+---
+
+(note: using % heights/widths in CSS contribute to responsiveness)
+* media queries 
+* different screen sizes
+* incl. screeenshots
+
+
 ## Accessability [**to complete**]
 ---
 
@@ -281,26 +282,6 @@ Done:
     </p>
 </div>
 ```
-
-## Other Feature Ideas [**to complete**]
----
-
-Some other feature ideas, which I didn't have time to implement.
-
-### Fixed navigation links:
-Like the 3 icon links for the Bouldering, Lead Climbing and Speed sections on my The Three Main Climbing Disciplines page, it would be nice to add these extra navigation features on the Background and As Seen At Tokyo 2020 pages. 
-
-### Icons for the TOP and HOME links:
-To give some more uniformity with the icons on my The Three Main Climbing Disciplines page, it would be nice to replace the TOP and HOME fixed-links with icons like an up arrow for TOP and a house for HOME.
-
-### Images for the equipment required:
-Having pictures of the equipment such as the climbing shoes and harnesses could help users who haven't seen the equipment make sense of it more in their head. 
-
-### Videos for the equipment required: 
-Videos could be used to demonstrate how to use the climbing equipment and/or to show some best practices in rock climbing.
-
-### Paraclimbing page:
-Include a page about paraclimbers; more information on accessability for different people in climbing, about casual and competative paraclimbing and the possibility of it making an apperance in a later Paraolympics.
 
 ## Testing [**to complete**]
 ---
@@ -391,17 +372,41 @@ To Do:
 ##  Site Expansions Ideas [**to complete**] 
 ---
 
+Features that could be added to expand and improve the website.
+
+### Fixed navigation links:
+Like the 3 icon links for the Bouldering, Lead Climbing and Speed sections on my The Three Main Climbing Disciplines page, it would be nice to add these extra navigation features on the Background and As Seen At Tokyo 2020 pages. 
+
+### Icons for the TOP and HOME links:
+To give some more uniformity with the icons on my The Three Main Climbing Disciplines page, it would be nice to replace the TOP and HOME fixed-links with icons like an up arrow for TOP and a house for HOME.
+
+### Images for the equipment required:
+Having pictures of the equipment such as the climbing shoes and harnesses could help users who haven't seen the equipment make sense of it more in their head. 
+
+### Videos for the equipment required: 
+Videos could be used to demonstrate how to use the climbing equipment and/or to show some best practices in rock climbing.
+
+### Paraclimbing page:
+Include a page about paraclimbers; more information on accessability for different people in climbing, about casual and competative paraclimbing and the possibility of it making an apperance in a later Paraolympics.
+
 ### Find a gym near you function:
 Using Google Maps inside the website so the user can type in their location and what type of climbing they would like to try and would show them the best matches in their area and a way for the user to click a link to the website of the climbing gym(s) they discover.
 
-(different to Other Feature Ideas)
+### Site specific social media:
+Social media aspect for climbers to get in contact with eachother, perhaps based on the gym they use. 
 
-* social media aspect for climbers to get in contact with eachother 
-* a way to recommend gyms for user to visit based on their location, distance/travel preferences etc (with links to the gym's site)
-* basic 'game' (climb-through) type quiz where you work your way up a climbing wall answering different questions about things learnt on the site (rules, technique, equipment, saftey...)
-* actual newsletter 
-    * updates from different gyms
-    * general climbing news 
-    * section for answering questions users send in
-* blogs for users to contribute to (monitored) and/or written by the site owner
-* advertising for climbing equipment and places to climb 
+### 'Climb-through' quiz:
+A basic quiz game where the user works their way up a climbing wall, in a 'climb-through' (as opposed to a walk-through), by answering different questions about things learnt on the site (rules, technique, equipment etc...).
+
+### Actual newsletters 
+With
+* updates from different gyms
+* general climbing news 
+* a section for answering questions sent in by people
+
+### Site blog:
+For users to contribute to. With submissions being monitored before posting. 
+
+### Advertising:
+For climbing equipment, places to climb and events in the relevant sections of the website.
+
