@@ -11,14 +11,11 @@ This site provides an insight into the rules, equipment and technical language i
 ## Contents [**to complete - will work once each section is complete**]
 ---
 
-* [Initial Project Vision](https://github.com/mountaincharlie/project-one-rock-climbing#initial-project-vision)
-* [Technologies](https://github.com/mountaincharlie/project-one-rock-climbing#technologies)
-* [Features](https://github.com/mountaincharlie/project-one-rock-climbing#features)
-* [Pages](https://github.com/mountaincharlie/project-one-rock-climbing#pages)
+* [Technologies Used](https://github.com/mountaincharlie/project-one-rock-climbing#technologies-used)
+* [Pages and Features Breakdown](https://github.com/mountaincharlie/project-one-rock-climbing#pages-and-features-breakdown)
 * [Responsiveness](https://github.com/mountaincharlie/project-one-rock-climbing#responsiveness)
-* [UXD](https://github.com/mountaincharlie/project-one-rock-climbing#uxd)
+* [User Experience Design](https://github.com/mountaincharlie/project-one-rock-climbing#user-experience-design)
 * [Accessability](https://github.com/mountaincharlie/project-one-rock-climbing#accessability)
-* [Other Feature Ideas](https://github.com/mountaincharlie/project-one-rock-climbing#other-feature-ideas)
 * [Testing](https://github.com/mountaincharlie/project-one-rock-climbing#testing)
 * [Deployment](https://github.com/mountaincharlie/project-one-rock-climbing#deployment)
 * [Credits](https://github.com/mountaincharlie/project-one-rock-climbing#credits)
@@ -43,8 +40,8 @@ This site provides an insight into the rules, equipment and technical language i
 ![Screenshot of Homepage header logo and welcome banner](./assets/images/homepage-header-welcome.jpg "Homepage header logo and welcome banner")
 
 * Main Navigation: 
-    * Found below the Welcome banner and is the main feature of the homepage.
-    * Contains links to the 'Background', 'The 3 Main Climbing Disciplines' and 'As Seen At Tokyo 2020' pages with icons related to the page headings.
+    * Found below the Welcome banner and is the primary feature of the homepage.
+    * Contains links to the 'Background', 'The 3 Main Climbing Disciplines' and 'As Seen At Tokyo 2020' informational pages with icons related to the page headings.
 * Background image:
      * Draws the attention of the user as its colourful but the white linear-gradient placed over it means it doesn't distract from the page content. 
 
@@ -82,15 +79,15 @@ This site provides an insight into the rules, equipment and technical language i
 ![Screenshot of The Brief Background of Rock Climbing section](./assets/images/brief-background.jpg "The Brief Background of Rock Climbing section")
 
 * The Climbing Terminology section:
-    * Explains briefly about the terminology/slang in the climbing community, which is an aspect of the sport which can be confusing for those who are new to it.
+    * Explains briefly about the terminology/slang in the climbing community, which is an aspect of the sport that can be confusing for those who are new to it.
     * Contains four subsections which catagorise the most common climbing terminology to make it easer for the user to explore the different terms.
 
 ![Screenshot of The Climbing Terminology section](./assets/images/climbing-terms.jpg "The Climbing Terminology section")
 
 * Terminology subsections:
-    * Cover four catagories: Climbing Holds, Types of Climbing Walls, Climbing Technique and Competition Specific
-    * Contain an explanatory for the subsection catagory and explain that the user should hover over/tap on the informational tiles to find out the explanations for each term.
-    * Contain informational tiles, which expand and change colour when the user hovers over it on a desktop or taps it on a smart phone, to provide the term's explanation.
+    * Cover four catagories; Climbing Holds, Types of Climbing Walls, Climbing Technique and Competition Specific
+    * Contain an explanation for the subsection catagory and explain that the user should hover over/tap on the informational tiles to find out the defintions for each term.
+    * Contain informational tiles, which expand and change colour when the user hovers over it on a desktop or taps it on a smart phone, to provide the term's definition.
 
 ![Screenshot of Types of Climbing Walls Terminology subsection](./assets/images/term-subsections.jpg "Types of Climbing Walls Terminology subsection")
 
@@ -130,6 +127,7 @@ This site provides an insight into the rules, equipment and technical language i
 * The First Olympic Apperance section:
     * Contains a short embedded YouTube video from the Olympics offical YouTube account about the sport's first olympic appearance.
     * Contains a blockquote for the english translation of the Olympic Motto which is mentioned at the end of the YouTube video.  
+    * Contains a short paragraph about what it meant for the climbing community to have their sport in the Olympics for the first time.
 
 ![Screenshot of The First Olympic Apperance section](./assets/images/first-appearance.jpg "The First Olympic Apperance section")
 
@@ -165,7 +163,7 @@ This site provides an insight into the rules, equipment and technical language i
     * The user's details are required inputs for the form and will prompt the user to enter a correct name/email address if they try to submit without.
     * There are radio inputs for the optional contact so that the user can submit a question or suggestion and this allows us to catagorise what kind of contact the user is making.
     * There are tickbox inputs for the optional newsletter signups so the user can choose which specific newsletters they may want to sign up to.  
-* Contains a 'LET'S GO!" submit input to submit the form and a 'STAR AGAIN' reset input to reset the form.
+* Contains a 'LET'S GO!" submit input to submit the form and a 'START AGAIN' reset input to reset the form.
 
 ![Screenshot of The Chat With Us! Form](./assets/images/form.jpg "The Chat With Us! Form")
 
@@ -184,10 +182,10 @@ This site provides an insight into the rules, equipment and technical language i
 
 ![Screenshot of The Site Credits Page](./assets/images/site-credits.jpg "The Site Credits Page")
 
-## User Experience Design (UXD) [**to complete**]
+## User Experience Design [**to complete**]
 ---
 
-In order for users to have a good experience while using the website, I followed the user centered design process, mading sure to consider the usefulness, usability and value of different features of the site and making them intuative, simple and enjoyable.  
+In order for users to have a good experience while using the website, I followed the user centered design process, making sure to consider the usefulness, usability and value of different features of the site and that they were intuative, simple and enjoyable.  
 
 ### Styling 
 * Colour scheme: 
@@ -285,7 +283,7 @@ In order to make the website more accessible, for those who rely on screen reade
 ## Testing [**to complete**]
 ---
 
-### HTML & CSS validator warnings and fixes:
+### HTML & CSS validator warnings and fixes
 * [19-10-21] 1st testing index.html in WC3 markup validator indicated:
     * that I had section elements without headings, which led me to create the welcome h2 heading for the #welcome-para section and to realise that my main-nav nav element did not need to be within a section element.
     * that I had anchor elements within button elements, which led me to research buttons vs anchor elements from an accessability point of view and to ulitmately change the buttons to just be anchor element links (as explained in the Accessability section).
@@ -305,7 +303,7 @@ In order to make the website more accessible, for those who rely on screen reade
 
 ![Screenshot of Google Dev Tool's Lighthouse Score for my website](./assets/images/lighthouse-score.jpg "Google Dev Tool's Lighthouse Score for my website") 
 
-### Bugs and Fixes:
+### Bugs and Fixes
 * [21-10-21] couldn't get the font-weight property to work for my Monserrat and Roboto Google Fonts. 
     * Solution: After searching through the Google Fonts site I realised I needed to import all of the font weights that I wanted to use in my website, so I imported a number that I wanted to try.  
 * [24-10-21] on larger screens some of my pages which didn't have a lot of content ment that the footer was not at the bottom of the viewport. 
@@ -322,13 +320,13 @@ No unfixed bugs.
 ## Deployment [**to complete**]
 ---
 
-### Deployment Process on GitHub:
+### Deployment Process on GitHub
 * I selected the Settings tab from within the project-one-rock-climbing repository 
 * The selected the Pages tab within Settings
 * Then chose Main from the Branch dropdown menu
 * Finally, the page then provided the live link to my website and after a few minutes it was ready to be viewed
 
-### Live website link:
+### Live website link
 * <a href = "https://mountaincharlie.github.io/project-one-rock-climbing/">Indoor Rock Climbing</a>
 
 ## Credits [**to complete**]
@@ -391,41 +389,41 @@ Page content:
 ##  Site Expansions Ideas [**to complete**] 
 ---
 
-Features that could be added to expand and improve the website.
+Features that could be added to expand and improve the website in the future.
 
-### Fixed navigation links:
-Like the 3 icon links for the Bouldering, Lead Climbing and Speed sections on my The Three Main Climbing Disciplines page, it would be nice to add these extra navigation features on the Background and As Seen At Tokyo 2020 pages. 
+### Fixed navigation links for sections within the pages
+* Like the 3 icon links for the Bouldering, Lead Climbing and Speed sections on my The Three Main Climbing Disciplines page, it would be nice to add these extra navigation features on the Background and As Seen At Tokyo 2020 pages. 
 
-### Icons for the TOP and HOME links:
-To give some more uniformity with the icons on my The Three Main Climbing Disciplines page, it would be nice to replace the TOP and HOME fixed-links with icons like an up arrow for TOP and a house for HOME.
+### Icons for the TOP and HOME links
+* To give some more uniformity with the icons on my The Three Main Climbing Disciplines page, it would be nice to replace the TOP and HOME fixed-links with icons like an up arrow for TOP and a house for HOME.
 
-### Images for the equipment required:
-Having pictures of the equipment such as the climbing shoes and harnesses could help users who haven't seen the equipment make sense of it more in their head. 
+### Images for the equipment required
+* Having pictures of the equipment such as the climbing shoes and harnesses could help users who haven't seen the equipment make sense of it more in their head. 
 
-### Videos for the equipment required: 
-Videos could be used to demonstrate how to use the climbing equipment and/or to show some best practices in rock climbing.
+### Videos for the equipment required
+* Videos could be used to demonstrate how to use the climbing equipment and/or to show some best practices in rock climbing.
 
-### Paraclimbing page:
-Include a page about paraclimbers; more information on accessability for different people in climbing, about casual and competative paraclimbing and the possibility of it making an apperance in a later Paraolympics.
+### Paraclimbing page
+* Include a page about paraclimbers; more information on accessability for different people in climbing, about casual and competative paraclimbing and the possibility of it making an apperance in a later Paraolympics.
 
-### Find a gym near you function:
-Using Google Maps inside the website so the user can type in their location and what type of climbing they would like to try and would show them the best matches in their area and a way for the user to click a link to the website of the climbing gym(s) they discover.
+### Find a gym near you function
+* Using Google Maps inside the website so the user can type in their location and what type of climbing they would like to try and would show them the best matches in their area and a way for the user to click a link to the website of the climbing gym(s) they discover.
 
-### Site specific social media:
-Social media aspect for climbers to get in contact with eachother, perhaps based on the gym they use. 
+### Site specific social media
+* Social media aspect for climbers to get in contact with eachother, perhaps based on the gym they use. 
 
-### 'Climb-through' quiz:
-A basic quiz game where the user works their way up a climbing wall, in a 'climb-through' (as opposed to a walk-through), by answering different questions about things learnt on the site (rules, technique, equipment etc...).
+### 'Climb-through' quiz
+* A basic quiz game where the user works their way up a climbing wall, in a 'climb-through' (as opposed to a walk-through), by answering different questions about things learnt on the site (rules, technique, equipment etc...).
 
 ### Actual newsletters 
-With
-* updates from different gyms
-* general climbing news 
-* a section for answering questions sent in by people
+* With
+    * updates from different gyms
+    * general climbing news 
+    * a section for answering questions sent in by people
 
-### Site blog:
-For users to contribute to. With submissions being monitored before posting. 
+### Site blog
+* For users to contribute to. With submissions being monitored before posting. 
 
-### Advertising:
-For climbing equipment, places to climb and events in the relevant sections of the website.
+### Advertising
+* For climbing equipment, places to climb and events in the relevant sections of the website.
 
